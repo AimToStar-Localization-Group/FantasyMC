@@ -1,0 +1,26 @@
+{
+	id: "55311FBE3C1C6FB3"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: "minecraft:zombie_spawn_egg"
+		}
+		{
+			item: "minecraft:skeleton_spawn_egg"
+		}
+		{
+			item: "minecraft:creeper_spawn_egg"
+		}
+		{
+			item: "minecraft:spider_spawn_egg"
+		}
+		{
+			item: "minecraft:enderman_spawn_egg"
+		}
+		{
+			item: "minecraft:pillager_spawn_egg"
+		}
+	]
+	title: "SpawnEgg"
+}

@@ -1,0 +1,17 @@
+{
+	id: "68EEA0FC3AFBD362"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:mjolnir"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "WhiteLordSoul"
+}

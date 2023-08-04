@@ -1,0 +1,510 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "bewitchment"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "bewitchment:athame"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1DB4113EAD4C4D6E"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D1FC9A70748FC8A"]
+			id: "1C0B2FBD74EB5322"
+			rewards: [
+				{
+					id: "7DCB92256FF7B2EF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "3EB94463B2CA37ED"
+					item: "bewitchment:garlic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "38A0ED6F9D4A87B7"
+					item: "bewitchment:garlic"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "2D1FC9A70748FC8A"
+			tasks: [
+				{
+					id: "6EAA28BE5241172B"
+					title: "Gathering"
+					type: "checkmark"
+				}
+			]
+			title: "Gathering Materials"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D1FC9A70748FC8A"]
+			id: "3F8FD972C8881D98"
+			rewards: [
+				{
+					id: "1DBF69ECAF086C58"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "40417482FB1CA660"
+					item: "bewitchment:mandrake_root"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "771C93C4D179E295"
+					item: "bewitchment:mandrake_root"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D1FC9A70748FC8A"]
+			id: "061AFD3810F6B087"
+			rewards: [
+				{
+					id: "0256C91FDF59A684"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "3652D27ABCB014F8"
+					item: "bewitchment:aconite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "1EE63217504566C0"
+					item: "bewitchment:aconite"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D1FC9A70748FC8A"]
+			id: "237A2AA6BD5D1DF6"
+			rewards: [
+				{
+					id: "643E3E610F8BE4A1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "0312FEB8F777AF56"
+					item: "bewitchment:belladonna"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "2E5AE6CCA690DB62"
+					item: "bewitchment:belladonna"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D1FC9A70748FC8A"]
+			id: "109220E6F5544915"
+			rewards: [
+				{
+					id: "1D3916A3B319F664"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "56542A9FB64C0FE5"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "5CD18F025ACCF4F1"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D1FC9A70748FC8A"]
+			id: "5E4F1ADFE506A03B"
+			rewards: [
+				{
+					id: "77397E0A97EB5F00"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "20C26FEEEC19AF96"
+					item: "bewitchment:book_of_shadows"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E4F1ADFE506A03B"]
+			id: "0438395E389B46BC"
+			rewards: [
+				{
+					id: "7961500E149A8DF3"
+					item: "byg:ether_sapling"
+					type: "item"
+				}
+				{
+					id: "6F2E1247E252F981"
+					item: "betterend:dragon_tree_sapling"
+					type: "item"
+				}
+				{
+					id: "77E595351358E5A8"
+					item: "byg:aspen_sapling"
+					type: "item"
+				}
+				{
+					id: "26E9D1788765664A"
+					item: "byg:indigo_jacaranda_sapling"
+					type: "item"
+				}
+				{
+					id: "42A300B8C199B179"
+					item: "byg:brown_birch_sapling"
+					type: "item"
+				}
+				{
+					id: "1C176B6CBF6E247C"
+					item: "betternether:willow_sapling"
+					type: "item"
+				}
+				{
+					id: "4F2ADA726BA1E086"
+					item: "croptopia:cashew_sapling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F7CFA43D58D9C18"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "30E11079E711542F"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "535AC40090E95210"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "40A0E37A4BF7E27A"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "760551BFFFE860AE"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "6B8FB77173304560"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "55881094ED8465FE"
+					item: "bewitchment:elder_sapling"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E4F1ADFE506A03B"]
+			id: "37881D2E605F801E"
+			rewards: [
+				{
+					count: 3
+					id: "2DE52CD026D9AF31"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "62E06FE8FB01DBDA"
+					item: "bewitchment:salt"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0A144C1A2C13F96E"
+					item: "bewitchment:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "09468F0B19CE92B5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "0D7C632AD1595F36"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3A575D1DC6BEC24A"
+					item: "bewitchment:salt"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "16D0EAF2622AEAAD"
+					item: "bewitchment:silver_ingot"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E4F1ADFE506A03B"]
+			id: "0CF0CE372576486E"
+			rewards: [
+				{
+					count: 16
+					id: "2D57AD446111DFD3"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "25BECBF1D9F6F961"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "10C8016E2010E65C"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0438395E389B46BC"
+				"37881D2E605F801E"
+				"0CF0CE372576486E"
+			]
+			description: [
+				"{ftbquests.chapter.bewitchment.quests10.description0}"
+				"{ftbquests.chapter.bewitchment.quests10.description1}"
+				"{ftbquests.chapter.bewitchment.quests10.description2}"
+				"{ftbquests.chapter.bewitchment.quests10.description3}"
+				"{ftbquests.chapter.bewitchment.quests10.description4}"
+				"{ftbquests.chapter.bewitchment.quests10.description5}"
+				"{ftbquests.chapter.bewitchment.quests10.description6}"
+				"{ftbquests.chapter.bewitchment.quests10.description7}"
+			]
+			id: "3B8D62CBB3BAF035"
+			tasks: [
+				{
+					id: "4CE9E812F026ACC3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "bewitchment:altars"
+						}
+					}
+					title: "Any #bewitchment:altars"
+					type: "item"
+				}
+			]
+			title: "Altar"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B8D62CBB3BAF035"]
+			id: "13A1CF7EF3C11AAD"
+			tasks: [
+				{
+					id: "0A2647A3B8BE2BEC"
+					item: {
+						Count: 1b
+						id: "bewitchment:chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B8D62CBB3BAF035"]
+			id: "34C2B92A7D98A1F5"
+			tasks: [
+				{
+					id: "539253BEC61293EF"
+					item: {
+						Count: 1b
+						id: "bewitchment:golden_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B8D62CBB3BAF035"]
+			id: "0D69544AB11B3740"
+			tasks: [
+				{
+					id: "741932763F211A37"
+					item: {
+						Count: 1b
+						id: "bewitchment:fiery_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B8D62CBB3BAF035"]
+			id: "0A33098A17A4DF59"
+			tasks: [
+				{
+					id: "192BD309F8EDD1B2"
+					item: {
+						Count: 1b
+						id: "bewitchment:eldritch_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D1FC9A70748FC8A"]
+			id: "633351E1141F53FC"
+			rewards: [
+				{
+					id: "40F5121727A044DB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "30D687D28563BB75"
+					item: {
+						Count: 1b
+						id: "bewitchment:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D1FC9A70748FC8A"]
+			id: "47D7C85F3F433691"
+			rewards: [
+				{
+					id: "491BE5749206D38F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "0CFF1B39C1A80602"
+					item: "bewitchment:snake_tongue"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "733FD909BE42F1DD"
+					item: "bewitchment:snake_tongue"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.bewitchment.subtitle}"]
+	title: "Bewitchment"
+}

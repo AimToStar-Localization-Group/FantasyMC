@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "nether"
+	group: "0BBE1365F69C4D68"
+	icon: "minecraft:magma_block"
+	id: "34B1849614975376"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.nether.quests0.description}"]
+			id: "3AF211ED84A94BC1"
+			rewards: [
+				{
+					id: "0D802168FAE7296E"
+					item: "betternether:nether_ruby"
+					type: "item"
+				}
+				{
+					id: "5300D129ACEFB167"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "717871FA3EF6D982"
+					item: "artifacts:obsidian_skull"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has reached the depths of Hades' Kingdom.\",\"color\":\"white\"}]"
+					id: "6ABEC5DD43E72B61"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "The Nether"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "3846A2EFD5CEFE22"
+					title: "Visit the Nether dimension"
+					type: "dimension"
+				}
+			]
+			title: "The Underworld"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AF211ED84A94BC1"]
+			id: "77BE02770DD66A63"
+			rewards: [
+				{
+					id: "1721ADDF820DD318"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7E83BFFEAD620EA7"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Better Nether"
+			tasks: [
+				{
+					id: "518B5AC7DACC9DED"
+					item: {
+						Count: 1b
+						id: "betternether:nether_ruby_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "betternether:ruby_fire"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61031D9F720C94A9"
+					item: {
+						Count: 1b
+						id: "betternether:nether_ruby_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "betternether:ruby_fire"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "201039303C606705"
+					item: {
+						Count: 1b
+						id: "betternether:nether_ruby_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "betternether:ruby_fire"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "525F733088B1B554"
+					item: {
+						Count: 1b
+						id: "betternether:nether_ruby_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "betternether:ruby_fire"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dressed Up In Shiny Red"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AF211ED84A94BC1"]
+			id: "6C6B7A4C01852315"
+			rewards: [
+				{
+					id: "71DFEF43349C7E28"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BF0DFCD4ED3012F"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					id: "1610EB45C599CF21"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Strange beings..."
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AF211ED84A94BC1"]
+			id: "7E7E1F182A7F791B"
+			rewards: [
+				{
+					count: 12
+					id: "18E6D8D7481648B6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					id: "671367B62FE261FD"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Greedy piglins"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AF211ED84A94BC1"]
+			id: "0760BC5DD08A37BF"
+			rewards: [
+				{
+					count: 3
+					id: "4A345C49F3B68442"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:piglin_brute"
+					id: "6C21C8A31C9778AD"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Battle Hardened Piglins"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AF211ED84A94BC1"]
+			icon: "minecraft:filled_map"
+			id: "68E70E646DA89757"
+			subtitle: "Repurposed Structures"
+			tasks: [
+				{
+					icon: "minecraft:netherrack"
+					id: "618980EC205CED82"
+					structure: "repurposed_structures:ancient_city_nether"
+					title: "Discover the Ancient city in the nether!"
+					type: "structure"
+				}
+			]
+			title: "Ancient civilization..?"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.nether.quests6.description0}"
+				"{ftbquests.chapter.nether.quests6.description1}"
+			]
+			id: "255E6A3E0C9ADAC9"
+			rewards: [
+				{
+					id: "29619465E4B31AD2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Goblin Traders"
+			tasks: [
+				{
+					checkItem: "false"
+					entity: "goblintraders:vein_goblin_trader"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:textures/ftbquests/goblin_fire.png"
+						}
+					}
+					id: "7BB48FEE3F756C12"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+			]
+			title: "The Goblin’s Fiery Bargain"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["255E6A3E0C9ADAC9"]
+			id: "6322C7D4F0E0A4AD"
+			invisible: "true"
+			rewards: [
+				{
+					command: "/give @p chest{display:{Name:\"\\\"Goblin's gift\\\"\",Lore:[\"\\\"Place it down and see what he gave you!\\\"\"]},BlockEntityTag:{Items:[{Slot:0,id:amethyst_shard,Count:16},{Slot:1,id:diamond_block,Count:1},{Slot:2,id:gold_block,Count:1},{Slot:3,id:iron_block,Count:1},{Slot:4,id:emerald_block,Count:1},{Slot:5,id:\"medievalweapons:nether_ruby_dagger\",Count:1}]}} 1"
+					icon: "supplementaries:present_red"
+					id: "3FACBA91E69E732B"
+					player_command: "false"
+					title: "Goblin's gift"
+					type: "command"
+				}
+			]
+			subtitle: "Goblin Traders"
+			tasks: [
+				{
+					checkItem: "false"
+					entity: "goblintraders:vein_goblin_trader"
+					id: "25D701D0DBE919F8"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 100L
+				}
+			]
+			title: "Best of Friends!"
+			x: -0.5d
+			y: 2.5d
+		}
+	]
+	title: "The Nether"
+}

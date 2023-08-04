@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: ""
+	id: "332A78D21BEA6CE9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.chapter_1.quests0.description}"]
+			id: "2E449114287D1CEA"
+			rewards: [
+				{
+					id: "3B186F1F772885E8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2B746DBF2A0EFB9E"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=nearest] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=nearest]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"Welcome to our realm @p! A fair and brave traveler like you must be aching to embark on an adventure! Beware though, as evil lurks in every corner of this world, and misfortune befalls upon those who are unfit for the journey...\",\"color\":\"yellow\"}]}"
+					id: "116BE98FEEB69621"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "5C5ED7D564FB0EC0"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "74A24A360972AD60"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1DDE568918E79581"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			subtitle: "Welcome to Fantasy Minecraft"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:grass_block"
+					id: "328CA7F705C6C329"
+					title: "Join world"
+					type: "dimension"
+				}
+			]
+			title: "A New World!"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.chapter_1.quests1.description}"]
+			id: "30F82795B67D1B27"
+			rewards: [
+				{
+					id: "38BD57C1D4AB9B3D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "573FB2EBC902B2D3"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "3EF52A1998143DC2"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"Hey, @p, press B to open your backpack after equipping it.\",\"color\":\"white\"}]"
+					id: "0FFEA63E5C37EF88"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Imnis"
+			tasks: [
+				{
+					id: "4217AED1B5E0EED7"
+					item: "inmis:frayed_backpack"
+					title: "Craft a Frayed Backpack"
+					type: "item"
+				}
+			]
+			title: "Hoarder's Dream"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.chapter_1.quests2.description}"]
+			id: "0F0B6728D9AC8545"
+			rewards: [
+				{
+					id: "2084A172D7D93DA2"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "407909AE6602923F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "412CCE28E96B58BE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D7FC7F9F355A0B1"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Guard Villagers"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "48A7ED5AEEAFB86F"
+					observe_type: 5
+					timer: 100L
+					title: "Observe a Guard"
+					to_observe: "guardvillagers:guard"
+					type: "observation"
+				}
+			]
+			title: "The Shields That Guard The Realms of Men"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.chapter_1.quests3.description0}"
+				"{ftbquests.chapter.chapter_1.quests3.description1}"
+				"{ftbquests.chapter.chapter_1.quests3.description2}"
+			]
+			id: "214605EAABB42801"
+			rewards: [
+				{
+					id: "207525C8BB7B8925"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "694DFAF46273EC82"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "The Lost Castle"
+			tasks: [
+				{
+					id: "1DF3463A2A16A9B4"
+					structure: "tlc:lost_castle"
+					title: "Locate the Lost Castle"
+					type: "structure"
+				}
+			]
+			title: "Lost To Time"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: "true"
+			description: ["{ftbquests.chapter.chapter_1.quests4.description}"]
+			icon: "ftbquests:book"
+			id: "451462A094FF270B"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "64F1946FC4BB0F1C"
+					item: "ftbquests:book"
+					type: "item"
+				}
+			]
+			subtitle: "FTB Quests"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "0C148BC4586D5172"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			title: "I lost it again..."
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: "true"
+			description: ["{ftbquests.chapter.chapter_1.quests5.description}"]
+			icon: "origins:orb_of_origin"
+			id: "70EEE4D11E60E7BA"
+			repeatable: "true"
+			rewards: [
+				{
+					command: "/execute as @p at @p run origin gui"
+					icon: "origins:orb_of_origin"
+					id: "0F75BD619FC49D13"
+					player_command: "false"
+					title: "Origin change"
+					type: "command"
+				}
+			]
+			subtitle: "Origins"
+			tasks: [
+				{
+					elapsedTime: 172800L
+					id: "2E049295B4193CAC"
+					title: "A new me arises..."
+					type: "questsadditions:time"
+				}
+			]
+			title: "Who am I?"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.chapter_1.quests6.description0}"
+				"{ftbquests.chapter.chapter_1.quests6.description1}"
+			]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/ftbquests/goblin.png"
+				}
+			}
+			id: "3678535001A43D3A"
+			rewards: [
+				{
+					id: "2124837CEDD589D3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Goblin Traders"
+			tasks: [
+				{
+					checkItem: "false"
+					disable_toast: "true"
+					entity: "goblintraders:goblin_trader"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:textures/ftbquests/goblin.png"
+						}
+					}
+					id: "536875ADF3E98EF8"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+			]
+			title: "The Goblin’s Bargain"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3678535001A43D3A"]
+			id: "1F20A016F13B9D5B"
+			invisible: "true"
+			rewards: [
+				{
+					command: "/give @p chest{display:{Name:\"\\\"Goblin's gift\\\"\",Lore:[\"\\\"Place it down and see what he gave you!\\\"\"]},BlockEntityTag:{Items:[{Slot:0,id:amethyst_shard,Count:16},{Slot:1,id:diamond_block,Count:1},{Slot:2,id:gold_block,Count:1},{Slot:3,id:iron_block,Count:1},{Slot:4,id:emerald_block,Count:1},{Slot:5,id:\"mcdw:dagger_dagger\",Count:1}]}} 1"
+					icon: "supplementaries:present_black"
+					id: "38202B8A685CE745"
+					player_command: "false"
+					title: "Goblin's gift!"
+					type: "command"
+				}
+			]
+			subtitle: "Goblin Traders"
+			tasks: [
+				{
+					checkItem: "false"
+					entity: "goblintraders:goblin_trader"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:textures/ftbquests/goblin.png"
+						}
+					}
+					id: "127D363529D3B568"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 100L
+				}
+			]
+			title: "Best of Friends!"
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "The Beginning"
+}

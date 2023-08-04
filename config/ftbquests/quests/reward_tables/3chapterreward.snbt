@@ -1,0 +1,49 @@
+{
+	id: "39330812B0B5E563"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 2
+			item: "minecraft:netherite_ingot"
+		}
+		{
+			command: "/playerstats @p add strength 3"
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			player_command: "false"
+			title: "Str +3"
+			type: "command"
+		}
+		{
+			command: "/playerstats @p add health 3"
+			icon: "artifacts:crystal_heart"
+			player_command: "false"
+			title: "Hp +3"
+			type: "command"
+		}
+		{
+			command: "/playerstats @p add defense 3"
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			player_command: "false"
+			title: "Def +3"
+			type: "command"
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 30
+		}
+	]
+	title: "3chapterreward"
+}

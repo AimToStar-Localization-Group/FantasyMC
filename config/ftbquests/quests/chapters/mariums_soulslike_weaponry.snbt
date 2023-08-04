@@ -1,0 +1,4311 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "mariums_soulslike_weaponry"
+	group: ""
+	icon: "soulsweapons:lord_soul_dark"
+	id: "26D5A115922BC17A"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "71197C86BB1ADBB4"
+			rewards: [
+				{
+					id: "5E35D1143651FCF9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Drop from the Old Champion!"
+			tasks: [
+				{
+					id: "17CC85B29E947805"
+					item: "soulsweapons:lord_soul_dark"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71197C86BB1ADBB4"]
+			icon: "supplementaries:cage"
+			id: "5351A9578C274A3F"
+			rewards: [
+				{
+					id: "31FDAF20DD4D383F"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "449EC088ACE19F86"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "36748AED14756874"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "08F02007532ABA12"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "0575C6D3464F2A22"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1F94AD6AF3981E95"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "64A51149FFD3AD3C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1B0A2B325E7DADE4"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "3A6041367DAD0AF1"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					id: "3E54AC6F58AA8110"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Cage for Dark Lord Soul"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19D44FFA33CEDD22"]
+			icon: "supplementaries:cage"
+			id: "1C5AE82CBEE5FD2B"
+			rewards: [
+				{
+					id: "10848091830B9CE4"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For For White Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "5BF368CD8382328F"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "7B9FFC0FEFE6E891"
+					item: "soulsweapons:arkenstone"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6CC4D6EC19284933"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "6766982EF3E3BB2A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2518E7CE238B59DD"
+					item: "soulsweapons:verglas"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "08095A17ED3534D2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "514C43C78E50A6CE"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "4AA3744B147A4F7C"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					id: "167D1792FA3266EF"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Cage For White Lord Soul"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "19D44FFA33CEDD22"
+			rewards: [
+				{
+					id: "782C048A2157DBF2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Drop from the Fallen Icon!"
+			tasks: [
+				{
+					id: "27BAE469177D5BE4"
+					item: "soulsweapons:lord_soul_white"
+					type: "item"
+				}
+			]
+			title: "White Lord Soul"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "253F728BB65CCE89"
+			rewards: [
+				{
+					id: "10A92FAB46E6D778"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Drop from the Ender Dragon!"
+			tasks: [
+				{
+					id: "08FD56F7AD62CFFE"
+					item: "soulsweapons:lord_soul_purple"
+					type: "item"
+				}
+			]
+			title: "Purple Lord Soul"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["253F728BB65CCE89"]
+			icon: "supplementaries:cage"
+			id: "1FEAFB1313D1D84D"
+			rewards: [
+				{
+					id: "73822DD341538443"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Purple Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "3AE2F869D3B24E2B"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "53094D8B26B968A7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "74A932521C38120E"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "62F9553A4186DBA2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7DB1A7CDE261220F"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "1EE4E6C6D8A1D527"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5AE5662150A281AE"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "4D85A1301BBD10D8"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					id: "54A0CCD8FD525D6A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Cage For Purple Lord Soul"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CDC0254FD8D304F"]
+			icon: "supplementaries:cage"
+			id: "2D9C7C34EF14DE30"
+			rewards: [
+				{
+					id: "0809833DE61E802E"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "59D8E63A2F0B307E"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "294353BC89CB1E3A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1E196384A54D29D6"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "466F4D3C803BEEAA"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 32L
+					id: "3A13B292C2C55E94"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "5DBE070945D48637"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "037E38CB66D5427D"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "4F9EAD48E3629E98"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					id: "16A4E2F000C44BB5"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Cage For Rose Lord Soul"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "7CDC0254FD8D304F"
+			rewards: [
+				{
+					id: "3C41FEFB03C5445F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Drop from the Returning Knight!"
+			tasks: [
+				{
+					id: "31BF8D943A8E0C69"
+					item: "soulsweapons:lord_soul_rose"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "10D3738F3DEE7E51"
+			rewards: [
+				{
+					id: "0F252728964A7496"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Drop from the Monarch Chaos and Wither!"
+			tasks: [
+				{
+					id: "3DFA976DA6462543"
+					item: "soulsweapons:lord_soul_void"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10D3738F3DEE7E51"]
+			icon: "supplementaries:cage"
+			id: "59DE57C1C4C0AFC6"
+			rewards: [
+				{
+					id: "2A713B868F3A0B52"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "4F929CABCCA56BC4"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "6A3C7B18BDDE73DD"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "353CD3BF2A8ACAA5"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "4D479A2FAC0361FE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "50617F9547EE50D9"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "095DD74A2A82186C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "00860309823E3893"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "0029B39FA4C2CCCB"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					id: "34355102728ED26E"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Cage for Void Lord Soul"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BEA6D3E7F2CC9D0"]
+			icon: {
+				Count: 1b
+				id: "supplementaries:cage"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 100
+							AttributeName: "generic.luck"
+							Name: "generic.luck"
+							Slot: "mainhand"
+							UUID: [I;
+								-123224
+								30443
+								10347
+								-60886
+							]
+						}
+					]
+					Enchantments: [
+						{ }
+					]
+					HideFlags: 2
+					display: {
+						Lore: [
+							"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+							"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+							"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+							"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+						]
+						Name: "[{\"text\":\"Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+					}
+				}
+			}
+			id: "6E62CC7BC550A7F4"
+			rewards: [
+				{
+					id: "478105951B6D51B4"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "6BD2066CD2FACAAF"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "7681E76C1FE08838"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "2070834111DF0E17"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "6FDC303BA135F4AB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "19DB81794DEF394E"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "6B327446C812D5AC"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "17904A0CBF7D6D68"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "64D94C34C3DCDFB0"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					id: "25C1ACA7D0461871"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Cage For Red Lord Soul"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "0BEA6D3E7F2CC9D0"
+			rewards: [
+				{
+					id: "79F32B7535265077"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Drop from the Decaying King!"
+			tasks: [
+				{
+					id: "712586087962CD49"
+					item: "soulsweapons:lord_soul_red"
+					type: "item"
+				}
+			]
+			title: "Red Lord Soul"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["2D9C7C34EF14DE30"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:comet_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71B5543BCA81368A"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "32B69BBA1218EE86"
+					item: {
+						Count: 1b
+						id: "soulsweapons:comet_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "358265BE6A8F6BD0"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3774FAA04DE65357"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "3C0107C4295D1182"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "795AA8EA819AC7C9"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "11A5949DF3BF429C"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					icon: "soulsweapons:lord_soul_rose"
+					id: "29B4DA3CD860F9B8"
+					item: "soulsweapons:lord_soul_rose"
+					title: "Lord soul"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1325C291B94A27A4"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6F7DA87FC60E5ADA"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6C58CE24B5326ABB"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "53C97EAB952CBE78"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Comet Spear"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["2D9C7C34EF14DE30"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:nightfall"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DB8773D136A178E"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "7907E8FF1776C342"
+					item: {
+						Count: 1b
+						id: "soulsweapons:nightfall"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3317562E28E9BC88"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "4CF0E782B6EA507F"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "42FFAD12F7FC9364"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5691D9441A1C883B"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "0B55154170EF9C27"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "2C0E87B46D19CE87"
+					item: "soulsweapons:lord_soul_rose"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5719C1457174E63B"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+				{
+					id: "098E196FFD754E7F"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "0601A4B017BF6DD3"
+					item: "soulsweapons:soul_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "14D7F6073899FC06"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Nightfall"
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["2D9C7C34EF14DE30"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:leviathan_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2AEC0B45EBE6B138"
+			repeatable: "true"
+			rewards: [
+				{
+					icon: {
+						Count: 1b
+						id: "soulsweapons:leviathan_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7662B0A54D6D7756"
+					item: {
+						Count: 1b
+						id: "soulsweapons:leviathan_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F9A815181A7816C"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "77F93A50A26A0FDE"
+					item: "soulsweapons:lord_soul_rose"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "21404877EF6DECD6"
+					item: "soulsweapons:verglas"
+					type: "item"
+				}
+				{
+					id: "004BFE570813DCD3"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "0058B5E24BF44B84"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					icon: "soulsweapons:verglas"
+					id: "2D8EED2622684A39"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+				{
+					id: "70630959D803DD33"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "3D27654E3364937E"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "18AA543BA2865695"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "7AE5DF890B1D2506"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Leviathan Axe"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["5351A9578C274A3F"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:whirligig_sawblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "281E200C5FBF5750"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "5CDB4F55FFB47DFD"
+					item: {
+						Count: 1b
+						id: "soulsweapons:whirligig_sawblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1095C83173090239"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12B2BFA8971E7C24"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "6C15C0BBB974F903"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "110F319BAAADFF5F"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "42084E0391A0BD14"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "75DA0C0AA622A523"
+					item: "soulsweapons:lord_soul_dark"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "7D696ED6ECF705E3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "13BE47367A06ECCE"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5DCF0B8848C97F3A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5C21B92D61099154"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Whirligig Sawblade"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["5351A9578C274A3F"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:galeforce"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6EFDB9E600AB72CE"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "31141224022A9AC0"
+					item: {
+						Count: 1b
+						id: "soulsweapons:galeforce"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48B50388D168D278"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0153C4D5BB2CF237"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "16701A2F7C7F69C9"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "21E44F530AA0E64F"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "201036622ECCA59C"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "57FA127E3ACC697F"
+					item: "soulsweapons:lord_soul_dark"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "460325392D5B6B2C"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5CE2D5FC4642051F"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1504FDDC792DF275"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "2F83D31E63EBFA7F"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			title: "Galeforce"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["1FEAFB1313D1D84D"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:dragonslayer_swordspear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42CA3638C50BD221"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "00AFDAB36C02D827"
+					item: {
+						Count: 1b
+						id: "soulsweapons:dragonslayer_swordspear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E9FFD214BDF9A69"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Purple Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "506094AF16B7D1EB"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Purple Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "4447B0478019F8D2"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "0AB931692DA7286D"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "79541AA72AE5C3B1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "4B9EB915F684DECC"
+					item: "soulsweapons:lord_soul_purple"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "3A21DDF1798410BD"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1A22570622B10D01"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "2B662A071645DDA1"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6897D7979BDD939E"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Dragonslayer Swordspear"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["1FEAFB1313D1D84D"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:freyr_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2442A02EF39559AE"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "2997ABCF85B087C2"
+					item: {
+						Count: 1b
+						id: "soulsweapons:freyr_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C4D980135BBE2F6"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Purple Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "25869117E6A755EB"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "7B240A3128C6FEA0"
+					item: "soulsweapons:verglas"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "67705865B7ED1176"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Purple Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					id: "26106F027F41B43D"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "741524CDB5058EBD"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+				{
+					id: "2845DD37F8E7960D"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "00C490446D8504F1"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "19902268B68B58AE"
+					item: "soulsweapons:lord_soul_purple"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "71C92DC789108AFE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Sword Of Freyr"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["59DE57C1C4C0AFC6"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:soul_reaper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3173D26E1C707D51"
+			repeatable: "true"
+			rewards: [
+				{
+					icon: {
+						Count: 1b
+						id: "soulsweapons:soul_reaper"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1D1B8C2984514099"
+					item: {
+						Count: 1b
+						id: "soulsweapons:soul_reaper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "116023F78D8B8EC1"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4C2E31E58F0B6B2A"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "215A4958CE6825DA"
+					item: "soulsweapons:soul_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					icon: "soulsweapons:soul_ingot"
+					id: "29F5A0B7D9FF893F"
+					item: "soulsweapons:soul_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "20D666E9BC0C81EB"
+					item: "soulsweapons:lord_soul_void"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "65CA1234ADAC17F8"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "11439FAA5E696708"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "44E597F01FFA412C"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "19F3AA7BBAA67D60"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "582D2A593D8077E8"
+					type: "checkmark"
+				}
+			]
+			title: "Soul Reaper"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["6E62CC7BC550A7F4"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:rageblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5173E5E6265D4342"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "118580CC70403379"
+					item: {
+						Count: 1b
+						id: "soulsweapons:rageblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FE1E1F3AD571EE2"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F1C35FB79679205"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "24F0A0316DEFB47C"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "76D678650F12CF18"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "2B6968BCBEA7BBDE"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5B079621B5E493D5"
+					item: "soulsweapons:lord_soul_red"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1BA389A961CEDAF7"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "4C3273C2785D371B"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "3FC96FDFB8C9042B"
+					type: "checkmark"
+				}
+				{
+					id: "6E569EBECA60F680"
+					type: "checkmark"
+				}
+			]
+			title: "Guinsoo's Rageblade"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["6E62CC7BC550A7F4"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:lich_bane"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B63CC14A7276D9A"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "590E1A30213F2237"
+					item: {
+						Count: 1b
+						id: "soulsweapons:lich_bane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44BA308B70965F6A"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40E81DBCFE888DC8"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "439FFF8A79EFF646"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "4AF510097AA27CA9"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "3F701F572675F06D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "20CE4B659C91D383"
+					item: "soulsweapons:lord_soul_red"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					id: "567F4B9D84A9EAEE"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "77BC6F35EC1BC296"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "7ECEBB5A1334A966"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5B99B4053C6503DD"
+					type: "checkmark"
+				}
+			]
+			title: "Lich Bane"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["1C5AE82CBEE5FD2B"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:mjolnir"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "480FD065B8061D36"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "676B5648AF32D9B9"
+					item: {
+						Count: 1b
+						id: "soulsweapons:mjolnir"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51CFE5A9DA976B92"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For White Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "4FFFC026F0ABFADF"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "40203DD2D463AFBF"
+					item: "soulsweapons:verglas"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6CA346DC996AF772"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6A36945BFACC4B35"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6AADBF7784412E42"
+					item: "soulsweapons:lord_soul_white"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "2E89912BEE511B25"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "5E5D8F8C87F3FD2B"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "76E1A0791E510648"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "61BA0B027D13B52D"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For For White Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Mjolnir"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: "true"
+			id: "122BCB01AF66A4FD"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "0309A0F0D5088EDE"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "1C1C796BEA97CDAF"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "075D156475013BA1"
+					points: "false"
+					type: "xp"
+					value: 10L
+				}
+				{
+					consume_items: "true"
+					count: 2L
+					id: "33FC64B5FCB6D5DB"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Repair Void Lord Soul Cage!"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: "true"
+			id: "3F2A23C98555F760"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "7C8137633C2A8CE3"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "02C4A5A63F7FF5C7"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0787E35DBF95A27E"
+					points: "false"
+					type: "xp"
+					value: 10L
+				}
+				{
+					consume_items: "true"
+					count: 2L
+					id: "13C2CED8CA83E22A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Repair Red Lord Soul Cage!"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: "true"
+			id: "34266BF36AC843D2"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "3B71BFDC7361A12B"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "65BA0CC42C475EA7"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C23C01DFF872E23"
+					points: "false"
+					type: "xp"
+					value: 10L
+				}
+				{
+					consume_items: "true"
+					count: 2L
+					id: "544A313B4FC18524"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Repair Dark Lord Soul Cage!"
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: "true"
+			id: "2C5403B9792E71C0"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "1038912E62956FB7"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For For White Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "1B51B0C96BF39BD8"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For White Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "699B0BEBE6CA6C7B"
+					points: "false"
+					type: "xp"
+					value: 10L
+				}
+				{
+					consume_items: "true"
+					count: 2L
+					id: "4F4862D4230C0769"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Repair White Lord Soul Cage!"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: "true"
+			id: "4CBA48087FF24AAD"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "3C1FA7535AEAB927"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Purple Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "6BD997B56CAE8136"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Purple Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20756314D0191773"
+					points: "false"
+					type: "xp"
+					value: 10L
+				}
+				{
+					consume_items: "true"
+					count: 2L
+					id: "0F5E0744E6AF223B"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Repair Purple Lord Soul Cage!"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["6E62CC7BC550A7F4"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:darkin_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09BB98E7A2998D03"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "686C9D90693D129F"
+					item: {
+						Count: 1b
+						id: "soulsweapons:darkin_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09B6AB3DF35F4950"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "14B10BB37038AF79"
+					item: {
+						Count: 1b
+						id: "soulsweapons:bloodthirster"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "2056F1ACE6C10CF0"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1FD031B07D30CFE9"
+					item: "soulsweapons:lord_soul_red"
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "The Darkin Blade"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["59DE57C1C4C0AFC6"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:skofnung"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F2BF7E39870C339"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "0D1AD248E70BEA0A"
+					item: {
+						Count: 1b
+						id: "soulsweapons:skofnung"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "482F9682C397E395"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "30CA251AC6E5BE4B"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "39BEA9D0B050444F"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "47DB5404950A42A5"
+					item: "soulsweapons:lord_soul_void"
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Skofnung"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["5351A9578C274A3F"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:dawnbreaker"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08DE67D6A8143DBC"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "3C5121ECEAEC26AA"
+					item: {
+						Count: 1b
+						id: "soulsweapons:dawnbreaker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24A9EADE854737D5"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "512C1ABB98722BFC"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1D354858D6BEAA79"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "141F57599970356B"
+					item: "soulsweapons:lord_soul_dark"
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Dawnbreaker"
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["1C5AE82CBEE5FD2B"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:moonlight_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2CF49B7376F8D8E0"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "4F95A6BB47EB985A"
+					item: {
+						Count: 1b
+						id: "soulsweapons:moonlight_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16602FD4B206181A"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For White Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "5BD1CB1ABE117B35"
+					item: {
+						Count: 1b
+						id: "soulsweapons:bluemoon_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "3CF8F738DE2242A4"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For For White Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5EDF1173EBE73585"
+					item: "soulsweapons:lord_soul_white"
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Moonlight Greatsword"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["5351A9578C274A3F"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:holy_moonlight_sword"
+				tag: {
+					Damage: 0
+					current_charge: 0
+				}
+			}
+			id: "6C3706CF44B77EC7"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "4CEFF1B3182DC8C6"
+					item: {
+						Count: 1b
+						id: "soulsweapons:holy_moonlight_sword"
+						tag: {
+							Damage: 0
+							current_charge: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7014E0439E46471B"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "5FD6E293FB3FFE35"
+					item: {
+						Count: 1b
+						id: "soulsweapons:sting"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "76F6CF35D290C856"
+					item: "soulsweapons:lord_soul_dark"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "360437CA034FC691"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Dark Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Holy Moonlight Sword"
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["2D9C7C34EF14DE30"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:draupnir_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6487F2A046B5B3D7"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "3A9A89366FFB6D3B"
+					item: {
+						Count: 1b
+						id: "soulsweapons:draupnir_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38D7D2C54D09E3C5"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "5E0AB3633D5BFB2F"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "61C17C84669A7CFA"
+					type: "checkmark"
+				}
+				{
+					id: "0A3E582B585E8B09"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "644C30201E0803D8"
+					item: "soulsweapons:lord_soul_rose"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1AB454A6BE9E66F5"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					id: "0276A25849A50EE3"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "56AAF22861BA75BB"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "2A0D300FAAE9B26B"
+					type: "checkmark"
+				}
+				{
+					id: "482D340B0B34654F"
+					type: "checkmark"
+				}
+			]
+			title: "Draupnir Spear"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["6E62CC7BC550A7F4"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:darkin_scythe_pre"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31B10C45203AE51A"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "2BBD62FE05DE92B1"
+					item: {
+						Count: 1b
+						id: "soulsweapons:darkin_scythe_pre"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CC9C2C32A5B554E"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "267664A839E6C2EF"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "1EC410167CC4076C"
+					item: "soulsweapons:crimson_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5954CBB0F585897E"
+					item: "soulsweapons:crimson_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "492B54E2DF288894"
+					item: "soulsweapons:lord_soul_red"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "76F17090F4952CFD"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6A343A36DE7DD180"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Red Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					id: "0B1CF02F0AFA635F"
+					type: "checkmark"
+				}
+				{
+					consume_items: "true"
+					id: "0DD2324AF7990927"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "37F0CBB7760AE0C0"
+					type: "checkmark"
+				}
+			]
+			title: "Darkin Scythe"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["59DE57C1C4C0AFC6"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:crucible_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "059AABA2E7975B55"
+			repeatable: "true"
+			rewards: [
+				{
+					icon: {
+						Count: 1b
+						id: "soulsweapons:crucible_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "614B6E0978E0A828"
+					item: {
+						Count: 1b
+						id: "soulsweapons:crucible_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "693A974B04260FF8"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "406C2CED36ADE9A1"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "344F91E39FEE1296"
+					item: "soulsweapons:lord_soul_void"
+					match_nbt: "true"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "15DFA8903B7352E8"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Void Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "Crucible Sword"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BEA6D3E7F2CC9D0"]
+			disable_toast: "true"
+			id: "194FB9C7A7AFE799"
+			rewards: [
+				{
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Tip]: \",\"color\":\"aqua\"},{\"text\":\"Check 'Marium's Soulslike Weaponry' chapter!\",\"color\":\"white\"}]"
+					id: "50FAAAE6C8DCCD2A"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 0.1d
+			tasks: [
+				{
+					elapsedTime: 3L
+					id: "66D4738CBB8E6FF0"
+					type: "questsadditions:time"
+				}
+			]
+			x: -0.3d
+			y: 2.7d
+		}
+		{
+			dependencies: ["10D3738F3DEE7E51"]
+			disable_toast: "true"
+			id: "16F6C25E28FF2379"
+			rewards: [
+				{
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Tip]: \",\"color\":\"aqua\"},{\"text\":\"Check 'Marium's Soulslike Weaponry' chapter!\",\"color\":\"white\"}]"
+					id: "07DE431EB582D8BB"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 0.1d
+			tasks: [
+				{
+					elapsedTime: 3L
+					id: "7E0C798D736CFADE"
+					type: "questsadditions:time"
+				}
+			]
+			x: -0.35d
+			y: -1.8d
+		}
+		{
+			dependencies: ["7CDC0254FD8D304F"]
+			disable_toast: "true"
+			id: "116053EE096DA7AF"
+			rewards: [
+				{
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Tip]: \",\"color\":\"aqua\"},{\"text\":\"Check 'Marium's Soulslike Weaponry' chapter!\",\"color\":\"white\"}]"
+					id: "06F93FE8F7E51872"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 0.1d
+			tasks: [
+				{
+					elapsedTime: 3L
+					id: "223BA74A97B4728A"
+					type: "questsadditions:time"
+				}
+			]
+			x: -0.3d
+			y: -6.3d
+		}
+		{
+			dependencies: ["71197C86BB1ADBB4"]
+			disable_toast: "true"
+			id: "2D8D62F29E361C12"
+			rewards: [
+				{
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Tip]: \",\"color\":\"aqua\"},{\"text\":\"Check 'Marium's Soulslike Weaponry' chapter!\",\"color\":\"white\"}]"
+					id: "4BFD5E2E2FBDB224"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 0.1d
+			tasks: [
+				{
+					elapsedTime: 3L
+					id: "0566545043B28F3E"
+					type: "questsadditions:time"
+				}
+			]
+			x: 5.7d
+			y: -6.25d
+		}
+		{
+			dependencies: ["19D44FFA33CEDD22"]
+			disable_toast: "true"
+			id: "020EAEBF45F27BCF"
+			rewards: [
+				{
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Tip]: \",\"color\":\"aqua\"},{\"text\":\"Check 'Marium's Soulslike Weaponry' chapter!\",\"color\":\"white\"}]"
+					id: "4CF401C6BD1D5D13"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 0.1d
+			tasks: [
+				{
+					elapsedTime: 3L
+					id: "1C1D3030263062F2"
+					type: "questsadditions:time"
+				}
+			]
+			x: 5.7d
+			y: -1.7d
+		}
+		{
+			dependencies: ["253F728BB65CCE89"]
+			disable_toast: "true"
+			id: "69F1ABF2C1CA9312"
+			rewards: [
+				{
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Tip]: \",\"color\":\"aqua\"},{\"text\":\"Check 'Marium's Soulslike Weaponry' chapter!\",\"color\":\"white\"}]"
+					id: "38EFBD0BBBB6FCE1"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 0.1d
+			tasks: [
+				{
+					elapsedTime: 3L
+					id: "0EB1838A278E321C"
+					type: "questsadditions:time"
+				}
+			]
+			x: 5.7d
+			y: 2.7d
+		}
+		{
+			can_repeat: "true"
+			id: "7354289EA59428E2"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "736ABB626DC299A2"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"A special cage for Lord Soul... The Soul seems to be calm.\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "5ED9BEC4C03F9FD9"
+					item: {
+						Count: 1b
+						id: "supplementaries:cage"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 100
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "mainhand"
+									UUID: [I;
+										-123224
+										30443
+										10347
+										-60886
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 2
+							display: {
+								Lore: [
+									"[{\"text\":\"Empty...\",\"italic\":false}]"
+									"[{\"text\":\"Be careful not to LOSE it or PLACE it!\",\"italic\":false}]"
+									"[{\"text\":\"Quest item\",\"italic\":false,\"color\":\"gray\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
+								]
+								Name: "[{\"text\":\"Broken Cage For Rose Lord Soul\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "344A379D3277747E"
+					points: "false"
+					type: "xp"
+					value: 10L
+				}
+				{
+					consume_items: "true"
+					count: 2L
+					id: "7B1DB8DFAB81FFD3"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Repair Rose Lord Soul Cage!"
+			x: 1.5d
+			y: -7.5d
+		}
+	]
+	title: "Marium's Soulslike Weaponry"
+}

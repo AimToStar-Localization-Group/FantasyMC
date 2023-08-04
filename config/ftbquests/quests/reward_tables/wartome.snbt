@@ -1,0 +1,113 @@
+{
+	id: "10094982D01C5DB8"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "spellbladenext:acrobat_spell_book"
+				tag: {
+					spell_container: {
+						pool: "spellbladenext:acrobat"
+						spell_ids: [
+							"spellbladenext:roll"
+							"spellbladenext:courage"
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spellbladenext:warriorone_spell_book"
+				tag: {
+					spell_container: {
+						pool: "spellbladenext:warriorone"
+						spell_ids: [
+							"spellbladenext:dualwield_whirlwind"
+							"spellbladenext:determination"
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spellbladenext:warriortwo_spell_book"
+				tag: {
+					spell_container: {
+						pool: "spellbladenext:warriortwo"
+						spell_ids: [
+							"spellbladenext:whirlwind"
+							"spellbladenext:determination"
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spellbladenext:warriorpolearm_spell_book"
+				tag: {
+					spell_container: {
+						pool: "spellbladenext:warriorpolearm"
+						spell_ids: [
+							"spellbladenext:opportunity"
+							"spellbladenext:courage"
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spellbladenext:duelist_spell_book"
+				tag: {
+					spell_container: {
+						pool: "spellbladenext:duelist"
+						spell_ids: [
+							"spellbladenext:riposte"
+							"spellbladenext:courage"
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spellbladenext:juggone_spell_book"
+				tag: {
+					spell_container: {
+						pool: "spellbladenext:juggone"
+						spell_ids: [
+							"spellbladenext:1hslam"
+							"spellbladenext:defiance"
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spellbladenext:juggtwo_spell_book"
+				tag: {
+					spell_container: {
+						pool: "spellbladenext:juggtwo"
+						spell_ids: [
+							"spellbladenext:2hslam"
+							"spellbladenext:defiance"
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "Wartome"
+}

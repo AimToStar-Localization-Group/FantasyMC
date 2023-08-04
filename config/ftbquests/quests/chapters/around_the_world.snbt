@@ -1,0 +1,2145 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "around_the_world"
+	group: ""
+	id: "2333B4D998BCF3B4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5CC032AC031DA5B2"
+				"1D6AD740F53F0613"
+				"7D10B0DE2D4C1398"
+				"38FF9EA7A438AA4D"
+				"5A08A60F7030F8AA"
+				"07B9C1CAE1F0774E"
+				"4E88585D921B9370"
+				"0D959BCAD1CF943E"
+				"6DD5BDB66A7F50C3"
+			]
+			description: ["{ftbquests.chapter.around_the_world.quests0.description}"]
+			icon: "minecraft:compass"
+			id: "7FA00F0D7B17B0AF"
+			invisible: "true"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"According to legend, if one were to collect all of these, then an endless catastrophe would befall upon them. Tread lightly @p...\",\"color\":\"white\"}]"
+					id: "0B5C44958FDCA41C"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "54E9BA6D7F89D6E2"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Folklore"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:compass"
+					id: "66867D4DE7D4AC65"
+					title: "Legends say..."
+					type: "dimension"
+				}
+			]
+			title: "According to Legend"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "5CC032AC031DA5B2"
+			rewards: [
+				{
+					id: "2A9829426A6FF2BC"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Marium Soulslike Weaponry"
+			tasks: [
+				{
+					id: "6C9EF17520638702"
+					item: {
+						Count: 1b
+						id: "soulsweapons:mjolnir"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mjonir"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4DD546CD92549550"
+				"5A3CE0928A54CAC3"
+				"5FAA662FAE9A0F61"
+				"338F27D607C0C59C"
+				"730782782BEC52ED"
+				"2A967994C9053D80"
+			]
+			description: ["{ftbquests.chapter.around_the_world.quests2.description}"]
+			icon: "minecraft:compass"
+			id: "3C6DA347CBA95542"
+			invisible: "true"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"Upon @p touching the item, a scream of agony is heard. A chill runs down their spine. Someone is watching them...\",\"color\":\"white\"}]"
+					id: "57F211583699069B"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "2A8AB8CF1EC4E72C"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "The Watcher"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:compass"
+					id: "7AF1FE8E778A9C17"
+					title: "??????"
+					type: "dimension"
+				}
+			]
+			title: "Deep in The Dungeons"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3C6DA347CBA95542"]
+			description: ["{ftbquests.chapter.around_the_world.quests3.description}"]
+			icon: {
+				Count: 1b
+				id: "mcdw:dagger_void_touched_blade"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "mcdw:ambush"
+							lvl: 3
+						}
+						{
+							id: "mcdw:void_strike"
+							lvl: 2
+						}
+						{
+							id: "sharpness"
+							lvl: 3
+						}
+						{
+							id: "unbreaking"
+							lvl: 3
+						}
+						{
+							id: "farmersdelight:backstabbing"
+							lvl: 10
+						}
+						{
+							id: "mcdw:rampaging"
+							lvl: 3
+						}
+					]
+					Tiered: {
+						Tier: "tiered:unique_melee_3"
+					}
+					display: {
+						Lore: [
+							"[{\"text\":\"\",\"italic\":false}]"
+							"[{\"text\":\"A breeze pass by, it is time to say goodbye to the beginning of the end.\",\"italic\":false}]"
+						]
+						Name: "[{\"text\":\"Phantom Dirk\",\"italic\":true,\"bold\":true,\"color\":\"gold\",\"underlined\":true}]"
+					}
+				}
+			}
+			id: "00CC2D08D6BB7422"
+			invisible: "true"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[???]: \",\"color\":\"aqua\"},{\"text\":\"The Phantom Dirk has found its host...\",\"color\":\"white\"}]"
+					id: "09FCD1827D1BD62A"
+					player_command: "false"
+					title: "???"
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					id: "01E0D26AC44389AE"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_void_touched_blade"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mcdw:ambush"
+									lvl: 3
+								}
+								{
+									id: "mcdw:void_strike"
+									lvl: 2
+								}
+								{
+									id: "sharpness"
+									lvl: 3
+								}
+								{
+									id: "unbreaking"
+									lvl: 3
+								}
+								{
+									id: "farmersdelight:backstabbing"
+									lvl: 10
+								}
+								{
+									id: "mcdw:rampaging"
+									lvl: 3
+								}
+							]
+							Tiered: {
+								Tier: "tiered:unique_melee_3"
+							}
+							display: {
+								Lore: [
+									"[{\"text\":\"\",\"italic\":false}]"
+									"[{\"text\":\"A breeze pass by, it is time to say goodbye to the beginning of the end.\",\"italic\":false}]"
+								]
+								Name: "[{\"text\":\"Phantom Dirk\",\"italic\":true,\"bold\":true,\"color\":\"gold\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					disable_toast: "true"
+					id: "362A13FC82E5EA33"
+					item: {
+						Count: 1b
+						id: "mcdar:ghost_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "23D840E6209B76FC"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "042140263CC002A7"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_swift_striker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "01E6667487A39B08"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_fangs_of_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "4FC70065FC02032C"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_eternal_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "0F27AD55419FAB3E"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_chill_gale_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hidden quest: Phantom Dirk"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "2A967994C9053D80"
+			rewards: [
+				{
+					id: "5ECD9AA9249E01B2"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "MC Dungeons Artifacts"
+			tasks: [
+				{
+					id: "01F324F481645A2D"
+					item: {
+						Count: 1b
+						id: "mcdar:ghost_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			id: "5A3CE0928A54CAC3"
+			rewards: [
+				{
+					id: "0450C48B11A6B607"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Artifacts"
+			tasks: [
+				{
+					id: "5F0FF0DEC9E83515"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "730782782BEC52ED"
+			rewards: [
+				{
+					id: "6F489CA4CF3985A5"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "MC Dungeons Weapons"
+			tasks: [
+				{
+					id: "31D410D0DA058776"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_swift_striker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			id: "338F27D607C0C59C"
+			rewards: [
+				{
+					id: "2286E612FE88ED87"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "MC Dungeons Weapons"
+			tasks: [
+				{
+					id: "58A9A13B895AD151"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_eternal_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "4DD546CD92549550"
+			rewards: [
+				{
+					id: "7DF5125DF7608672"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "MC Dungeons Weapons"
+			tasks: [
+				{
+					disable_toast: "true"
+					id: "7BB1598AC4D6BD39"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_fangs_of_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "5FAA662FAE9A0F61"
+			rewards: [
+				{
+					id: "4ACFC2836CF31846"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "MC Dungeons Weapons"
+			tasks: [
+				{
+					id: "1F680438429F1B20"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_chill_gale_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			description: ["{ftbquests.chapter.around_the_world.quests10.description}"]
+			icon: {
+				Count: 1b
+				id: "soulsweapons:lich_bane"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "131DAEE5AB57ACC3"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[The sword]: \",\"color\":\"aqua\"},{\"text\":\"Thank you... please wield me...\",\"color\":\"white\"}]"
+					id: "04C723315485A33A"
+					player_command: "false"
+					title: "SWORD"
+					type: "command"
+				}
+				{
+					id: "67EC3A23C8BB7AFA"
+					item: {
+						Count: 1b
+						id: "soulsweapons:lich_bane"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mcdw:void_strike"
+									lvl: 2
+								}
+								{
+									id: "sharpness"
+									lvl: 10
+								}
+								{
+									id: "unbreaking"
+									lvl: 3
+								}
+								{
+									id: "fire_aspect"
+									lvl: 10
+								}
+							]
+							Tiered: {
+								Tier: "tiered:unique_melee_3"
+							}
+							display: {
+								Lore: [
+									"[{\"text\":\"\",\"italic\":false}]"
+									"[{\"text\":\"It feels warm.. but why is the fire so enraged..?\",\"italic\":false}]"
+								]
+								Name: "[{\"text\":\"Ablazed\",\"italic\":true,\"bold\":true,\"color\":\"red\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "38F61ED1CD435A47"
+					item: {
+						Count: 1b
+						id: "betternether:nether_ruby_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 5
+									AttributeName: "generic.armor"
+									Name: "generic.armor"
+									Slot: "head"
+									UUID: [I;
+										-123217
+										15506
+										173720
+										-31012
+									]
+								}
+								{
+									Amount: 3
+									AttributeName: "generic.armor_toughness"
+									Name: "generic.armor_toughness"
+									Slot: "head"
+									UUID: [I;
+										-123217
+										15606
+										173720
+										-31212
+									]
+								}
+								{
+									Amount: 3
+									AttributeName: "generic.attack_knockback"
+									Name: "generic.attack_knockback"
+									Slot: "head"
+									UUID: [I;
+										-123217
+										15706
+										173720
+										-31412
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "blast_protection"
+									lvl: 4
+								}
+								{
+									id: "fire_protection"
+									lvl: 4
+								}
+								{
+									id: "projectile_protection"
+									lvl: 4
+								}
+								{
+									id: "protection"
+									lvl: 4
+								}
+								{
+									id: "mcda:fire_focus"
+									lvl: 50
+								}
+							]
+							Unbreakable: 1
+							display: {
+								Lore: ["[{\"text\":\"Everlasting flame..\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Everlasting Flames\",\"color\":\"dark_red\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Marium Soulslike Weaponry"
+			tasks: [
+				{
+					disable_toast: "true"
+					id: "1325D703ABE663EA"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "7B3F208E0DE45E89"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "0E0A09474C4BBE8A"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "67CC3B8834553D6D"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "4F36C8B529ABD505"
+					item: "artifacts:obsidian_skull"
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "22519813287D3EFB"
+					item: "artifacts:flame_pendant"
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "2F14F3CE188B5383"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "0EDF76707FE08C5A"
+					item: {
+						Count: 1b
+						id: "friendsandfoes:wildfire_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: "true"
+					id: "3DA67EA06FDB7FEC"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Hidden quest: A cry for help.."
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "4CC9B45345319564"
+			rewards: [
+				{
+					id: "6C0E9E607B997CF1"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"A faint cry for help is heard...\",\"color\":\"white\"}]"
+					id: "55223A7A587A6E22"
+					player_command: "false"
+					title: "A faint cry.."
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "7C9ACCE02540ABA2"
+					title: "Visit the Nether"
+					type: "dimension"
+				}
+			]
+			title: "In Hades' Kingdom"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "2762D03513233FE0"
+			rewards: [
+				{
+					id: "7D8531AC0DFBD938"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Immersive armors"
+			tasks: [
+				{
+					id: "431DAC32162C50E7"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "6B5545156B954E09"
+			rewards: [
+				{
+					id: "02B5545D6365F09F"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Immersive armors"
+			tasks: [
+				{
+					id: "5338833CA14450FD"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "1C6734E95082FFB0"
+			rewards: [
+				{
+					id: "1ED40DB8E0CBBC4A"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Immersive armors"
+			tasks: [
+				{
+					id: "5B54AEB3BC959CDF"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "0506F4DD893B81E2"
+			rewards: [
+				{
+					id: "16FE6F61C00FF9F1"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Immersive armors"
+			tasks: [
+				{
+					id: "1095171692CE4229"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "5B5984C60ADA3C45"
+			rewards: [
+				{
+					id: "35EFA26CB212AB38"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Artifacts"
+			tasks: [
+				{
+					id: "2B98436AC90375C8"
+					item: "artifacts:flame_pendant"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "217CCCC404710699"
+			rewards: [
+				{
+					id: "7F5D96F187C0A33A"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Artifacts"
+			tasks: [
+				{
+					id: "4A8D52CC188380C5"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "61E645DE5EDFB40F"
+			rewards: [
+				{
+					id: "661F9B7D33220008"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Artifacts"
+			tasks: [
+				{
+					id: "6B10DCE3034F136E"
+					item: "artifacts:obsidian_skull"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "2084DD777C5C9DDA"
+			rewards: [
+				{
+					id: "570C974C6CCA0925"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "FriendsAndFoes"
+			tasks: [
+				{
+					id: "27D3096CA295DBBB"
+					item: {
+						Count: 1b
+						id: "friendsandfoes:wildfire_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4CC9B45345319564"]
+			id: "18BE10D745ADDB32"
+			rewards: [
+				{
+					id: "483D6F7502CC5767"
+					team_reward: "false"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					id: "0863BE955136D5F5"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "mcdw:hammer_stormlander"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "mcdw:thundering"
+							lvl: 7
+						}
+						{
+							id: "mcdw:void_strike"
+							lvl: 4
+						}
+						{
+							id: "sharpness"
+							lvl: 3
+						}
+						{
+							id: "unbreaking"
+							lvl: 3
+						}
+					]
+					Tiered: {
+						Tier: "tiered:unique_melee_3"
+					}
+					display: {
+						Lore: [
+							"[{\"text\":\"\",\"italic\":false}]"
+							"[{\"text\":\"The sky cracks for it to see lightning falling down smiting everything to dust\",\"italic\":false}]"
+						]
+						Name: "[{\"text\":\"Thundering oath\",\"italic\":true,\"bold\":true,\"color\":\"gold\",\"underlined\":true}]"
+					}
+				}
+			}
+			id: "7AEA434260F0A93D"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/weather thunder"
+					id: "0ED6A6905AEDA70C"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has earned the right to obtain the Thundering Oath!\",\"color\":\"white\"}]"
+					id: "64F54E952BACAF40"
+					player_command: "false"
+					title: "Distant"
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					id: "09C59116A951E550"
+					item: {
+						Count: 1b
+						id: "mcdw:hammer_stormlander"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mcdw:thundering"
+									lvl: 5
+								}
+								{
+									id: "mcdw:void_strike"
+									lvl: 2
+								}
+								{
+									id: "sharpness"
+									lvl: 3
+								}
+								{
+									id: "unbreaking"
+									lvl: 3
+								}
+							]
+							Tiered: {
+								Tier: "tiered:unique_melee_3"
+							}
+							display: {
+								Lore: [
+									"[{\"text\":\"\",\"italic\":false}]"
+									"[{\"text\":\"The sky cracks for it to see lightning falling down smiting everything to dust\",\"italic\":false}]"
+								]
+								Name: "[{\"text\":\"Thundering oath\",\"italic\":true,\"bold\":true,\"color\":\"gold\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					disable_toast: "true"
+					id: "70AB2EDA71152EFD"
+					item: {
+						Count: 1b
+						id: "soulsweapons:mjolnir"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42188FD288C0B1DB"
+					item: {
+						Count: 1b
+						id: "paladins:aeternium_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B14716F70C576A4"
+					item: {
+						Count: 1b
+						id: "mythicmetals:orichalcum_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "010937BA45F62326"
+					item: {
+						Count: 1b
+						id: "betterend:terminite_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA73FA5033230DD"
+					item: {
+						Count: 1b
+						id: "mcdw:hammer_suns_grace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B8DE9650C40AE1A"
+					item: {
+						Count: 1b
+						id: "mcdw:hammer_gravity"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10AD2A38EDD21072"
+					item: {
+						Count: 1b
+						id: "betterend:aeternium_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "344243E75371DFC7"
+					item: {
+						Count: 1b
+						id: "mcdar:thundering_quiver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1925A55A39233D79"
+					item: {
+						Count: 1b
+						id: "mcdar:lightning_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hidden quest: The Great Catastrophe"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "5A08A60F7030F8AA"
+			tasks: [
+				{
+					id: "289597B6A16600BA"
+					item: {
+						Count: 1b
+						id: "paladins:aeternium_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "1D6AD740F53F0613"
+			tasks: [
+				{
+					id: "10725D7E11FC749D"
+					item: {
+						Count: 1b
+						id: "mythicmetals:orichalcum_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "07B9C1CAE1F0774E"
+			tasks: [
+				{
+					id: "7692BCFC0B3E372C"
+					item: {
+						Count: 1b
+						id: "betterend:terminite_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "7D10B0DE2D4C1398"
+			tasks: [
+				{
+					id: "1FA2A581513D3D2F"
+					item: {
+						Count: 1b
+						id: "mcdw:hammer_suns_grace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "4E88585D921B9370"
+			tasks: [
+				{
+					id: "2935ACDB46AB5F13"
+					item: {
+						Count: 1b
+						id: "mcdw:hammer_gravity"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "0D959BCAD1CF943E"
+			tasks: [
+				{
+					id: "7552E4AAD1F9799D"
+					item: {
+						Count: 1b
+						id: "betterend:aeternium_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "38FF9EA7A438AA4D"
+			tasks: [
+				{
+					id: "22F010F78F31261D"
+					item: {
+						Count: 1b
+						id: "mcdar:thundering_quiver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6DD5BDB66A7F50C3"
+			tasks: [
+				{
+					id: "765CAD82255CA8F8"
+					item: {
+						Count: 1b
+						id: "mcdar:lightning_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "7B0E728AD6129480"
+			rewards: [
+				{
+					id: "16B6D13A68266A65"
+					item: {
+						Count: 1b
+						id: "mcsa:golden_goliath_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15B26EEEC0A8B717"
+					item: {
+						Count: 1b
+						id: "mcsa:golden_goliath_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F4A0359C6B0898F"
+					item: {
+						Count: 1b
+						id: "mcsa:golden_goliath_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5976CF1798F8DDBE"
+					item: {
+						Count: 1b
+						id: "mcsa:golden_goliath_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					count: 64L
+					id: "1CDE7566D72FF770"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "3BB581B02A36F2DC"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "6122A4E13AD179E3"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "649133B2CCCCE31D"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "4ADEF618FF92A46D"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "62209D53C86B83F9"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5E1A9D374FBCC2E1"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6C9D01740ED57E6F"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 12L
+					id: "66131458C92D3448"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "28401334F83E3993"
+					item: "minecraft:sunflower"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "082CB0DAD33B3CBF"
+					item: {
+						Count: 1b
+						id: "soulsweapons:dawnbreaker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "08434F2B5F78659F"
+					item: {
+						Count: 1b
+						id: "mcdw:hammer_suns_grace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "soulsweapons:accursed_lord_boss"
+					id: "2F99887C81D67CB6"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "adventurez:stone_golem"
+					id: "28DB8E00A72D70C5"
+					type: "kill"
+					value: 2L
+				}
+				{
+					consume_items: "true"
+					count: 4L
+					id: "552C35CE5850A3DC"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Golden Goliath"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "4BDCDC1267A60466"
+			rewards: [
+				{
+					id: "3B450EFEE3552849"
+					item: {
+						Count: 1b
+						id: "mcsa:shield_of_infinity_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19A17E8A9F8296C5"
+					item: {
+						Count: 1b
+						id: "mcsa:shield_of_infinity_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16BE91D29FED50AA"
+					item: {
+						Count: 1b
+						id: "mcsa:shield_of_infinity_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "203C38D5888AF973"
+					item: {
+						Count: 1b
+						id: "mcsa:shield_of_infinity_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "735F169BDC070D8D"
+					stat: "minecraft:damage_taken"
+					type: "stat"
+					value: 200000
+				}
+				{
+					id: "794E6161B01CA24D"
+					stat: "minecraft:damage_resisted"
+					type: "stat"
+					value: 50000
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "7DF8AAC536972AF2"
+			rewards: [
+				{
+					id: "17070FA96CCCE390"
+					item: {
+						Count: 1b
+						id: "mcsa:adamantium_impervium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AC8B33F7FFE1F63"
+					item: {
+						Count: 1b
+						id: "mcsa:adamantium_impervium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C720CCBB1A73877"
+					item: {
+						Count: 1b
+						id: "mcsa:adamantium_impervium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "325008E40C364E03"
+					item: {
+						Count: 1b
+						id: "mcsa:adamantium_impervium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "15C0D5B5569D020C"
+					stat: "minecraft:damage_taken"
+					type: "stat"
+					value: 100000
+				}
+				{
+					id: "0F7101AA5C78A719"
+					stat: "minecraft:damage_resisted"
+					type: "stat"
+					value: 40000
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "275423926A4ADE32"
+			rewards: [
+				{
+					id: "474C40937D7782A0"
+					item: {
+						Count: 1b
+						id: "mcsa:redstone_riot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "672456C51E7CBA9C"
+					item: {
+						Count: 1b
+						id: "mcsa:redstone_riot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BF3B0D2BD5AEDD7"
+					item: {
+						Count: 1b
+						id: "mcsa:redstone_riot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28CCF1B6950ECAB9"
+					item: {
+						Count: 1b
+						id: "mcsa:redstone_riot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78A5B44B214D5299"
+					stat: "minecraft:damage_taken"
+					type: "stat"
+					value: 75000
+				}
+				{
+					id: "3E1A4A4D133AF78B"
+					stat: "minecraft:damage_resisted"
+					type: "stat"
+					value: 30000
+				}
+			]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "0257EF1328366E06"
+			rewards: [
+				{
+					id: "0DB1D78EAFD07B63"
+					item: {
+						Count: 1b
+						id: "mcsa:swordbreaker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29A1966C87EDAC3F"
+					item: {
+						Count: 1b
+						id: "mcsa:swordbreaker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45CA608DB671F8A0"
+					item: {
+						Count: 1b
+						id: "mcsa:swordbreaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EADD262D0268128"
+					item: {
+						Count: 1b
+						id: "mcsa:swordbreaker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "557E77E7D2BA0D99"
+					item: {
+						Count: 1b
+						id: "soulsweapons:crucible_sword"
+						tag: {
+							Damage: 0
+							empowered: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "43D31121E7EBCEFB"
+					item: {
+						Count: 1b
+						id: "soulsweapons:freyr_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "78C5410565AF087D"
+					item: {
+						Count: 1b
+						id: "mythicmetals:stormyx_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "16FB3BFECBBEA803"
+					item: {
+						Count: 1b
+						id: "mythicmetals:metallurgium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "0987A4A7156C0014"
+					item: {
+						Count: 1b
+						id: "mythicmetals:orichalcum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "36C8E23A7A1D1464"
+					item: {
+						Count: 1b
+						id: "mcdw:sword_the_starless_night"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "279B30E6DA47879C"
+					item: {
+						Count: 1b
+						id: "mcdw:sword_masters_katana"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "7D535C26626CC142"
+					item: {
+						Count: 1b
+						id: "soulsweapons:pure_moonlight_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "001DA24FE0BC1052"
+					item: {
+						Count: 1b
+						id: "mythicmetals:midas_gold_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "57CEE9556B253661"
+					item: {
+						Count: 1b
+						id: "mcdw:sword_obsidian_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "70B207BDD8183188"
+					item: {
+						Count: 1b
+						id: "minecells:cursed_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "78BDBB675737C518"
+					item: {
+						Count: 1b
+						id: "minecells:blood_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "285793A5DAE16945"
+					item: {
+						Count: 1b
+						id: "mythicmetals:hallowed_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "444F24E3206B033F"
+					item: {
+						Count: 1b
+						id: "mcdw:sword_hawkbrand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "27F68F29A07FCEDF"
+					item: {
+						Count: 1b
+						id: "medievalweapons:thalleous_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1408A292E586BDAB"
+					item: {
+						Count: 1b
+						id: "medievalweapons:nether_ruby_long_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "betternether:ruby_fire"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "57F7FC2B9768449B"
+					item: {
+						Count: 1b
+						id: "byg:pendorite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "4580CD63DD15FC50"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "3BB2270C900FF13F"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "4D6688CD7977E6E6"
+					item: {
+						Count: 1b
+						id: "mythicmetals:white_aegis_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "764293A18902DCA2"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "3F6EB43AD129F330"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "70556B5E0D5CA851"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6621F5F283FC5D06"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 10L
+					id: "5E7745CAF1009028"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "0D765F0A48433A68"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 64L
+					id: "3D7407532396F02E"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "7023036169D6B949"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "00A36C192C0B2BAD"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "2010ED65CA0BC996"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "0989977BB935D56C"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "3A6728F9346D6B50"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "123601CD6E8C081F"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "2CEEC77E2FFCCF44"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "45DE7E699C8E0D53"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 16L
+					id: "68F0E8802FAD2489"
+					item: "betternether:nether_ruby_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 8L
+					id: "4DE3B6B71B1EF732"
+					item: "mythicmetals:orichalcum_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 4L
+					id: "6224E84DE131C71C"
+					item: "mythicmetals:adamantite_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 4L
+					id: "3E19FD6F51EE4405"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 2L
+					id: "5900884D440845B9"
+					item: {
+						Count: 1b
+						id: "mythicmetals:stormyx_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "Go Your Own Way"
+}

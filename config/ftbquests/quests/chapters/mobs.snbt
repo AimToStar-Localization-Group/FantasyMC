@@ -1,0 +1,1748 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "mobs"
+	group: ""
+	id: "3ADACA10CD1049D1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:zombie_head"
+			id: "14A740D4A051B239"
+			rewards: [
+				{
+					id: "49C9658765C524F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "7522E5F2F4054475"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "6D1E2693AC9C8890"
+					type: "kill"
+					value: 125L
+				}
+			]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["14A740D4A051B239"]
+			icon: "minecraft:zombie_head"
+			id: "384DA542461433E1"
+			rewards: [
+				{
+					id: "07210769CFB78320"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "427582E50091BD2F"
+					item: {
+						Count: 1b
+						id: "mcdar:golem_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "1CDBBC66A4C452CC"
+					type: "kill"
+					value: 250L
+				}
+			]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["384DA542461433E1"]
+			icon: "minecraft:zombie_head"
+			id: "443B1DFE536CFE5F"
+			rewards: [
+				{
+					id: "66B28366F7828197"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "mcda:bag_of_souls"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "303EF60931A10589"
+					type: "kill"
+					value: 500L
+				}
+			]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["443B1DFE536CFE5F"]
+			icon: "minecraft:zombie_head"
+			id: "700D35DB95F1B87F"
+			rewards: [
+				{
+					id: "06E0BE56165B8642"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					id: "71D0A2BB159FD13C"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:smite"
+									lvl: 5s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "57E7AE1BB0FF3ED7"
+					type: "kill"
+					value: 1000L
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["700D35DB95F1B87F"]
+			icon: "minecraft:zombie_head"
+			id: "248DA563A796FF21"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/say damn @p you're gonna make the zombies extinct.. "
+					id: "3EAB309C7C21F290"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "43078B6A72D32243"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "7F067EF25AC77EFF"
+					type: "kill"
+					value: 2500L
+				}
+			]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			id: "4164BB96E06BE1A9"
+			rewards: [
+				{
+					id: "390E0AFF74467831"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "12FB7F6F3E9A6BC2"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3BBAC693B53D69CE"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "6556185BE346B701"
+					type: "kill"
+					value: 125L
+				}
+			]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4164BB96E06BE1A9"]
+			icon: "minecraft:skeleton_skull"
+			id: "06E9529C2D0566E2"
+			rewards: [
+				{
+					id: "772E95D0E6E72644"
+					item: {
+						Count: 1b
+						id: "mcdw:shield_royal_guard"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AFF870A2DAC1291"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "78E3DC23BC1EB4CC"
+					type: "kill"
+					value: 250L
+				}
+			]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06E9529C2D0566E2"]
+			icon: "minecraft:skeleton_skull"
+			id: "6D3D9FE72B10D8FB"
+			rewards: [
+				{
+					id: "73ABDF1C11BC15A8"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "mcda:bag_of_souls"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "5564459E0D6A1771"
+					type: "kill"
+					value: 500L
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D3D9FE72B10D8FB"]
+			icon: "minecraft:skeleton_skull"
+			id: "263C9823E4E660B3"
+			rewards: [
+				{
+					id: "79F103E5B6029084"
+					item: {
+						Count: 1b
+						id: "mcdar:totem_of_shielding"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "3EF7C5229627515D"
+					type: "kill"
+					value: 1000L
+				}
+			]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["263C9823E4E660B3"]
+			icon: "minecraft:skeleton_skull"
+			id: "58C0612C57F91FE3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/say I wonder how much bone meal you have from those bones @p #teamTrees "
+					id: "55A062268DCCA1E1"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "4CA685E3ECA93F3D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "0DAB6BE4FDB1921C"
+					type: "kill"
+					value: 2000L
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			icon: "minecraft:gunpowder"
+			id: "0E14AC81730EF459"
+			rewards: [
+				{
+					id: "33277F3F1F8D409B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "131248F7BC8D47EF"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E14AC81730EF459"]
+			icon: "minecraft:gunpowder"
+			id: "4BDF321BC0DCC852"
+			rewards: [
+				{
+					count: 10
+					id: "1C56C49831D34331"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "747D91A0DABE74AD"
+					type: "kill"
+					value: 20L
+				}
+			]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BDF321BC0DCC852"]
+			icon: "minecraft:gunpowder"
+			id: "30E17DE4BBB50604"
+			rewards: [
+				{
+					id: "4D7FB7E21FA7BC4C"
+					item: "artifacts:kitty_slippers"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "2B9C487CFF6FF13B"
+					type: "kill"
+					value: 30L
+				}
+			]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30E17DE4BBB50604"]
+			icon: "minecraft:gunpowder"
+			id: "5B3CC8C3660946F8"
+			rewards: [
+				{
+					id: "5EAF1BB10CB5DDB1"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "mcda:death_barter"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "472597CBC890E26E"
+					type: "kill"
+					value: 50L
+				}
+			]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B3CC8C3660946F8"]
+			icon: "minecraft:gunpowder"
+			id: "6C1A3CD194D772EE"
+			rewards: [
+				{
+					id: "2678338842C8821C"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "0AF0F2BABD152E6C"
+					type: "kill"
+					value: 100L
+				}
+			]
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:cobweb"
+			id: "0817778CE5D22EC4"
+			rewards: [
+				{
+					id: "2DD68A767A9E8D9F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "2A2547058B270604"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0817778CE5D22EC4"]
+			icon: "minecraft:cobweb"
+			id: "59E3E7F3D5E07C3D"
+			rewards: [
+				{
+					count: 64
+					id: "2A5659E5F1A10E5A"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "3FF8CED37A8C49BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "42DF4A13E214856A"
+					type: "kill"
+					value: 20L
+				}
+			]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59E3E7F3D5E07C3D"]
+			icon: "minecraft:cobweb"
+			id: "4187A260E0F29CC9"
+			rewards: [
+				{
+					id: "51C9B8877E837336"
+					item: {
+						Count: 1b
+						id: "mcdar:death_cap_mushroom"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "67D4E597AEAE13DA"
+					type: "kill"
+					value: 30L
+				}
+			]
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4187A260E0F29CC9"]
+			icon: "minecraft:cobweb"
+			id: "79CF3B4813287E52"
+			rewards: [
+				{
+					auto: "disabled"
+					id: "5C24CB2E3A98BBD4"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:strong_poison"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22D4AA03CA137CE0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "5F736F50F09B9AA4"
+					type: "kill"
+					value: 40L
+				}
+			]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79CF3B4813287E52"]
+			icon: "minecraft:cobweb"
+			id: "19A3A92814ED4494"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/say Thank you for exterminating spiders! #150spiderkills"
+					id: "45E08F0D19EB1F76"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "2D5B07C00D181D40"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "01597A69354061C0"
+					type: "kill"
+					value: 50L
+				}
+			]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/Undead_Miner.png width:200 height:100 align:1}"
+				"{ftbquests.chapter.mobs.quests20.description1}"
+				"{ftbquests.chapter.mobs.quests20.description2}"
+				"{ftbquests.chapter.mobs.quests20.description3}"
+			]
+			id: "3F6744F209DA00AE"
+			rewards: [
+				{
+					id: "28E229E359C666CB"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					entity: "rottencreatures:undead_miner"
+					icon: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1FDA6A2D14E3AE25"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Copycat"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/GlacialHunter.png width:200 height:100 align:1}"
+				"{ftbquests.chapter.mobs.quests21.description1}"
+			]
+			id: "6A44CDCF109A0ABC"
+			rewards: [
+				{
+					count: 16
+					id: "39B08A7ECE6C931E"
+					item: "minecraft:cooked_cod"
+					type: "item"
+				}
+				{
+					id: "5A3C3F77EEB42378"
+					item: {
+						Count: 1b
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34EEF53B0EBAD923"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					entity: "rottencreatures:glacial_hunter"
+					icon: "minecraft:snow_block"
+					id: "19FEACD19D7C22CA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Stay in your igloo"
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/FrostBitten.png width:200 height:100 align:1}"
+				"{ftbquests.chapter.mobs.quests22.description1}"
+				"{ftbquests.chapter.mobs.quests22.description2}"
+			]
+			id: "0F64BBD7CAD2CEAE"
+			rewards: [
+				{
+					id: "2273FA51B66612D2"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "7D196E8A6D0019B9"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DDD03ABA144114E"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:fire_aspect"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					entity: "rottencreatures:frostbitten"
+					icon: "minecraft:blue_ice"
+					id: "60C9981FEF484018"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "It's freezing!"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/Mummy.png width:200 height:100 align:1}"
+				"{ftbquests.chapter.mobs.quests23.description1}"
+				"{ftbquests.chapter.mobs.quests23.description2}"
+				"{ftbquests.chapter.mobs.quests23.description3}"
+				"{ftbquests.chapter.mobs.quests23.description4}"
+			]
+			id: "1BE559F5F9231609"
+			rewards: [
+				{
+					count: 16
+					id: "7F89FA1FE903F801"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "2EA07BEEAA82D4D6"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					entity: "rottencreatures:mummy"
+					icon: "minecraft:sand"
+					id: "16F46B9C3DD8149A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Rot of The Desert"
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/Beard.png width:200 height:100 align:1}"
+				"{ftbquests.chapter.mobs.quests24.description1}"
+				"{ftbquests.chapter.mobs.quests24.description2}"
+				"{ftbquests.chapter.mobs.quests24.description3}"
+			]
+			id: "65DA3C8483EBAF47"
+			rewards: [
+				{
+					id: "29E7EFEA872A597C"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					entity: "rottencreatures:dead_beard"
+					icon: "byg:beach_grass"
+					id: "29FDD414C97CCA36"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Yarrrrr!"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "22C1B656DF1EAB6E"
+			rewards: [
+				{
+					id: "1894D4E25C402A67"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "0F74F02EDCDFABCA"
+					item: "minecraft:soul_sand"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "13C5EF44432AD1A4"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["22C1B656DF1EAB6E"]
+			id: "1F9360E3647A8659"
+			rewards: [
+				{
+					count: 4
+					id: "4BB7290DB30A016A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					id: "3FF67B8F1AB3E1CF"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Obtain a nether star!"
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1CC4F70F8B4664BD"
+			rewards: [
+				{
+					count: 8
+					id: "491DA5F3379C5FB5"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1983B37EE1BAA62D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "51AA9B39B0DC3C80"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Protectors of Darkness"
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/Swamp.png width:200 height:100 align:1}"
+				"{ftbquests.chapter.mobs.quests28.description1}"
+				"{ftbquests.chapter.mobs.quests28.description2}"
+				"{ftbquests.chapter.mobs.quests28.description3}"
+				"{ftbquests.chapter.mobs.quests28.description4}"
+				"{ftbquests.chapter.mobs.quests28.description5}"
+				"{ftbquests.chapter.mobs.quests28.description6}"
+				"{ftbquests.chapter.mobs.quests28.description7}"
+			]
+			icon: "biomemakeover:swamp_cypress_leaves"
+			id: "5D765E5FEDBC5903"
+			rewards: [
+				{
+					id: "2FBFB410643B8A54"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "18667C30F5A14504"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					entity: "rottencreatures:swampy"
+					icon: "biomemakeover:swamp_cypress_leaves"
+					id: "1CEFAB801CD7818E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Something smells funny"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/Immortal.png width:200 height:100 align:1}"
+				"{ftbquests.chapter.mobs.quests29.description1}"
+				"{ftbquests.chapter.mobs.quests29.description2}"
+				"{ftbquests.chapter.mobs.quests29.description3}"
+				"{ftbquests.chapter.mobs.quests29.description4}"
+				"{ftbquests.chapter.mobs.quests29.description5}"
+				"{ftbquests.chapter.mobs.quests29.description6}"
+				"{ftbquests.chapter.mobs.quests29.description7}"
+				"{ftbquests.chapter.mobs.quests29.description8}"
+			]
+			id: "28BD2534DBE30B3E"
+			rewards: [
+				{
+					id: "264F9BB8E97DDB12"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76766B8B7663B342"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:depth_strider"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38F66CE74DFD0142"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:extended_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					entity: "rottencreatures:immortal"
+					icon: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "54F05533F84193D8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "A dangerous man"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3F6744F209DA00AE"
+				"65DA3C8483EBAF47"
+				"28BD2534DBE30B3E"
+				"5D765E5FEDBC5903"
+				"52CC228519FDAB13"
+				"1BE559F5F9231609"
+				"6A44CDCF109A0ABC"
+				"0F64BBD7CAD2CEAE"
+			]
+			description: ["{ftbquests.chapter.mobs.quests30.description}"]
+			icon: "minecells:rotting_corpse"
+			id: "60E6087D99C7C888"
+			rewards: [
+				{
+					id: "35D679C6E4C4059C"
+					item: {
+						Count: 1b
+						id: "mythicmetals:stormyx_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: {
+						Count: 1b
+						id: "mythicmetals:stormyx_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "69B508400868EB77"
+					title: "Bounty Reward"
+					type: "dimension"
+				}
+			]
+			title: "Bounty Reward"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/Burned.png width:200 height:100 align:1}"
+				"{ftbquests.chapter.mobs.quests31.description1}"
+				"{ftbquests.chapter.mobs.quests31.description2}"
+				"{ftbquests.chapter.mobs.quests31.description3}"
+			]
+			id: "52CC228519FDAB13"
+			rewards: [
+				{
+					id: "6C46FD4356DE10B3"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "57E110C41D5D311E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rotten Creatures"
+			tasks: [
+				{
+					entity: "rottencreatures:burned"
+					icon: "minecraft:lava_bucket"
+					id: "10B0C40E7D539BC0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hot! Hot! Hot!"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			icon: "minecraft:totem_of_undying"
+			id: "2A385D8F49D6967F"
+			rewards: [
+				{
+					id: "6A0D077D7E34C4DB"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "mcda:bag_of_souls"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:evoker"
+					id: "40DDDF3804B49556"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B5700333AA05FE9"
+			rewards: [
+				{
+					id: "48D0D500CDD2364D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "mcda:bag_of_souls"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					id: "2715BCCE15E7DA6C"
+					type: "kill"
+					value: 200L
+				}
+			]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35661D8557F1F2FF"
+			rewards: [
+				{
+					id: "0C414F83A19554F2"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "018600687AF8540F"
+					item: {
+						Count: 1b
+						id: "mcdw:shield_vanguard"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:vindicator"
+					id: "77FA37C192E29BF6"
+					type: "kill"
+					value: 100L
+				}
+			]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "40015F5A7A7A8DF7"
+			rewards: [
+				{
+					id: "68745E2A1C27240E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1390FF0D41E48C99"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					id: "29C927E8FA713C4A"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "takesapillage:ravager_horn"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "22507D531CBBCB18"
+			rewards: [
+				{
+					id: "5D2CF2A047AD9DED"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:yearn_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70EBDEDC3D810A67"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:admire_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AEAE9CFB3E49FEA"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:sing_goat_horn"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ravager"
+					id: "5F4360E4ADF13338"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"37DD136A41386B0B"
+				"5B5700333AA05FE9"
+				"2A385D8F49D6967F"
+				"22507D531CBBCB18"
+				"35661D8557F1F2FF"
+				"40015F5A7A7A8DF7"
+				"4F7CD180514D04EE"
+				"1CA73186D023CC13"
+				"78A478EE868A22F5"
+			]
+			id: "2F031A69BC95A03D"
+			min_required_dependencies: 4
+			rewards: [
+				{
+					id: "5EBB32300FC5A131"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "mcdw:illagers_bane"
+									lvl: 6s
+								}
+							]
+						}
+					}
+					title: "BEGONE PILLAGERS!"
+					type: "item"
+				}
+				{
+					id: "7A5236016497C641"
+					item: {
+						Count: 1b
+						id: "mcdw:crossbow_soul_hunter_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Complete atleast 4 of the quests and collect the items"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "794ED4A6086E2387"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "25A34AF46446A95E"
+					item: {
+						Count: 1b
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "0592197405B2C28F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "780BAE4AC67F7189"
+					item: {
+						Count: 1b
+						id: "takesapillage:ravager_horn"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "79FF99450C39654D"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 10L
+					id: "5135532B1326F66B"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "39CFD2FE01A96EFC"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5708B7B92A5ED8B3"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "It's The Whole Fellowship!"
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			id: "37DD136A41386B0B"
+			rewards: [
+				{
+					id: "45ADACB854317DD0"
+					item: {
+						Count: 1b
+						id: "betteranimalsplus:bear_cape_kermode"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0E6C582AC334B3"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:frost_walker"
+									lvl: 2s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Friends\\&Foes"
+			tasks: [
+				{
+					entity: "friendsandfoes:iceologer"
+					icon: "minecraft:ice"
+					id: "0FE20FFEF91681E6"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			id: "4F7CD180514D04EE"
+			rewards: [
+				{
+					id: "6DB639BD3B1FC82F"
+					item: {
+						Count: 1b
+						id: "mcdar:iron_hide_amulet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Take a pillage"
+			tasks: [
+				{
+					entity: "takesapillage:legioner"
+					icon: {
+						Count: 1b
+						id: "mcdw:shield_royal_guard"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5077BECE4EA9CECA"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -11.0d
+			y: 8.5d
+		}
+		{
+			id: "1CA73186D023CC13"
+			rewards: [
+				{
+					id: "75A34FDCEDA2D79F"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:power"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Takes a pillage"
+			tasks: [
+				{
+					entity: "takesapillage:archer"
+					icon: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "466E607EFD1DC843"
+					type: "kill"
+					value: 15L
+				}
+			]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			id: "78A478EE868A22F5"
+			rewards: [
+				{
+					id: "6EAF650DD45E5F77"
+					item: {
+						Count: 1b
+						id: "mcdar:boots_of_swiftness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Takes a pillage"
+			tasks: [
+				{
+					entity: "takesapillage:skirmisher"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					id: "2886980D2B6646D4"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F9360E3647A8659"]
+			icon: "fwaystones:pocket_wormhole"
+			id: "21017526A55D655F"
+			rewards: [
+				{
+					id: "723EF9371847EB33"
+					item: "fwaystones:pocket_wormhole"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3AE798B1CAF97152"
+					item: "fwaystones:red_nether_brick_waystone"
+					type: "item"
+				}
+			]
+			subtitle: "Fabric Waystones"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "4C4CC9F062652703"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "75A0CEC71AB5074F"
+					item: "fwaystones:abyss_watcher"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "6BA2B5FDFCED16C9"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "A pocket wormhole!"
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			id: "4DF4460E2D762C06"
+			invisible: "true"
+			rewards: [
+				{
+					count: 2
+					id: "11938DE79A48F9DC"
+					item: "probablychests:pet_mimic_key"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @s run summon probablychests:gold_chest_mimic_pet ~ ~ ~ {ActiveEffects:[{Id:10,Duration:100000000,Amplifier:2,ShowParticles:0b}],Passengers:[{id:\"probablychests:gold_chest_mimic_pet\",ActiveEffects:[{Id:10,Duration:1000000000,Amplifier:2,ShowParticles:0b}]}]}"
+					icon: "probablychests:gold_chest"
+					id: "4054FF9EC4457F2A"
+					player_command: "false"
+					title: "Twins..?"
+					type: "command"
+				}
+			]
+			subtitle: "Probably chests"
+			tasks: [
+				{
+					count: 5L
+					id: "4377A110420E343B"
+					item: "probablychests:mimic_core"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6D3D9FE72B10D8FB"
+				"443B1DFE536CFE5F"
+			]
+			hide_dependency_lines: "true"
+			icon: "paradise_lost:crow_eye"
+			id: "561109CAD8BFF007"
+			rewards: [
+				{
+					command: "/execute at @p as @p run summon minecraft:zombie ~5 ~ ~ {AbsorptionAmount:50,CustomName:'\"Bob\"',Glowing:1b,HandItems:[{id:netherite_axe,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:5}]},Count:1},{id:netherite_axe,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:5}]},Count:1}],HandDropChances:[0.00f,0.00f],ArmorItems:[{id:netherite_boots,Count:1},{id:netherite_leggings,Count:1},{id:netherite_chestplate,Count:1},{id:netherite_helmet,Count:1}],ArmorDropChances:[0.00f,0.00f,0.00f,0.00f]}"
+					icon: "minecraft:zombie_head"
+					id: "055891A6B4FAAB5A"
+					player_command: "false"
+					team_reward: "true"
+					title: "Boss summon"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "paradise_lost:crow_eye"
+					id: "20CC3FDCD05F78A8"
+					title: "Boss summon"
+					type: "dimension"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30E17DE4BBB50604"
+				"4187A260E0F29CC9"
+			]
+			hide_dependency_lines: "true"
+			icon: "paradise_lost:crow_eye"
+			id: "6DE359CE8308E801"
+			rewards: [
+				{
+					command: "/execute as @p at @p run summon minecraft:skeleton ~5 ~ ~ {AbsorptionAmount:50,CustomName:'\"Karen\"',Glowing:1b,HandItems:[{id:bow,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5},{id:\"minecraft:punch\",lvl:5}]},Count:1},{id:bow,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5},{id:\"minecraft:punch\",lvl:5}]},Count:1}],HandDropChances:[0.00f,0.00f],ArmorItems:[{id:netherite_boots,Count:1},{id:netherite_leggings,Count:1},{id:netherite_chestplate,Count:1},{id:netherite_helmet,Count:1}],ArmorDropChances:[0.00f,0.00f,0.00f,0.00f]}"
+					icon: "minecraft:skeleton_skull"
+					id: "792C96F30955CA8D"
+					player_command: "false"
+					team_reward: "true"
+					title: "Boss summon"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "paradise_lost:crow_eye"
+					id: "282EA7E0B4F5098E"
+					title: "Boss summon"
+					type: "dimension"
+				}
+			]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"561109CAD8BFF007"
+				"6DE359CE8308E801"
+			]
+			hide_dependency_lines: "true"
+			icon: "artifacts:night_vision_goggles"
+			id: "4BB1975CDD992DDF"
+			rewards: [
+				{
+					id: "30DD6F82DF50674F"
+					item: "artifacts:night_vision_goggles"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "21C46BCD54A353A2"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4936A90DBFE50B14"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "1EEF97E151EB813B"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "artifacts:night_vision_goggles"
+					id: "6A1E6DAE8A870F22"
+					title: "Reward"
+					type: "dimension"
+				}
+			]
+			x: -8.0d
+			y: 0.0d
+		}
+	]
+	title: "Evil That Plagues The Realm"
+}

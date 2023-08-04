@@ -1,0 +1,26 @@
+{
+	id: "2C4867BE99E070E0"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:whirligig_sawblade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:galeforce"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "DarkLordSoul"
+}

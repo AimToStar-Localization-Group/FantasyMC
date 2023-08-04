@@ -1,0 +1,38 @@
+{
+	id: "5BDB2D4620B2E81D"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 10
+			item: "minecraft:iron_ingot"
+		}
+		{
+			count: 6
+			item: "minecraft:gold_ingot"
+		}
+		{
+			count: 3
+			item: "minecraft:emerald"
+			weight: 0.75f
+		}
+		{
+			count: 2
+			item: "minecraft:diamond"
+			weight: 0.5f
+		}
+		{
+			item: "minecraft:enchanted_golden_apple"
+			weight: 0.05f
+		}
+		{
+			item: "minecraft:netherite_ingot"
+			weight: 0.01f
+		}
+		{
+			item: "minecraft:totem_of_undying"
+			weight: 0.05f
+		}
+	]
+	title: "RandomReward"
+}

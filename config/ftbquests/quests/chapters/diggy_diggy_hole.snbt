@@ -1,0 +1,1807 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "diggy_diggy_hole"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "minecraft:netherite_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "07F975B9B72BD15D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2076C8F896F03EE0"
+			rewards: [
+				{
+					id: "37EBA8ADD8C53F95"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "31CCF2400DCD974D"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The beginning of everything!"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2076C8F896F03EE0"]
+			id: "7A2B1CBCD1C3D6AA"
+			rewards: [
+				{
+					id: "018B2227CF60B87B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "158387C728C7FEEC"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78E325B4A5BA0071"]
+			id: "080B300D6B0AFE32"
+			rewards: [
+				{
+					count: 2
+					id: "651BF1949E361CFA"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:iron_ore"
+					block_type: 0
+					checkItem: "false"
+					id: "1D709E6B6BF4DADE"
+					type: "questsadditions:break"
+					value: 2L
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A2B1CBCD1C3D6AA"]
+			id: "78E325B4A5BA0071"
+			rewards: [
+				{
+					count: 2
+					id: "608559A0C4F2CA8A"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					count: 8L
+					id: "1544CC4790DC1992"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F90F14E013C6118"]
+			id: "4731660F66B701D0"
+			rewards: [
+				{
+					count: 2
+					id: "445B1CA31B293466"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:gold_ore"
+					block_type: 0
+					checkItem: "false"
+					id: "16EA9EEF0153E5F0"
+					type: "questsadditions:break"
+					value: 2L
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["080B300D6B0AFE32"]
+			id: "6F90F14E013C6118"
+			rewards: [
+				{
+					id: "7EB8C2DD806396F3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "5A28DC922E5369B2"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F90F14E013C6118"]
+			id: "613C402A82476809"
+			rewards: [
+				{
+					count: 2
+					id: "11C78C34DE85483F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:diamond_ore"
+					block_type: 0
+					checkItem: "false"
+					id: "21EDC2311BE88884"
+					type: "questsadditions:break"
+					value: 2L
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F90F14E013C6118"]
+			id: "43BA68B595C61DD0"
+			rewards: [
+				{
+					count: 2
+					id: "718409770391A222"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:emerald_ore"
+					block_type: 0
+					checkItem: "false"
+					id: "59DAD615B1C0F6B5"
+					type: "questsadditions:break"
+					value: 2L
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F90F14E013C6118"]
+			id: "7B6F6AD62CB6D3F4"
+			rewards: [
+				{
+					count: 2
+					id: "79FA61CF54C740AF"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:lapis_ore"
+					block_type: 0
+					checkItem: "false"
+					id: "6A07C5CC7F485899"
+					type: "questsadditions:break"
+					value: 2L
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F90F14E013C6118"]
+			id: "2DABA93EA591DDE9"
+			rewards: [
+				{
+					id: "34CEA73A714B7F11"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "5B54CB8DAC8D4C52"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DABA93EA591DDE9"]
+			id: "356D60C4ECFE4B7B"
+			rewards: [
+				{
+					id: "0B60ACFD90956338"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:ancient_debris"
+					block_type: 0
+					checkItem: "false"
+					id: "2E0DA8638F4247BC"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["356D60C4ECFE4B7B"]
+			id: "76392462B57342DE"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "485C264222A2C2E2"
+					table_id: 8145086087955226406L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "0369185EEA3C092C"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DABA93EA591DDE9"]
+			id: "3E2838E2A65CE99C"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					icon: "minecraft:book"
+					id: "28D33DB0A6A57C19"
+					table_id: 8145086087955226406L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "2C3595F0251785C3"
+					item: {
+						Count: 1b
+						id: "mythicmetals:celestium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "772E53033C1D60FE"
+			rewards: [
+				{
+					count: 2
+					id: "45E4D951258AB319"
+					item: "mythicmetals:celestium_ingot"
+					type: "item"
+				}
+				{
+					id: "37737E6C050420C5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "764DAF593764D102"
+					item: "mythicmetals:celestium_ingot"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["356D60C4ECFE4B7B"]
+			id: "5E38DDA6E9ED7905"
+			rewards: [
+				{
+					count: 3
+					id: "17D78B30B1808D4D"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "158897D7A158DAFF"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76392462B57342DE"]
+			id: "20C7D4915728B21D"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					icon: "minecraft:book"
+					id: "60B159BE8F89EDA3"
+					table_id: 8145086087955226406L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "59845630C0B4F3F8"
+					item: {
+						Count: 1b
+						id: "mythicmetals:metallurgium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["732832FE0648052D"]
+			id: "70F8B71894CDCFE5"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					icon: "minecraft:book"
+					id: "5E326ADF935F56AB"
+					table_id: 8145086087955226406L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "3AA4E830BF72072D"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13F5B2C23F609E68"]
+			id: "7FDE085C05DFC054"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					icon: "minecraft:book"
+					id: "6A007F79632AABCC"
+					table_id: 8145086087955226406L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "208B15F771C320C8"
+					item: {
+						Count: 1b
+						id: "byg:pendorite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "4D94F6CF0C66CF2C"
+			rewards: [
+				{
+					count: 2
+					id: "5925B46BD49D96E2"
+					item: "mythicmetals:metallurgium_ingot"
+					type: "item"
+				}
+				{
+					id: "4B0C45FF60670BFB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "5C473CD00C5C8689"
+					item: "mythicmetals:metallurgium_ingot"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76392462B57342DE"]
+			id: "732832FE0648052D"
+			rewards: [
+				{
+					id: "7BD19BCC4FE9587A"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C84339562078078"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76392462B57342DE"]
+			id: "13F5B2C23F609E68"
+			rewards: [
+				{
+					id: "6B132FE202C1088D"
+					item: "byg:pendorite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "05EC2323709FE260"
+					item: "byg:pendorite_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23A8BED17626DF85"]
+			id: "619714A14D9AF29C"
+			rewards: [
+				{
+					id: "10BEC6D4D0505DFD"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 17
+					id: "708D587E20012971"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "02C444044B7AD2B8"
+					item: "alloy_forgery:bricks_forge_controller"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["23A8BED17626DF85"]
+			id: "2B144837FC3DB1F9"
+			rewards: [
+				{
+					id: "593356028B5668CA"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 17
+					id: "7592D040C2A1B6A9"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C8A5623067446F3"
+					item: "alloy_forgery:stone_bricks_forge_controller"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60BE160C08671728"]
+			id: "45B9AB970B643BCE"
+			rewards: [
+				{
+					id: "22359E1BE73C250D"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 17
+					id: "636ACFD874B84F56"
+					item: "minecraft:polished_deepslate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3DB98B7C0948D96F"
+					item: "alloy_forgery:deepslate_bricks_forge_controller"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["60BE160C08671728"]
+			id: "4BAF4565F7295ADE"
+			rewards: [
+				{
+					id: "6E680C167517AC95"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 17
+					id: "07AAE05B931E3B07"
+					item: "minecraft:polished_blackstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C07798CC6FB9C41"
+					item: "alloy_forgery:polished_blackstone_forge_controller"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38ADEBE6516D22D2"]
+			disable_toast: "true"
+			icon: "artifacts:digging_claws"
+			id: "23A8BED17626DF85"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "artifacts:digging_claws"
+					id: "039A444F5D975924"
+					title: "Tier 1 forge"
+					type: "dimension"
+				}
+			]
+			title: "Tier 1 forge!"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"619714A14D9AF29C"
+				"2B144837FC3DB1F9"
+			]
+			disable_toast: "true"
+			icon: "artifacts:digging_claws"
+			id: "60BE160C08671728"
+			min_required_dependencies: 1
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "artifacts:digging_claws"
+					id: "0FF1FD2500263BEB"
+					title: "Tier 2 forge"
+					type: "dimension"
+				}
+			]
+			title: "Tier 2 forge!"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"45B9AB970B643BCE"
+				"4BAF4565F7295ADE"
+				"60CD52B7500BC66E"
+			]
+			disable_toast: "true"
+			id: "47E729CF963C00F1"
+			min_required_dependencies: 1
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "artifacts:digging_claws"
+					id: "380F2864AB5C24E5"
+					title: "Tier 3 forge"
+					type: "dimension"
+				}
+			]
+			title: "Tier 3 forge!"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47E729CF963C00F1"]
+			id: "1225C7904430D8BD"
+			rewards: [
+				{
+					id: "378E156D2C97844B"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "299B2DC490D6FEA9"
+					item: "mythicmetals:raw_adamantite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "72AAAFFDB90FB186"
+					item: "alloy_forgery:adamantite_block_forge_controller"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["47E729CF963C00F1"]
+			id: "3BEC18992D956B90"
+			rewards: [
+				{
+					id: "7B7231D2201051F6"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 17
+					id: "4F06ADDB292338DE"
+					item: "minecraft:end_stone_bricks"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11AF17430C0EF68E"
+					item: "alloy_forgery:end_stone_bricks_forge_controller"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: "true"
+			id: "0B8DC590BBCA5A95"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "13712F419BF312DF"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "5A06D1663E66DA10"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			title: "Obsidian to Lava exchange"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60BE160C08671728"]
+			id: "60CD52B7500BC66E"
+			rewards: [
+				{
+					id: "2F942CE7939B763A"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 17
+					id: "596A4365E36ECBFF"
+					item: "minecraft:prismarine_bricks"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "209778A864A50B4C"
+					item: "alloy_forgery:prismarine_bricks_forge_controller"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.diggy_diggy_hole.quests32.description0}"
+				"{ftbquests.chapter.diggy_diggy_hole.quests32.description1}"
+				"{ftbquests.chapter.diggy_diggy_hole.quests32.description2}"
+				"{ftbquests.chapter.diggy_diggy_hole.quests32.description3}"
+				"{image:minecraft:textures/ftbquests/forge_layer_by_layer.png width:200 height:70 align:1}"
+			]
+			id: "38ADEBE6516D22D2"
+			rewards: [
+				{
+					id: "322B86BE919CF09E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Welcome!"
+			tasks: [
+				{
+					id: "5D0E3B8CA2A0795D"
+					title: "Alloy forging!"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			id: "132AD49D76009F36"
+			rewards: [
+				{
+					id: "7761B25C90D6115E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "5B3342791C272550"
+					item: "mythicmetals:star_platinum"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B0DCC0486D1BFC0"
+					item: "mythicmetals:star_platinum"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			id: "02CEE684935C7F4E"
+			rewards: [
+				{
+					id: "5D76FA22E00B26BB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "3423B7CA4FE053B3"
+					item: "mythicmetals:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C908D338ECD7BE1"
+					item: "mythicmetals:steel_ingot"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			id: "3F79ED80E8F03429"
+			rewards: [
+				{
+					id: "51181512C885D872"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "21E42A7B5CC8122F"
+					item: "mythicmetals:hallowed_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D092F6EED2E6DE8"
+					item: "mythicmetals:hallowed_ingot"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			id: "0112C3A910AE4416"
+			rewards: [
+				{
+					id: "0208A49D4F39C81B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "79E842064E88B04A"
+					item: "mythicmetals:durasteel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77ED9B3117DA08FC"
+					item: "mythicmetals:durasteel_ingot"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			id: "52DDB1D4DA3FB32C"
+			rewards: [
+				{
+					id: "77D8E515C6DDA98E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "11ADF9C9DDA1AD74"
+					item: "mythicmetals:raw_runite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "30CDEDEBE8F1E4D5"
+					item: "mythicmetals:raw_runite"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "0BAA905E51356CE1"
+			rewards: [
+				{
+					id: "6727E5DC7C95081D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "53229CB2FB4B8C20"
+					item: "mythicmetals:raw_palladium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "452E848C48F40BEB"
+					item: "mythicmetals:raw_palladium"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			id: "5972595DEE9E2388"
+			rewards: [
+				{
+					id: "5E561A6D75C5DEE6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "58E38DAD7AA080DA"
+					item: "mythicmetals:raw_quadrillum"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "40B8DAC0FD4F0D58"
+					item: "mythicmetals:raw_quadrillum"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			id: "35E5B6DA2F37AD1E"
+			rewards: [
+				{
+					id: "6B31AEF81937057F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "0066FD0776B86C70"
+					item: "mythicmetals:raw_prometheum"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "0246EBEFB0457CBE"
+					item: "mythicmetals:raw_prometheum"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			id: "020A412C7EBA5F87"
+			rewards: [
+				{
+					id: "664DD5725016D62D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "023B2B117F05B0D8"
+					item: "mythicmetals:raw_platinum"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "2F70D0962550F398"
+					item: "mythicmetals:raw_platinum"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			id: "366394A90C12CAFF"
+			rewards: [
+				{
+					id: "1685E064EFD5FFDA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "126AAD8C519C60C2"
+					item: "mythicmetals:raw_tin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "1117A3DF2CAEA5AF"
+					item: "mythicmetals:raw_tin"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			id: "396A73C5B17A5CEA"
+			rewards: [
+				{
+					id: "115AAA6D52694595"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "388B884DE2B25552"
+					item: "mythicmetals:raw_stormyx"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "7C7661EC3DF8DC62"
+					item: "mythicmetals:raw_stormyx"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			id: "2FA8EED4E6C54C04"
+			rewards: [
+				{
+					id: "4079373BF899D37C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "772660AA356D5E1B"
+					item: "mythicmetals:raw_midas_gold"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "7EE74ED45D2E93D9"
+					item: "mythicmetals:raw_midas_gold"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			id: "66DE6BBDC3D49802"
+			rewards: [
+				{
+					id: "01AE5213DABDEFAC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "2D41AF1F379FE186"
+					item: "mythicmetals:raw_kyber"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "50BF34229BDA21BA"
+					item: "mythicmetals:raw_kyber"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			id: "5FC97BECF9CA5EB0"
+			rewards: [
+				{
+					id: "71CFE5D86055A0A9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "590B2DE5F8D8B0DA"
+					item: "mythicmetals:raw_silver"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "4788E9B886BB0FBC"
+					item: "bewitchment:raw_silver"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			id: "3A55549270DBEC0D"
+			rewards: [
+				{
+					id: "0C7E9EE8D57892CA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "58CFA32BD10C0A3A"
+					item: "bno:raw_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "6BE5F35269389CE4"
+					item: "mythicmetals:raw_osmium"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			id: "70EE141730B7B385"
+			rewards: [
+				{
+					id: "15D7D13928919271"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "1EA1D4BCF53D9B92"
+					item: "mythicmetals:raw_orichalcum"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "71D92670C2EF25BD"
+					item: "mythicmetals:raw_orichalcum"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			id: "419B77747848D26E"
+			rewards: [
+				{
+					id: "3DDA661E8A516DDE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "7BC98D14CEF7CD4E"
+					item: "mythicmetals:raw_mythril"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "7AC02D0204369DB5"
+					item: "mythicmetals:raw_mythril"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			id: "62F68B76933BCC42"
+			rewards: [
+				{
+					id: "356E5094FCF8B94F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "3C33D94480722AF5"
+					item: "mythicmetals:raw_manganese"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "2B9C964EA5D23EA3"
+					item: "mythicmetals:raw_manganese"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			id: "4567FA8B35B04816"
+			rewards: [
+				{
+					id: "7CBB16392D76F599"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4070A78BAECAFC22"
+					item: "mythicmetals:stormyx_shell"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B13DD042663D743"
+					item: "mythicmetals:stormyx_shell"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			id: "38BB42AFDC0A2B4C"
+			rewards: [
+				{
+					id: "2C73D3E8A8112FE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3637B407D401AE9C"
+					item: "mythicmetals:banglum_chunk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A1231A7367F9251"
+					item: "mythicmetals:banglum_chunk"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			id: "4AF143B5C1C31D09"
+			rewards: [
+				{
+					id: "51FCA5CBEB02CB04"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6ECA7B3EA1125DA2"
+					item: "mythicmetals:aquarium_pearl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2250468A1B0BB828"
+					item: "mythicmetals:aquarium_pearl"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			id: "123EB747ACD0DD4F"
+			rewards: [
+				{
+					id: "1C57FAAD47533CB2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6D7321BE919B0D0F"
+					item: "mythicmetals:unobtainium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A232C6A5F2C21AB"
+					item: "mythicmetals:unobtainium"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			id: "5DB7B15BF821ACE0"
+			rewards: [
+				{
+					id: "5A3F019FA0F8FDF8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "412A040EA452CAAC"
+					item: "mythicmetals:durasteel_engine"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "08AAD3A28F408ED4"
+					item: "mythicmetals:durasteel_engine"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			id: "0D799FE63997D2AC"
+			rewards: [
+				{
+					count: 32
+					id: "7C52324C0C188AF4"
+					item: "mythicmetals:starrite"
+					type: "item"
+				}
+				{
+					id: "493F7E830FBDD5CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "55184446CCC80E12"
+					item: "mythicmetals:starrite"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			id: "368861209612601C"
+			rewards: [
+				{
+					count: 32
+					id: "689EC208AC2833CB"
+					item: "mythicmetals:morkite"
+					type: "item"
+				}
+				{
+					id: "2B3F370A4168D11E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "5AB1EB72DFF3129B"
+					item: "mythicmetals:morkite"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			description: ["{image:minecraft:textures/ftbquests/Mythicmetals.png width:315 height:240 align:1}"]
+			disable_toast: "true"
+			id: "51A6FC2094193164"
+			min_width: 500
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:filled_map"
+					id: "3E73F4373C656818"
+					title: "This map might tell me something."
+					type: "dimension"
+				}
+			]
+			title: "Where Are The Ores?"
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			id: "2906055A8E6A5CD1"
+			rewards: [
+				{
+					id: "315E53EA29310B8D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "50EF5FC497E80135"
+					item: "mythicmetals:raw_aquarium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "2CE8D11BA780511A"
+					item: "mythicmetals:raw_aquarium"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			id: "79B1E1DEB1382BA6"
+			rewards: [
+				{
+					id: "6274A7EB027319A2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "71B0C24D849BD6CD"
+					item: "mythicmetals:bronze_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "224BF42DA6BFEB4F"
+					item: "mythicmetals:bronze_ingot"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			id: "62435679FE5BC519"
+			rewards: [
+				{
+					count: 9
+					id: "40E47025D406FE93"
+					item: "mythicmetals:raw_carmot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "2CD09ECFF0597703"
+					item: "mythicmetals:raw_carmot"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"39C72FC715AFB49F"
+				"154982082599C771"
+			]
+			hide_details_until_startable: "true"
+			icon: {
+				Count: 1b
+				id: "mythicmetals:orichalcum_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "005B1850C3612878"
+			rewards: [
+				{
+					id: "47646FAE204A6076"
+					item: {
+						Count: 1b
+						id: "mythicmetals:orichalcum_hammer"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "efficiency"
+									lvl: 10
+								}
+								{
+									id: "fortune"
+									lvl: 4
+								}
+								{
+									id: "mending"
+									lvl: 1
+								}
+								{
+									id: "unbreaking"
+									lvl: 3
+								}
+							]
+							Name: "[{\"text\":\"JackHammer\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							Tiered: {
+								Tier: "tiered:unique_tool_3"
+							}
+							display: {
+								Name: "[{\"text\":\"JackHammer\",\"italic\":true,\"color\":\"yellow\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "5F7858020E4551A2"
+					item: "mythicmetals:orichalcum_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 9L
+					id: "34BA9529678BE652"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "14B5B42B9F2D1924"
+					points: "false"
+					type: "xp"
+					value: 50L
+				}
+			]
+			title: "Jackhammer"
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			id: "52417048B8B1CFED"
+			rewards: [
+				{
+					id: "32DE5E31BE52E1FA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 9
+					id: "39EEF515712351D7"
+					item: "mythicmetals:raw_banglum"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1977FE5D932543B8"
+					item: "mythicmetals:raw_banglum"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76392462B57342DE"]
+			id: "3776FFC2E3AF1D0F"
+			rewards: [
+				{
+					id: "30BEED5646D3EFA2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "6386EB70A1FBF90E"
+					item: "artifacts:lucky_scarf"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70EE141730B7B385"]
+			id: "154982082599C771"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "464CEB998572A20D"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "5D6D676FA66A13E7"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "4DCBD81B74A7D864"
+					item: {
+						Count: 1b
+						id: "mythicmetals:orichalcum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "365ADAF838A81F5C"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "79B9D213614D7F2A"
+					points: "false"
+					type: "xp"
+					value: 30L
+				}
+			]
+			title: "Trial #1"
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			id: "10331CE91E542FF4"
+			rewards: [
+				{
+					count: 9
+					id: "71BB9C8DCC917D3F"
+					item: "mythicmetals:raw_adamantite"
+					type: "item"
+				}
+				{
+					id: "3BA260CABC7CD404"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "348308DF5A25782D"
+					item: "mythicmetals:raw_adamantite"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70EE141730B7B385"]
+			id: "39C72FC715AFB49F"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 3L
+					id: "349C764261B3648B"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "6CFDD71E31DB6492"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "274919C3B89A1FDB"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "3BF0715FFE134C24"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "1F527D8B59C3FBE2"
+					points: "false"
+					type: "xp"
+					value: 30L
+				}
+			]
+			title: "Trial #2"
+			x: 19.0d
+			y: 5.5d
+		}
+	]
+	title: "The Ultimate Miner"
+}

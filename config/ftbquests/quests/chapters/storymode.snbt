@@ -1,0 +1,3145 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "storymode"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "0435F3D9C265BE66"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4EB0D3FCC2146FB8"]
+			description: [
+				"{ftbquests.chapter.storymode.quests0.description0}"
+				"{ftbquests.chapter.storymode.quests0.description1}"
+				"{ftbquests.chapter.storymode.quests0.description2}"
+				""
+				"{ftbquests.chapter.storymode.quests0.description4}"
+			]
+			disable_toast: "true"
+			hide_text_until_complete: "true"
+			id: "647D0B512EB98E40"
+			rewards: [
+				{
+					count: 3
+					id: "079AA032AB56EC22"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "737F5D46B6F2EF63"
+					item: "minecraft:compass"
+					type: "item"
+				}
+			]
+			subtitle: "Ask around for information"
+			tasks: [
+				{
+					checkItem: "false"
+					entity: "minecraft:villager"
+					icon: "artifacts:villager_hat"
+					id: "0DCF9577F792D400"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 3L
+				}
+			]
+			title: "Familiar Faces"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3857920B3183E2B5"]
+			description: ["{ftbquests.chapter.storymode.quests1.description}"]
+			hide_text_until_complete: "true"
+			id: "5883C8D68E4EB9FA"
+			min_width: 225
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p title {\"text\":\"Soul released\"}"
+					id: "24082E57C8A530E4"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Release his soul from torment."
+			tasks: [
+				{
+					entity: "soulsweapons:night_shade"
+					icon: "soulsweapons:essence_of_eventide"
+					id: "5F92C864742AF342"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Here Lies The Champion's Grave"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["647D0B512EB98E40"]
+			description: ["{ftbquests.chapter.storymode.quests2.description}"]
+			id: "1490FED61CB6CB34"
+			invisible: "true"
+			rewards: [
+				{
+					id: "31A0524C958DBFDD"
+					item: {
+						Count: 1b
+						id: "minecraft:name_tag"
+						tag: {
+							display: {
+								Name: "[{\"text\":\"Hmmmm\",\"italic\":false,\"color\":\"dark_green\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E902B5D8009BB39"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			subtitle: "Interact with villagers 100 times"
+			tasks: [
+				{
+					checkItem: "false"
+					entity: "minecraft:villager"
+					icon: "artifacts:villager_hat"
+					id: "30876F3AE069E870"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 100L
+				}
+			]
+			title: "Golden Conversationalist."
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F0B6728D9AC8545"]
+			description: ["{ftbquests.chapter.storymode.quests3.description}"]
+			disable_toast: "true"
+			id: "4EB0D3FCC2146FB8"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p title {\"text\":\"Chapter 1\"}"
+					id: "234959B99869C309"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p subtitle {\"text\":\"The Beginning\"}"
+					id: "2C50733B6108C969"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			subtitle: "The Beginning"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:writable_book"
+					id: "047E927853351D18"
+					title: "Chapter 1"
+					type: "dimension"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EB0D3FCC2146FB8"]
+			disable_toast: "true"
+			id: "3E134C8B9A016856"
+			secret: "true"
+			size: 0.1d
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "19EE4BE6FE3A1250"
+					type: "questsadditions:time"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["647D0B512EB98E40"]
+			description: ["{ftbquests.chapter.storymode.quests5.description}"]
+			id: "7BC994649A7678B5"
+			rewards: [
+				{
+					count: 10
+					id: "655DDEA4E144086F"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "77CD29161C00D88B"
+					player_command: "false"
+					title: "+50 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Armor and Weapons"
+			tasks: [
+				{
+					id: "7D9683DEB95ADA27"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25B3B56E57C31A7B"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FFCC0ABAAF6C1F2"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D3B9D4BC774E5FA"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53C1DF3331FD4E2C"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Preperation"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["647D0B512EB98E40"]
+			description: ["{ftbquests.chapter.storymode.quests6.description}"]
+			icon: "minecraft:cooked_beef"
+			id: "035012635F5DBAB1"
+			rewards: [
+				{
+					count: 2
+					id: "79671CCB28BF2C48"
+					item: "farmersdelight:roasted_mutton_chops"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "34F76AD3FB3903CB"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6BF88F2B9D4A72D4"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59FCAE2BDED940F0"
+					item: "farmersdelight:bacon_and_eggs"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "2EE2258D40A1E9B0"
+					player_command: "false"
+					title: "+50 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Food"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 3L
+					id: "4FC452794C5A6BA4"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "736432B01F1811CC"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "15CBC10DF9ABCC29"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "4B0F004DEEE7F18C"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "3C0789F23FEBE27C"
+					item: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 8L
+					id: "16B59144BBBD2A0C"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+			]
+			title: "Preparation"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7BC994649A7678B5"
+				"035012635F5DBAB1"
+			]
+			description: ["{ftbquests.chapter.storymode.quests7.description}"]
+			disable_toast: "true"
+			hide_dependency_lines: "true"
+			id: "24ECC973CD11ED01"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p title {\"text\":\"Chapter 2\"}"
+					id: "2771E78DB787E1FC"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p subtitle {\"text\":\"The Journey\"}"
+					id: "0D52B0B9CE44CEF1"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			subtitle: "The Journey"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:writable_book"
+					id: "3063C791B76C079C"
+					title: "Chapter 2"
+					type: "dimension"
+				}
+			]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24ECC973CD11ED01"]
+			description: ["{ftbquests.chapter.storymode.quests8.description}"]
+			id: "2B60A98FAE33BF3E"
+			rewards: [
+				{
+					id: "39260382BDF3F5C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					count: 2L
+					id: "56D187CF02258D97"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+			]
+			title: "Shiny stones."
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B60A98FAE33BF3E"]
+			description: ["{ftbquests.chapter.storymode.quests9.description}"]
+			id: "3857920B3183E2B5"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 100"
+					icon: "create:experience_nugget"
+					id: "1A9F8F7222A9E7F7"
+					player_command: "false"
+					title: "+100 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					id: "2D3915114690316B"
+					item: "soulsweapons:boss_compass"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5883C8D68E4EB9FA"]
+			hide_text_until_complete: "true"
+			id: "43F6040ADFD7126A"
+			rewards: [
+				{
+					count: 2
+					id: "375C15C5FB6B931E"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Slay The Returning Knight"
+			tasks: [
+				{
+					entity: "soulsweapons:returning_knight"
+					icon: "soulsweapons:altar_block"
+					id: "4F23B053EDC79A7C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Cathedral of Resurrection"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"035012635F5DBAB1"
+				"7BC994649A7678B5"
+			]
+			disable_toast: "true"
+			icon: "supplementaries:present_black"
+			id: "3FE8A3129B733718"
+			rewards: [
+				{
+					id: "399951D322DAD3AD"
+					table_id: 6618933856570632221L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "29CCA03557884DCF"
+					title: "Chapter Reward!"
+					type: "checkmark"
+				}
+			]
+			title: "Chapter Reward! C1"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43F6040ADFD7126A"]
+			disable_toast: "true"
+			icon: "supplementaries:present_black"
+			id: "19C6920D26ACDC08"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "76047BC619E90726"
+					table_id: 6618933856570632221L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "386C0347AB1B3CE4"
+					title: "Chapter reward!"
+					type: "checkmark"
+				}
+			]
+			title: "Chapter Reward! C2"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43F6040ADFD7126A"]
+			description: ["{ftbquests.chapter.storymode.quests13.description}"]
+			disable_toast: "true"
+			hide_dependency_lines: "true"
+			id: "6FB21C46800B8242"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p title {\"text\":\"Chapter 3\"}"
+					id: "3E6D38D2FA7EA518"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p subtitle {\"text\":\"The Beauty Of Hell\"}"
+					id: "47762EA59837007D"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			subtitle: "The Beauty Of Hell"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:writable_book"
+					id: "1E9C0960E1E9B81A"
+					title: "Chapter 3"
+					type: "dimension"
+				}
+			]
+			title: "Chapter 3"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2B60A98FAE33BF3E"]
+			description: ["{ftbquests.chapter.storymode.quests14.description}"]
+			id: "3F609810866503EE"
+			invisible: "true"
+			rewards: [
+				{
+					id: "31795F833C17C9F7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					count: 64L
+					id: "1D0044E63C4350B6"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3F609810866503EE"]
+			id: "7E37B83DB77D9E38"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon minecraft:silverfish ~ ~ ~ {CustomName:'[{\"text\":\"Strange Creature\",\"color\":\"dark_blue\",\"italic\":true}]',HandItems:[{id:stick,tag:{display:{Name:'[{\"text\":\"Dirty Stick\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Quest item!\",\"italic\":false}]','[{\"text\":\"DO NOT PLACE IT DOWN\",\"italic\":false,\"color\":\"dark_red\"}]']},Enchantments:[{id:knockback,lvl:6}]},Count:1}],HandDropChances:[1.00f],Attributes:[{Name:\"generic.movement_speed\",Base:1f},{Name:\"generic.armor\",Base:50f}]}"
+					id: "40D76B9A57DF3C76"
+					player_command: "false"
+					title: "Summon"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 10L
+					id: "08208276DCD0843A"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Strange Critters"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60647ED50918C7D2"]
+			description: ["{ftbquests.chapter.storymode.quests16.description}"]
+			id: "545D9612E9802DA4"
+			rewards: [
+				{
+					id: "2ED96CAE067E57AC"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 10L
+					id: "2BB3F03D443212A5"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			title: "Rumors"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6FB21C46800B8242"]
+			id: "18A14A719006627E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=random] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=random]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"The realm is filled with mysterious structures. I wonder if they mean something.\",\"color\":\"yellow\"}]}"
+					id: "4210D2112B662DE9"
+					player_command: "false"
+					title: "Gossip"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run effect give @p darkness 45"
+					id: "22138B106308F3F3"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run effect give @p slowness 45 1 true"
+					id: "13AA3CEF186AE23D"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run effect give @p minecraft:resistance 45 255 true"
+					id: "047FAE685FC19DFB"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Find out about the rumors"
+			tasks: [
+				{
+					checkItem: "false"
+					entity: "minecraft:villager"
+					icon: "artifacts:villager_hat"
+					id: "6820BADCBD4C1B17"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 10L
+				}
+			]
+			title: "Rumors"
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7720CE4AB5F5267B"]
+			disable_toast: "true"
+			id: "60647ED50918C7D2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=nearest] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=nearest]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"The ritual involves lighting up Obsidian. I read it in an old alchemist's book.\",\"color\":\"yellow\"}]}"
+					id: "45799ADC17EF2234"
+					player_command: "false"
+					title: "Gossip"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "6EEB4277DE58E646"
+					type: "questsadditions:time"
+				}
+			]
+			title: "d8"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["17E4CEA6AA25E3EC"]
+			disable_toast: "true"
+			id: "7720CE4AB5F5267B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=random] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=random]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"An old wives' tale perhaps.\",\"color\":\"yellow\"}]}"
+					id: "5EC5B7CDC3DACA5A"
+					player_command: "false"
+					title: "d7"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "6DD3E57B5F24AB32"
+					type: "questsadditions:time"
+				}
+			]
+			title: "d7"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["18A14A719006627E"]
+			disable_toast: "true"
+			id: "40799F1783A9F1BD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=random] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=random]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"Indeed sire, who put them there in the first place?\",\"color\":\"yellow\"}]}"
+					id: "6CD25CB277C1173D"
+					player_command: "false"
+					title: "d1"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "7CA637219DB0BDA8"
+					type: "questsadditions:time"
+				}
+			]
+			title: "dialouge1"
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["40799F1783A9F1BD"]
+			disable_toast: "true"
+			id: "2803144AC68C39FF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=random] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=random]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"I hear they can appear out of thin air!\",\"color\":\"yellow\"}]}"
+					id: "7F9D53A16436BFE1"
+					player_command: "false"
+					title: "d2"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "23C0A39E2123330C"
+					type: "questsadditions:time"
+				}
+			]
+			title: "d2"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["57DD6ABAD9549CCE"]
+			disable_toast: "true"
+			id: "17E4CEA6AA25E3EC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=random] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=random]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"Don't mind him, his mind was lost long ago. He claims to have seen little pig-like creatures coming to kill us all.\",\"color\":\"yellow\"}]}"
+					id: "304F73A09315134D"
+					player_command: "false"
+					title: "d6"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "21AC2097C5CEBF31"
+					type: "questsadditions:time"
+				}
+			]
+			title: "d6"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27DB8A72F6BA4665"]
+			disable_toast: "true"
+			id: "10ACFDB21F564C16"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=random] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=random]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"I tremble at the thought.\",\"color\":\"yellow\"}]}"
+					id: "5B95D8DEF13ECA1B"
+					player_command: "false"
+					title: "d4"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "299B22552ECFCAF2"
+					type: "questsadditions:time"
+				}
+			]
+			title: "d4"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2803144AC68C39FF"]
+			disable_toast: "true"
+			id: "27DB8A72F6BA4665"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=random] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=random]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"Unbelievable...\",\"color\":\"yellow\"}]}"
+					id: "587DDAE765B5C3E9"
+					player_command: "false"
+					title: "d3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "13BCAB6AD36B021F"
+					type: "questsadditions:time"
+				}
+			]
+			title: "d3"
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["10ACFDB21F564C16"]
+			disable_toast: "true"
+			id: "57DD6ABAD9549CCE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @e[type=villager,limit=1,sort=random] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=random]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"PIG-MEN, HUNDREDS OF THEM! THE DAY OF RECKONING IS NEAR!\",\"color\":\"yellow\"}]}"
+					id: "47596680E0152FF2"
+					player_command: "false"
+					title: "d5"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "076EDB629715D338"
+					type: "questsadditions:time"
+				}
+			]
+			title: "d5"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6EF417AB085EEF14"]
+			id: "1CDE3FAADFD755AD"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "5308D0C84CCC02B6"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					id: "13D6EA2C9BD08069"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["545D9612E9802DA4"]
+			id: "6237BF38A163F5F8"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "195C0A6B546ACD12"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					id: "55752AA1B760C6D0"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["545D9612E9802DA4"]
+			id: "7CA6005B40006FA2"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "402A9F05D55A20AF"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombified_piglin"
+					id: "1F86723A4F98FEFE"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6EF417AB085EEF14"]
+			id: "077E681F374FDDB0"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "32E5F72640F82949"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "390AC9B2BFBFFE29"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["38D499D4D1316253"]
+			id: "048C557D2776C388"
+			rewards: [
+				{
+					id: "6F5009B21742E534"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "06E31E6F248F8110"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					icon: "bosses_of_mass_destruction:blazing_eye"
+					id: "3872462FABA8CBE0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6EF417AB085EEF14"]
+			id: "55C29BC069D7BA7F"
+			invisible: "true"
+			rewards: [
+				{
+					id: "4D4C6F299F7B2436"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "7E8BD0274172F7DF"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["545D9612E9802DA4"]
+			dependency_requirement: "all_started"
+			id: "38D499D4D1316253"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "0C2CA217EA8491AB"
+					player_command: "false"
+					title: "+50 XP"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: "artifacts:fire_gauntlet"
+					id: "1B1D6836ADD8E54E"
+					structure: "bosses_of_mass_destruction:gauntlet_arena"
+					title: "Gauntlet Arena"
+					type: "structure"
+				}
+			]
+			title: "Find The Gauntlet Arena"
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["545D9612E9802DA4"]
+			id: "6EF417AB085EEF14"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "3AABE8F72C440CD6"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+					id: "71A41BAF6190ECB9"
+					type: "advancement"
+				}
+			]
+			title: "Nether Fortress"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["545D9612E9802DA4"]
+			id: "21439C3DB50BB6BC"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "1B9CF7F65A9D8C40"
+					player_command: "false"
+					title: "+50 XP"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7A18E6D859E55337"
+					structure: "soulsweapons:decaying_kingdom"
+					title: "Find: Decaying Kingdom"
+					type: "structure"
+				}
+			]
+			title: "The Decaying Kingdom"
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["21439C3DB50BB6BC"]
+			id: "1D78170FF7262DA2"
+			rewards: [
+				{
+					id: "4DC5C9129A66CF52"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "48BFDB8F25AACB9D"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "soulsweapons:accursed_lord_boss"
+					icon: {
+						Count: 1b
+						id: "soulsweapons:darkin_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3985FE3394012EFB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"048C557D2776C388"
+				"1D78170FF7262DA2"
+			]
+			icon: "supplementaries:present_blue"
+			id: "7438CA66D305610D"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "67CBC5D4529507A7"
+					table_id: 6618933856570632221L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0632C5D8AE2DF400"
+					title: "Chapter Reward"
+					type: "checkmark"
+				}
+			]
+			title: "Chapter Reward! C3"
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["545D9612E9802DA4"]
+			id: "5C8FB6AE55640769"
+			invisible: "true"
+			rewards: [
+				{
+					id: "0BE0BFBCDF8839C2"
+					item: {
+						Count: 1b
+						id: "minecraft:pig_spawn_egg"
+						tag: {
+							EntityTag: {
+								ActiveEffects: [
+									{
+										Amplifier: 1
+										Duration: 2555555
+										Id: 12
+										ShowParticles: 0b
+									}
+									{
+										Amplifier: 2
+										Duration: 255555
+										Id: 10
+										ShowParticles: 0b
+									}
+								]
+							}
+							display: {
+								Lore: ["[{\"text\":\"Has passive plot armour but still dies at the end.\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Reuben\",\"italic\":false,\"color\":\"dark_red\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1029695526256715"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					id: "7134290CD46762D0"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "minecraft:zombified_piglin"
+					id: "1802593AA38F0E44"
+					type: "kill"
+					value: 30L
+				}
+			]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["07053B21CE0F32F9"]
+			description: ["{ftbquests.chapter.storymode.quests38.description}"]
+			disable_toast: "true"
+			hide_dependency_lines: "true"
+			id: "3D1D31B1417AFC50"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p title {\"text\":\"Chapter 4\"}"
+					id: "2CBBFC0428116CDF"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p subtitle {\"text\":\"Chaos Awaits\"}"
+					id: "77E668E2BB19C3CB"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			subtitle: "Chaos Awaits"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:writable_book"
+					id: "008C604CCEBC6C9E"
+					title: "Chapter 4"
+					type: "dimension"
+				}
+			]
+			title: "Chapter 4"
+			x: 32.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D78170FF7262DA2"
+				"048C557D2776C388"
+			]
+			disable_toast: "true"
+			hide_dependency_lines: "true"
+			id: "4D606F5CAC8EC587"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p title {\"text\":\"Chapter 3.5\"}"
+					id: "21A4EC4EAD03D8D6"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p subtitle {\"text\":\"A break from all the worries\"}"
+					id: "3FAE5461B8E252CD"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			subtitle: "A Break From All Worries"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:writable_book"
+					id: "20B2CE3B61BB4BC7"
+					title: "Chapter 3.5"
+					type: "dimension"
+				}
+			]
+			title: "Chapter 3.5"
+			x: -5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4D606F5CAC8EC587"]
+			id: "3725DA36AEE3176D"
+			rewards: [
+				{
+					id: "3260B118D91F7A94"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "154C0A9891A5522B"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+			]
+			title: "A Place To Call Home"
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "4D1EBC3BA5BB4123"
+			rewards: [
+				{
+					count: 16
+					id: "01B350A01F83D176"
+					item: "croptopia:blt"
+					type: "item"
+				}
+				{
+					id: "3190EFFB6D4D0CEE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "586E049C65F33F2C"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "79E07D421BE99732"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "0F5B994618B8D760"
+					item: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "2530B6C74565E16E"
+			rewards: [
+				{
+					id: "0CEC7F0CF46B52E9"
+					item: "mythicmetals_decorations:celestium_chest"
+					type: "item"
+				}
+				{
+					id: "23779B7E55AE9933"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "535DC7F5FB866BEA"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "09595C7B145EEB44"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "32C77407BBF5A3B5"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "5B653D7CD5D409B1"
+			rewards: [
+				{
+					id: "2E126B87E9CAF17B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 64
+					id: "5335AC0A3B01D92D"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "1644F56AE1975853"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "74F724F1A731F20B"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "196F83DBFEBED34A"
+			rewards: [
+				{
+					id: "4438013E43C0D680"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 32
+					id: "3517BCE8C9B9D283"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "2D5005900BC37653"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "1DF9476990C933A2"
+					item: "spell_engine:spell_binding"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "1045CAD54674C3C2"
+			rewards: [
+				{
+					id: "51A8F7A890DE6B7D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "221CBA31E448A314"
+					item: {
+						Count: 1b
+						id: "betterend:diamond_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "1838837634BE865B"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "46FDA3688510DD1D"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "76421D4FB9BD5B2D"
+			rewards: [
+				{
+					id: "1F0D7890A3B3B9C1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4273C57CFA3DD07C"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "163B45E80606678A"
+					player_command: "false"
+					title: "XP +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "15C858FD077A0394"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "07053B21CE0F32F9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/playerstats @p add strength 1"
+					id: "295647FEE649C0F4"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/msg @p You feel a little bit stronger? +1 Str"
+					id: "15F1DB5FE5B66340"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "71FC7699A6E5A685"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Rest on a Red Bed"
+			tasks: [
+				{
+					block: "minecraft:red_bed"
+					block_type: 0
+					checkItem: "false"
+					id: "7233465F4DA297D8"
+					isItemInteraction: "false"
+					title: "Sleep"
+					type: "questsadditions:use"
+					value: 1L
+				}
+			]
+			title: "A Day Well Spent"
+			x: 5.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["07053B21CE0F32F9"]
+			icon: "supplementaries:present_blue"
+			id: "55AD6FD296B43D88"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "4D097393478536F2"
+					table_id: 6618933856570632221L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6C0139F73F041714"
+					title: "Chapter Reward"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3725DA36AEE3176D"]
+			disable_toast: "true"
+			id: "5025DFC043CE60C2"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: {
+						Count: 1b
+						id: "betterend:netherite_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "41B29409DBE099DA"
+					title: "Renovating"
+					type: "dimension"
+				}
+			]
+			title: "Renovating"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["07053B21CE0F32F9"]
+			disable_toast: "true"
+			id: "29C0C690868A2042"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @p"
+					id: "4B1E3A384C3C9AE7"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 5L
+					id: "103FA8D4A98E46B3"
+					type: "questsadditions:time"
+				}
+			]
+			title: "????"
+			x: 6.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["545D9612E9802DA4"]
+			icon: "adventurez:gilded_stone"
+			id: "743ACBBEEAB1D6E4"
+			rewards: [
+				{
+					count: 2
+					id: "4C5BB9411F79C786"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "adventurez:stone_golem"
+					id: "7BC20CD73FD0C409"
+					title: "Side quest: Blackstone Golem"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["24ECC973CD11ED01"]
+			icon: "minecraft:flowering_azalea"
+			id: "7B76BCF0D3A5172E"
+			rewards: [
+				{
+					id: "6DA9DF4C18B429DA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					id: "770F350CE45AB8E7"
+					title: "Visit Biome: Lush Caves"
+					type: "biome"
+				}
+			]
+			title: "Side Quest: Find the lush caves"
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B76BCF0D3A5172E"]
+			icon: "bosses_of_mass_destruction:void_blossom"
+			id: "7D897D25BF3E0FDB"
+			rewards: [
+				{
+					count: 2
+					id: "2AEBA32CBB7419DA"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 200"
+					icon: "create:experience_nugget"
+					id: "2E59704F49A0718F"
+					player_command: "false"
+					title: "XP +200"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					icon: "bosses_of_mass_destruction:void_blossom"
+					id: "7E1E15948B881B48"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill the Void Blossom"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4124CEE3E6679C1A"]
+			id: "326BACEC4C054E43"
+			rewards: [
+				{
+					id: "39012C3CA963B83E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "445292A1D57B74A1"
+					structure: "bosses_of_mass_destruction:lich_tower"
+					title: "Find: Lich Tower"
+					type: "structure"
+				}
+			]
+			title: "The Litch Tower"
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["326BACEC4C054E43"]
+			icon: "endrem:undead_soul"
+			id: "474A653D74A63189"
+			rewards: [
+				{
+					count: 2
+					id: "3A227DB41B3947AB"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "endrem:undead_soul"
+					id: "3E6050382A1B4BE5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 27.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07053B21CE0F32F9"]
+			id: "145CFB422176EF09"
+			rewards: [
+				{
+					command: "/playerstats @p add stamina 3"
+					icon: "artifacts:running_shoes"
+					id: "5B665EB83E125A03"
+					player_command: "false"
+					title: "Stamina up +3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "22A8E3F7F67563D4"
+					item: "croptopia:apple_juice"
+					type: "item"
+				}
+				{
+					id: "79662CECC528A8A6"
+					item: "croptopia:cranberry_juice"
+					type: "item"
+				}
+				{
+					id: "78BFD4703A3D2462"
+					item: "croptopia:grape_juice"
+					type: "item"
+				}
+				{
+					id: "33F84F55710CD9CD"
+					item: "croptopia:melon_juice"
+					type: "item"
+				}
+				{
+					id: "786C3A0963037B3A"
+					item: "croptopia:orange_juice"
+					type: "item"
+				}
+				{
+					id: "67E1188114FCEDFE"
+					item: "croptopia:pineapple_juice"
+					type: "item"
+				}
+				{
+					id: "5D6BD6DB46025357"
+					item: "croptopia:saguaro_juice"
+					type: "item"
+				}
+				{
+					id: "671FE65E4C25F2F3"
+					item: "croptopia:tomato_juice"
+					type: "item"
+				}
+			]
+			title: "Side quest: Can't Train On An Empty Stomach"
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"3FE8A3129B733718"
+				"19C6920D26ACDC08"
+				"7438CA66D305610D"
+			]
+			hide_details_until_startable: "true"
+			hide_text_until_complete: "true"
+			icon: "supplementaries:trapped_present_black"
+			id: "4226BEAD7E39C5A4"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "300361B573BAA2AE"
+					table_id: 4121646960341280099L
+					type: "choice"
+				}
+			]
+			subtitle: "C1 + C2 + C3"
+			tasks: [
+				{
+					id: "7C5A98536E9E8E46"
+					title: "3 Chapters Finished Reward"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D1D31B1417AFC50"]
+			description: ["{ftbquests.chapter.storymode.quests58.description}"]
+			icon: "byg:white_chiseled_sandstone"
+			id: "4124CEE3E6679C1A"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "56A67547181527E9"
+					item: "byg:white_chiseled_sandstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "byg:white_chiseled_sandstone"
+					id: "5556AAE951BFD34F"
+					title: "Receive White Chiseled Sandstone"
+					type: "dimension"
+				}
+			]
+			title: "Ancient Inscriptions"
+			x: 30.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4124CEE3E6679C1A"]
+			id: "0C8042CCEA9E008F"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 500"
+					icon: "create:experience_nugget"
+					id: "3276DCABC45231CB"
+					player_command: "false"
+					title: "+500 XP"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "69DE62878688237C"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "20BBA9967AB955BF"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C8042CCEA9E008F"]
+			id: "322D08A4FC0048E4"
+			rewards: [
+				{
+					id: "23D5B451C08D3D92"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "461F65C7B6DC0142"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Slay The Wither"
+			tasks: [
+				{
+					id: "7BF4692E06DD8E06"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Withering Heights"
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["322D08A4FC0048E4"]
+			icon: "supplementaries:present_blue"
+			id: "61F4211A599BF992"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "365CCB6E73E83604"
+					table_id: 6618933856570632221L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0DE49A30AA165342"
+					title: "Chapter Reward"
+					type: "checkmark"
+				}
+			]
+			title: "Chapter Reward C4"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["322D08A4FC0048E4"]
+			description: ["{ftbquests.chapter.storymode.quests62.description}"]
+			disable_toast: "true"
+			hide_dependency_lines: "true"
+			id: "607104DE728A80F5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p title {\"text\":\"Chapter 5\"}"
+					id: "0861C5D8CAE269ED"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p subtitle {\"text\":\"The Beginning Of The End\"}"
+					id: "303465EC79A79A64"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			subtitle: "The Beginning Of The End"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:writable_book"
+					id: "60CC8AFB25D9F45C"
+					title: "Chapter 5"
+					type: "dimension"
+				}
+			]
+			title: "Chapter 5"
+			x: 32.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["607104DE728A80F5"]
+			id: "500BE13604F7F931"
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "1E080F5F480AEAF6"
+					player_command: "false"
+					title: "XP REWARD"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					id: "2E77E8BC350E46E0"
+					type: "advancement"
+				}
+			]
+			title: "Locate The Stronghold"
+			x: 30.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["500BE13604F7F931"]
+			id: "735F49E6EEEFFFCB"
+			rewards: [
+				{
+					id: "6DD3716AC8258640"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "1B1F6342EDABDAD1"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "5D9DCB06C77CB664"
+					type: "advancement"
+				}
+			]
+			title: "Free The End"
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["735F49E6EEEFFFCB"]
+			id: "18A37F324390A1D6"
+			invisible: "true"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "17C2D49E900713D5"
+					table_id: 3600401091141885039L
+					type: "choice"
+				}
+				{
+					id: "04ECC6610C590D44"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+					id: "1C2FD706FF6E74B3"
+					type: "advancement"
+				}
+			]
+			title: "A NeverEnding Story"
+			x: 28.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["735F49E6EEEFFFCB"]
+			id: "3D2E32AB74ED83D6"
+			rewards: [
+				{
+					id: "155656D86CD44992"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7474ED07070E29B9"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					id: "4D0FB288EF8876EB"
+					item: {
+						Count: 1b
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "To The Skies!"
+			x: 24.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["735F49E6EEEFFFCB"]
+			id: "46C5E55AA8B5D059"
+			rewards: [
+				{
+					id: "45E197CFB70AFD1B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "5EAFA2DB67AAB3EC"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: "bosses_of_mass_destruction:obsidian_heart"
+					id: "2984813D33B4631C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 24.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33A3AB4453E46579"]
+			description: ["{ftbquests.chapter.storymode.quests68.description}"]
+			disable_toast: "true"
+			hide_dependency_lines: "true"
+			id: "32ECDBA49AA512A5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p title {\"text\":\"Chapter 6\"}"
+					id: "34EA4179FB9F5B99"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run title @p subtitle {\"text\":\"The Darkest Of Depths\"}"
+					id: "26E58F447D8E0B62"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			subtitle: "The Darkest Of Depths"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:writable_book"
+					id: "0BB334D32D233D65"
+					title: "Chapter 6"
+					type: "dimension"
+				}
+			]
+			title: "Chapter 6"
+			x: 32.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"46C5E55AA8B5D059"
+				"3D2E32AB74ED83D6"
+				"4207D98220B72677"
+			]
+			icon: "supplementaries:present_blue"
+			id: "33A3AB4453E46579"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "6953B2A7A3E359F9"
+					table_id: 6618933856570632221L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "20176DD8F3D3BA00"
+					title: "Chapter Reward"
+					type: "checkmark"
+				}
+			]
+			title: "Chapter Reward C5"
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32ECDBA49AA512A5"]
+			id: "2A74363B9A32FCE6"
+			rewards: [
+				{
+					id: "5AD3425116E8B995"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:sculk"
+					id: "32FB59B824FE33E3"
+					observe_type: 0
+					timer: 250L
+					title: "Observe some Sculk"
+					to_observe: "minecraft:sculk"
+					type: "observation"
+				}
+			]
+			title: "Sightseeing"
+			x: 30.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["32ECDBA49AA512A5"]
+			id: "2B838944AB2AFBC3"
+			rewards: [
+				{
+					id: "35FB068AB7F32929"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:sculk_shrieker"
+					id: "68E1279DDDCBA65E"
+					observe_type: 0
+					timer: 250L
+					title: "Observer a Sculk Shrieker"
+					to_observe: "minecraft:sculk_shrieker"
+					type: "observation"
+				}
+			]
+			title: "Sightseeing"
+			x: 30.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["32ECDBA49AA512A5"]
+			id: "16C8CDD06618E46C"
+			rewards: [
+				{
+					id: "56BC9518ED87A682"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:sculk_catalyst"
+					id: "387575EA1114CBCA"
+					observe_type: 0
+					timer: 250L
+					title: "Observe a Sculk Catalyst"
+					to_observe: "minecraft:sculk_catalyst"
+					type: "observation"
+				}
+			]
+			title: "Sightseeing"
+			x: 30.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32ECDBA49AA512A5"]
+			id: "6AA6CC0C72763577"
+			rewards: [
+				{
+					id: "2EC6319A99C1905F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:sculk_sensor"
+					id: "4A9038D81BF813A0"
+					observe_type: 0
+					timer: 250L
+					title: "Observe a Sculk Sensor"
+					to_observe: "minecraft:sculk_sensor"
+					type: "observation"
+				}
+			]
+			title: "Sightseeing"
+			x: 30.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["32ECDBA49AA512A5"]
+			id: "4B40BCF8312F3166"
+			rewards: [
+				{
+					id: "25812B6558CED12F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:sculk_vein"
+					id: "4A851771B6CB031C"
+					observe_type: 0
+					timer: 250L
+					title: "Observe a Skulk Vein"
+					to_observe: "minecraft:sculk_vein"
+					type: "observation"
+				}
+			]
+			title: "Sightseeing"
+			x: 30.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4B40BCF8312F3166"
+				"6AA6CC0C72763577"
+				"2A74363B9A32FCE6"
+				"16C8CDD06618E46C"
+				"2B838944AB2AFBC3"
+			]
+			id: "0193750B7101C85F"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "2C5E38547A7E7C51"
+					player_command: "false"
+					title: "+50 XP"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/avoid_vibration"
+					criterion: ""
+					id: "535561631B0B079E"
+					type: "advancement"
+				}
+			]
+			x: 28.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0193750B7101C85F"]
+			id: "3AACB6E34EFB3814"
+			rewards: [
+				{
+					id: "5CBAD0CCA938C28E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0CA4FEAE53A24DCE"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 50"
+					icon: "create:experience_nugget"
+					id: "5F0EA9F6BA488BB6"
+					player_command: "false"
+					title: "XP REWARD"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "0C9F2E76094DD6F7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "A Chill In My Spine"
+			x: 26.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3AACB6E34EFB3814"]
+			id: "1D4F304C06BCC517"
+			rewards: [
+				{
+					id: "2FAAB65541BDD7B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					icon: "minecraft:sculk"
+					id: "011F7163D3357AA7"
+					title: "Visit the Otherside Dimension"
+					type: "dimension"
+				}
+			]
+			title: "The Otherside"
+			x: 24.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0193750B7101C85F"]
+			id: "40D72FCFE157252C"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@p\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"Doesn't every mob drop xp? These seem to absorb xp and expand...\",\"color\":\"yellow\"}]}"
+					id: "37666BAD30B2D34C"
+					player_command: "false"
+					title: "d1"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:sculk"
+					block_type: 0
+					checkItem: "false"
+					id: "483DD65D14AF58C1"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			title: "A Sudden Realization"
+			x: 28.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1D4F304C06BCC517"
+				"07CADCD6D5BAF03C"
+			]
+			description: ["{ftbquests.chapter.storymode.quests79.description}"]
+			disable_toast: "true"
+			id: "674D0F9F9193DCE5"
+			rewards: [
+				{
+					id: "57FA338FD3B8700C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: "true"
+					id: "1E206933C25B3C5C"
+					table_id: 6618933856570632221L
+					type: "random"
+				}
+			]
+			subtitle: "A Journey's End"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:grass_block"
+					id: "33D9ED57D3B8316C"
+					title: "A Journey's End"
+					type: "dimension"
+				}
+			]
+			title: "To Be Continued"
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"674D0F9F9193DCE5"
+				"61F4211A599BF992"
+				"33A3AB4453E46579"
+			]
+			hide_details_until_startable: "true"
+			hide_text_until_complete: "true"
+			icon: "supplementaries:trapped_present_black"
+			id: "55F004759CAAAFCE"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "69EE8D60F5C95B43"
+					table_id: 4121646960341280099L
+					type: "choice"
+				}
+			]
+			subtitle: "C4 + C5 + C6"
+			tasks: [
+				{
+					id: "641481D2470D59E8"
+					title: "3 Chapters Finished Reward"
+					type: "checkmark"
+				}
+			]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"55F004759CAAAFCE"
+				"4226BEAD7E39C5A4"
+			]
+			id: "6B2216729CD4A83D"
+			rewards: [
+				{
+					id: "686370777540D9D8"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 3
+									AttributeName: "generic.armor"
+									Name: "generic.armor"
+									Slot: "head"
+									UUID: [I;
+										-123314
+										3525
+										212347
+										-7050
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "protection"
+									lvl: 5
+								}
+								{
+									id: "respiration"
+									lvl: 3
+								}
+								{
+									id: "mcdw:cowardice"
+									lvl: 3
+								}
+							]
+							HideFlags: 3
+							Unbreakable: 1
+							display: {
+								Lore: [
+									"[{\"text\":\"An adventurer's armor!\",\"italic\":false}]"
+									"[{\"text\":\"It feels powerful.\",\"italic\":false}]"
+								]
+								Name: "[{\"text\":\"Leatherite Helmet\",\"italic\":false,\"color\":\"yellow\",\"underlined\":true}]"
+								color: 1908001
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4444A54818BFDC62"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 5.5d
+									AttributeName: "generic.armor"
+									Name: "generic.armor"
+									Slot: "chest"
+									UUID: [I;
+										-123314
+										8225
+										212347
+										-16450
+									]
+								}
+								{
+									Amount: 1
+									AttributeName: "generic.armor_toughness"
+									Name: "generic.armor_toughness"
+									Slot: "chest"
+									UUID: [I;
+										-123314
+										8325
+										212347
+										-16650
+									]
+								}
+								{
+									Amount: 2
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+									Slot: "chest"
+									UUID: [I;
+										-123314
+										8425
+										212347
+										-16850
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "projectile_protection"
+									lvl: 5
+								}
+								{
+									id: "protection"
+									lvl: 5
+								}
+								{
+									id: "mcda:death_barter"
+									lvl: 3
+								}
+								{
+									id: "thorns"
+									lvl: 5
+								}
+							]
+							HideFlags: 3
+							Unbreakable: 1
+							display: {
+								Lore: [
+									"[{\"text\":\"An adventurer's armor!\",\"italic\":false}]"
+									"[{\"text\":\"It feels powerful.\",\"italic\":false}]"
+								]
+								Name: "[{\"text\":\"Leatherite Tunic\",\"italic\":false,\"color\":\"yellow\",\"underlined\":true}]"
+								color: 1908001
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "585E8FB5B33C33C7"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 4.5d
+									AttributeName: "generic.armor"
+									Name: "generic.armor"
+									Slot: "legs"
+									UUID: [I;
+										-123314
+										18925
+										212347
+										-37850
+									]
+								}
+								{
+									Amount: 20.0d
+									AttributeName: "generic.max_health"
+									Name: "generic.max_health"
+									Slot: "legs"
+									UUID: [I;
+										-123314
+										19025
+										212347
+										-38050
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "protection"
+									lvl: 5
+								}
+								{
+									id: "swift_sneak"
+									lvl: 3
+								}
+							]
+							HideFlags: 3
+							Unbreakable: 1
+							display: {
+								Lore: [
+									"[{\"text\":\"An adventurer's armor!\",\"italic\":false}]"
+									"[{\"text\":\"It feels powerful.\",\"italic\":false}]"
+								]
+								Name: "[{\"text\":\"Leatherite Pants\",\"italic\":false,\"color\":\"yellow\",\"underlined\":true}]"
+								color: 1908001
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FD1C32675C43DC2"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 1.5d
+									AttributeName: "generic.armor"
+									Name: "generic.armor"
+									Slot: "feet"
+									UUID: [I;
+										-123314
+										23125
+										212347
+										-46250
+									]
+								}
+								{
+									Amount: 0.05d
+									AttributeName: "generic.movement_speed"
+									Name: "generic.movement_speed"
+									Slot: "feet"
+									UUID: [I;
+										-123314
+										23225
+										212347
+										-46450
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "protection"
+									lvl: 5
+								}
+								{
+									id: "soul_speed"
+									lvl: 3
+								}
+							]
+							HideFlags: 3
+							Unbreakable: 1
+							display: {
+								Lore: [
+									"[{\"text\":\"An adventurer's armor!\",\"italic\":false}]"
+									"[{\"text\":\"It feels powerful.\",\"italic\":false}]"
+								]
+								Name: "[{\"text\":\"Leatherite Boots\",\"italic\":false,\"color\":\"yellow\",\"underlined\":true}]"
+								color: 1908001
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Complete all chapters"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "ftbquests:book"
+					id: "2422F76D1794374E"
+					title: "Storymode Completion"
+					type: "dimension"
+				}
+			]
+			title: "All Good Things Must Come To An End"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AACB6E34EFB3814"]
+			hide_details_until_startable: "true"
+			hide_text_until_complete: "true"
+			id: "7847E9E663CDACD1"
+			rewards: [
+				{
+					id: "4C1BD731DC4C1873"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "447533C4874F2340"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 2000"
+					id: "01DCEB4DE46317C3"
+					player_command: "false"
+					title: "XP +2000"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:warden_spawn_egg"
+					id: "4D49F78C50306614"
+					observe_type: 5
+					timer: 250L
+					title: "Observe a Warden"
+					to_observe: "minecraft:warden"
+					type: "observation"
+				}
+			]
+			title: "Side quest: Dangerous Observations"
+			x: 26.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["735F49E6EEEFFFCB"]
+			id: "4207D98220B72677"
+			rewards: [
+				{
+					count: 2
+					id: "4CA31BBDBE7D94F1"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "adventurez:the_eye"
+					icon: "minecraft:ender_eye"
+					id: "679A2A6A5A51D20B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 24.5d
+			y: 4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.storymode.quests84.description}"]
+			icon: "ftbquests:missing_item"
+			id: "41348D147414CA9B"
+			rewards: [
+				{
+					id: "530BAB8EDC75A1CD"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{ }
+							]
+							Unbreakable: 1
+							display: {
+								Lore: [
+									"[{\"text\":\"IT'S OVER 9000!!!\",\"italic\":false}]"
+									"[{\"text\":\"FOR 4.99$ YOU CAN GET ONE BUGSWATTER!!!!\",\"italic\":false}]"
+									"[{\"text\":\"BUT IF YOU CALL AT 01010011 01000001 01010100 01000001 01001110 NOW YOU CAN GET 2 AT A PRICE OF 1!!!!!\",\"italic\":false}]"
+								]
+								Name: "[{\"text\":\"BUGSWATTER9001\",\"italic\":false,\"color\":\"gold\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run playsound minecraft:entity.creeper.primed action @p"
+					id: "00E2ED89145F2AEE"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "This totally has nothing to do with storymode"
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "goodall:ant_spawn_egg"
+					id: "6FBBA497295557F4"
+					title: "Kill __1x Ant"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "THIS QUEST IS BUGGED"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["647D0B512EB98E40"]
+			id: "6222A77C531B23B6"
+			rewards: [
+				{
+					id: "7A77DBB32172C9A9"
+					item: {
+						Count: 1b
+						id: "miskatonicmysteries:laudanum"
+						tag: {
+							display: {
+								Lore: ["[{\"text\":\"Strange potion handed by the 'strange' locals\",\"italic\":false}]"]
+								Name: "[{\"text\":\"??? Potion\",\"italic\":false,\"color\":\"dark_green\",\"underlined\":true}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "miskatonicmysteries:yellow_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "28FAD18C9450035C"
+					observe_type: 5
+					timer: 150L
+					title: "Observe a Hastur Cultist"
+					to_observe: "miskatonicmysteries:hastur_cultist"
+					type: "observation"
+				}
+			]
+			title: "Strange locals"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "0CF79FA4C6180DD9"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "617252F3DA939F2E"
+					table_id: 6138722668995440563L
+					type: "choice"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 200"
+					icon: "create:experience_nugget"
+					id: "2CBBEA7848182E0C"
+					player_command: "false"
+					title: "XP +200"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:spawner"
+					block_type: 0
+					checkItem: "false"
+					id: "1C065E2386078BF3"
+					type: "questsadditions:break"
+					value: 10L
+				}
+			]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5025DFC043CE60C2"]
+			id: "159549287D0A39F1"
+			rewards: [
+				{
+					count: 128
+					id: "03700C67F8A78674"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "700EB91601D56069"
+					item: "minecraft:powered_rail"
+					type: "item"
+				}
+				{
+					command: "/execute as @p at @p run playerstats @p add experience 100"
+					icon: "create:experience_nugget"
+					id: "7731A35E215D5E10"
+					player_command: "false"
+					title: "XP +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "0EE97F81AAC3439E"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "440E457654F4A36A"
+					item: "minecraft:rail"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["647D0B512EB98E40"]
+			id: "1B01476C4CF9F823"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "07D6DBBD393099BA"
+					item: {
+						Count: 1b
+						id: "minecraft:chest"
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Count: 1
+										Slot: 0
+										id: "shield"
+									}
+									{
+										Count: 1
+										Slot: 1
+										id: "stick"
+										tag: {
+											Enchantments: [
+												{
+													id: "knockback"
+													lvl: 5
+												}
+												{
+													id: "looting"
+													lvl: 3
+												}
+											]
+										}
+									}
+								]
+							}
+							display: {
+								Lore: ["\"You see many souls surrounds the chest... Maybe that indicates the blood, sweat and tears the soul must have had dying against boars\""]
+								Name: "\"A Friend's Gift\""
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "You felt as if you did a good thing but you don't know why"
+			tasks: [
+				{
+					entity: "betteranimalsplus:boar"
+					id: "2F34DD0731C3C411"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "GoldieHimaroo will remember that"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["322D08A4FC0048E4"]
+			icon: "origins:orb_of_origin"
+			id: "180638129EB39F64"
+			repeatable: "true"
+			rewards: [
+				{
+					id: "34523ED9BF55CC45"
+					item: "origins:orb_of_origin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "467F693EECE261BE"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "542A1A837F5FA210"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "0E05EFA380DDCDDB"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1EFA0A5F6CFFDEF7"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					id: "51E3D49C6E47FDFB"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "329F527E11BFAE7D"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					id: "727F058F98828C59"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "0D3EF2DC067FB650"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "23826A3F07D78172"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			title: "Orb of Origin"
+			x: 21.5d
+			y: -2.0d
+		}
+	]
+	title: "Storymode"
+}

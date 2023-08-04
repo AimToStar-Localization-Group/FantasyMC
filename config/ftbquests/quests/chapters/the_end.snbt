@@ -1,0 +1,1386 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "0BBE1365F69C4D68"
+	icon: "minecraft:end_crystal"
+	id: "55090A48CCBBD234"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.the_end.quests0.description0}"
+				"{ftbquests.chapter.the_end.quests0.description1}"
+			]
+			id: "603957638C8FB81F"
+			rewards: [
+				{
+					id: "5FC9D3522BA701B9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p is nearing The End of their journey...\",\"color\":\"white\"}]"
+					id: "79EA7D65D3E65238"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "501B521EC7F9BBB2"
+					item: "betterend:guidebook"
+					type: "item"
+				}
+			]
+			subtitle: "End Remastered"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "660B2EA4D1A3BE85"
+					title: "Visit the End dimension"
+					type: "dimension"
+				}
+			]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["603957638C8FB81F"]
+			icon: "minecraft:dragon_head"
+			id: "28BBB75F88676F3A"
+			rewards: [
+				{
+					id: "4967A1411AA43366"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has slain The Ender Dragon!\",\"color\":\"white\"}]"
+					id: "3DF8733BC4F99FE4"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "7913E79C7D42D1EF"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "04EDB81629F0E578"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "The End"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "29E72BD26B7733BB"
+					title: "Slay the Ender Dragon"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Final Trial"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			icon: "endrem:black_eye"
+			id: "14631B6FA1E17D28"
+			rewards: [
+				{
+					id: "406854D9792FCEA8"
+					item: "endrem:black_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:drowned"
+					id: "76F297C98197AD7D"
+					type: "kill"
+					value: 50L
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "68AB0F0D4A50F7B6"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Black eye"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			icon: "endrem:cold_eye"
+			id: "02CFBCEFBDE81800"
+			rewards: [
+				{
+					id: "16689A352059AD3B"
+					item: "endrem:cold_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "friendsandfoes:iceologer"
+					id: "17D254AAF368589E"
+					type: "kill"
+					value: 5L
+				}
+				{
+					consume_items: "true"
+					count: 10L
+					id: "484FB43EEE5F538F"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "4B7AF5D4115B1F49"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Cold eye"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			icon: "endrem:corrupted_eye"
+			id: "24379AA5AC26B76C"
+			rewards: [
+				{
+					id: "621AEFB5F4C31BBB"
+					item: "endrem:corrupted_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					count: 10L
+					id: "5D95D1EA65A24884"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "5436B8275469346C"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Corrupted eye"
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			icon: "endrem:lost_eye"
+			id: "35D94E6E1BCF22F5"
+			rewards: [
+				{
+					id: "2BE65CEC3C51AA9B"
+					item: "endrem:lost_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E057EB4CA5CCCBF"
+					item: {
+						Count: 1b
+						id: "betterend:netherite_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 5L
+					id: "0234C3A611131929"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "591AEE8280184EEB"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Lost eye"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			icon: "endrem:nether_eye"
+			id: "5CBBD3E35FC5D427"
+			rewards: [
+				{
+					id: "6A4A5AC99A91FF16"
+					item: "endrem:nether_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombified_piglin"
+					id: "4CDE6FB9A75C5C5C"
+					type: "kill"
+					value: 25L
+				}
+				{
+					consume_items: "true"
+					id: "134C8869429FD446"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "3A4CA7E3F0CFA0E2"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Nether eye"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			icon: "endrem:old_eye"
+			id: "03B65A2093DDBCFD"
+			rewards: [
+				{
+					id: "508D36BE0DD94BBF"
+					item: "endrem:old_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					count: 32L
+					id: "5F6ACF77678B7B34"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "1FB2BAE0E86BC7F8"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 64L
+					id: "7C929C5527C85D12"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "4BB06590F725A117"
+					type: "kill"
+					value: 20L
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "519529B6EB9E3A93"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Old eye"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			icon: "endrem:rogue_eye"
+			id: "568440D47C80A9DF"
+			rewards: [
+				{
+					id: "64524A16255D3859"
+					item: "endrem:rogue_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					count: 64L
+					id: "4559F59CE95BF676"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 5L
+					id: "2543BCA65F8E2E70"
+					item: "minecraft:redstone_lamp"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "346CEFAFCC45304A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Rogue eye"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			icon: "endrem:cursed_eye"
+			id: "15ECDDF31BD9B655"
+			rewards: [
+				{
+					id: "6326BE028BB4C1B5"
+					item: "endrem:cursed_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:piglin_brute"
+					id: "1D2FA5AD2529A332"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:piglin"
+					id: "0749C929B7D7BC2B"
+					type: "kill"
+					value: 20L
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "09A258780B586D93"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Cursed eye"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			icon: "endrem:evil_eye"
+			id: "22992931A3CE39AB"
+			rewards: [
+				{
+					id: "7A4A2E75AFCF6BA6"
+					item: "endrem:evil_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2718213824370262"
+					item: "artifacts:superstitious_hat"
+					type: "item"
+				}
+				{
+					id: "3DA7169D6C4DD719"
+					item: "artifacts:golden_hook"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "39F8A8813FE20A4A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Evil eye"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			icon: "endrem:guardian_eye"
+			id: "410BEC0BCD9E21D3"
+			rewards: [
+				{
+					id: "7DD731F895C83DA1"
+					item: "endrem:guardian_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					count: 2L
+					id: "3214B64320D6D5BC"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "1462961B32A4384D"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Guardian eye"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			icon: "endrem:magical_eye"
+			id: "298C62106F512411"
+			rewards: [
+				{
+					id: "29D4C5FD78244A7B"
+					item: "endrem:magical_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:evoker"
+					id: "51C4EB9724861375"
+					type: "kill"
+					value: 5L
+				}
+				{
+					consume_items: "true"
+					id: "26BE4132417DE634"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "09A0ADBA72F99132"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Magical eye"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			icon: "endrem:wither_eye"
+			id: "76497CF5F2053D2B"
+			rewards: [
+				{
+					id: "60BF828A2B05494B"
+					item: "endrem:wither_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "1C51185C541AF44D"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "18EC9C0165EA9AC5"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "41EF28181CF09FAB"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "1E81532BA81587F4"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Wither eye"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			icon: "endrem:witch_eye"
+			id: "175D2F555F97C05E"
+			rewards: [
+				{
+					id: "745F256166B2E78B"
+					item: "endrem:witch_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					id: "6ACC5A3BEA50EA51"
+					type: "kill"
+					value: 10L
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "0B882B6E2CAEBD7A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Witch eye"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			icon: "endrem:undead_eye"
+			id: "558175111CBD4FE6"
+			rewards: [
+				{
+					id: "5ECDF1552C04D04E"
+					item: "endrem:undead_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "39647BCECFEFA0E9"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "3D6661FB100519F1"
+					type: "kill"
+					value: 50L
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "4E55DB2119279AA6"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Undead eye"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			icon: "endrem:exotic_eye"
+			id: "14BCA76BEA7CF5E1"
+			rewards: [
+				{
+					id: "31ADA48186A8B4E1"
+					item: "endrem:exotic_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:guardian"
+					id: "0B366DF5E0A3259A"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:elder_guardian"
+					id: "34FDDEB9605237A9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "6BD249587378FB48"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Exotic eye"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			icon: "endrem:cryptic_eye"
+			id: "7A25D8217585116C"
+			rewards: [
+				{
+					id: "02F33B3CA87760A4"
+					item: "endrem:cryptic_eye"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11CC9905C0BF8AE5"
+					points: "false"
+					type: "xp"
+					value: 15L
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "2A5CB8E6AD7DCF04"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Cryptic eye"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			description: ["{ftbquests.chapter.the_end.quests18.description}"]
+			id: "40E3088101FD307D"
+			rewards: [
+				{
+					id: "5A3079DD10C5D0CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "End Remastered"
+			tasks: [
+				{
+					id: "783BD7C0ED50BCCA"
+					item: "minecraft:ender_eye"
+					title: "Let the hunt begins..."
+					type: "item"
+				}
+			]
+			title: "Kill them and collect souls, ingredients to make eyes!"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "6D54EED3CFC37220"
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "03A28320AFDFEDCD"
+					structure: "minecraft:end_city"
+					title: "Find the end city!"
+					type: "structure"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D54EED3CFC37220"]
+			id: "3AC7F7D4ED8CF6C4"
+			rewards: [
+				{
+					count: 128
+					id: "422912F3D3486E72"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					id: "5C03CA8D0A20BE09"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					id: "1A5A53D3C0519A50"
+					item: {
+						Count: 1b
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "To the skies!"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AC7F7D4ED8CF6C4"]
+			id: "00BBACD30C5101CB"
+			subtitle: "Repurposed structures"
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "3F48726F57B2AFD5"
+					structure: "repurposed_structures:ancient_city_end"
+					title: "Discover the ancient city in the end!"
+					type: "structure"
+				}
+			]
+			title: "Ancient civilization..?"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: ["{image:minecraft:textures/ftbquests/Infusiontable.png width:200 height:125 align:1}"]
+			id: "3C89FBEEDCDC5B9F"
+			rewards: [
+				{
+					id: "4863129F38057C80"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Better End"
+			tasks: [
+				{
+					id: "6A9D55A01C5AB1A3"
+					item: "betterend:infusion_pedestal"
+					type: "item"
+				}
+			]
+			title: "Rituals!"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.the_end.quests23.description0}"
+				"{ftbquests.chapter.the_end.quests23.description1}"
+			]
+			id: "7E646439CED7BECE"
+			rewards: [
+				{
+					count: 8
+					id: "5C7C6FDFF5A2BF6E"
+					item: "betterend:raw_amber"
+					type: "item"
+				}
+				{
+					id: "4F281D9B318C8661"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Better End"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 4L
+					id: "0FA49D45B5DF013A"
+					item: "betterend:raw_amber"
+					type: "item"
+				}
+			]
+			title: "Obtain 4 Amber Ores!"
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.the_end.quests24.description}"]
+			id: "0BE37078575EC256"
+			rewards: [
+				{
+					count: 8
+					id: "5D1D300064A7C757"
+					item: "betterend:crystal_shards"
+					type: "item"
+				}
+				{
+					id: "47EF3ABBEDA67F93"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Better End"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 4L
+					id: "42C3A50B641A5FBF"
+					item: "betterend:crystal_shards"
+					type: "item"
+				}
+			]
+			title: "Obtain 4 Aurora Crystal Shards!"
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6B625161CDCBBC07"
+				"353C7DE2B5712A9D"
+			]
+			description: ["{image:minecraft:textures/ftbquests/terminiteingots.png width:200 height:100 align:1}"]
+			id: "05EACABA8092CE3F"
+			rewards: [
+				{
+					count: 2
+					id: "73D5162CDF6DC462"
+					item: "betterend:terminite_ingot"
+					type: "item"
+				}
+				{
+					id: "2517B9E1476F8243"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Better End"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "6EABA3D4CB1A63D1"
+					item: "betterend:terminite_ingot"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.the_end.quests26.description0}"
+				"{image:minecraft:textures/ftbquests/Enderdust.png width:200 height:80 align:1}"
+			]
+			id: "353C7DE2B5712A9D"
+			rewards: [
+				{
+					count: 2
+					id: "38FF0BCF0FE4F2DC"
+					item: "betterend:ender_dust"
+					type: "item"
+				}
+				{
+					id: "5825E877095B0588"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Better End"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "25F63DCE8E849115"
+					item: "betterend:ender_dust"
+					title: "Obtain Ender Dust!"
+					type: "item"
+				}
+			]
+			title: "Ender Dust"
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			description: ["{ftbquests.chapter.the_end.quests27.description}"]
+			id: "6B625161CDCBBC07"
+			rewards: [
+				{
+					count: 2
+					id: "6C88C3E8BFD78703"
+					item: "betterend:thallasium_ingot"
+					type: "item"
+				}
+				{
+					id: "1E24B9925B06E232"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Better End"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "05B4BB36D713419A"
+					item: "betterend:thallasium_ingot"
+					title: "Obtain a Thallasium Ingot!"
+					type: "item"
+				}
+			]
+			title: "Thallasium Ingot"
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0BE37078575EC256"
+				"353C7DE2B5712A9D"
+			]
+			description: ["{image:minecraft:textures/ftbquests/EternalCrystal.png width:200 height:125 align:1}"]
+			id: "1DBF074D9664B4E4"
+			rewards: [
+				{
+					count: 2
+					id: "7BEB81BE3BB069D7"
+					item: "betterend:eternal_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Better End"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "45A33912D8D18823"
+					item: "betterend:eternal_crystal"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E646439CED7BECE"]
+			id: "503FF90488CD6305"
+			rewards: [
+				{
+					count: 2
+					id: "6E94FF3DE5062D09"
+					item: "betterend:amber_gem"
+					type: "item"
+				}
+				{
+					id: "55660CD5339727F6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					consume_items: "true"
+					id: "120827953BFFF195"
+					item: "betterend:amber_gem"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C89FBEEDCDC5B9F"]
+			id: "0AE109C04888132A"
+			rewards: [
+				{
+					id: "47EEE50BF5ADA64C"
+					item: {
+						Count: 1b
+						id: "betterend:eternal_crystal"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 6
+									AttributeName: "generic.armor"
+									Name: "generic.armor"
+									Slot: "offhand"
+									UUID: [I;
+										-123227
+										51998
+										7237
+										-103996
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+									Slot: "offhand"
+									UUID: [I;
+										-123227
+										52098
+										7237
+										-104196
+									]
+								}
+								{
+									Amount: 5
+									AttributeName: "generic.luck"
+									Name: "generic.luck"
+									Slot: "offhand"
+									UUID: [I;
+										-123227
+										52198
+										7237
+										-104396
+									]
+								}
+								{
+									Amount: 0.05d
+									AttributeName: "generic.movement_speed"
+									Name: "generic.movement_speed"
+									Slot: "offhand"
+									UUID: [I;
+										-123227
+										52298
+										7237
+										-104596
+									]
+								}
+							]
+							Enchantments: [
+								{ }
+							]
+							HideFlags: 1
+							display: {
+								Lore: ["[{\"text\":\"The crystal feels warm, you feel as if you've been rejuvenated.\",\"italic\":false,\"color\":\"red\"}]"]
+								Name: "[{\"text\":\"Crystalite\",\"italic\":false,\"color\":\"light_purple\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Better End"
+			tasks: [
+				{
+					id: "1852E90A60281B31"
+					item: {
+						Count: 1b
+						id: "betterend:crystalite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38FD07D9F47F5972"
+					item: {
+						Count: 1b
+						id: "betterend:crystalite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DA9C70B9586A283"
+					item: {
+						Count: 1b
+						id: "betterend:crystalite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7252872F063C3631"
+					item: {
+						Count: 1b
+						id: "betterend:crystalite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 16L
+					id: "2C3DF30C81F10998"
+					item: "betterend:eternal_crystal"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 2L
+					id: "78245C09106C24EA"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 4L
+					id: "3E473C46ECC27F78"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+			]
+			title: "Oooo Shiny!"
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3AC7F7D4ED8CF6C4"]
+			id: "0F144F44BA3A0504"
+			tasks: [
+				{
+					id: "37EF030AA238F47A"
+					item: {
+						Count: 1b
+						id: "betterend:elytra_crystalite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28BBB75F88676F3A"]
+			icon: "minecraft:dragon_egg"
+			id: "29423A82CB40D5F6"
+			rewards: [
+				{
+					id: "067E57014FEF2939"
+					item: {
+						Count: 1b
+						id: "mcsa:dragonsbane_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E7BC53C7FE50B97"
+					item: {
+						Count: 1b
+						id: "mcsa:dragonsbane_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E4617678A9D41F7"
+					item: {
+						Count: 1b
+						id: "mcsa:dragonsbane_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E9845C7AC0AF6AD"
+					item: {
+						Count: 1b
+						id: "mcsa:dragonsbane_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "5D120AF3FC2F18D4"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Dragon Slayer"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "2455AF4E205BE9BA"
+			rewards: [
+				{
+					id: "79A289F4273E857B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "4EF0BAA20CB85AE7"
+					type: "kill"
+					value: 25L
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2455AF4E205BE9BA"]
+			id: "424838B89E5EADAF"
+			rewards: [
+				{
+					id: "736489CEF27B67C3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "61EF0EE7A2592143"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "33721862374643F7"
+					type: "kill"
+					value: 50L
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["424838B89E5EADAF"]
+			id: "332B2AB3C4031941"
+			rewards: [
+				{
+					id: "040E8F740C2A15F2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "02C5A7096F018C69"
+					type: "kill"
+					value: 75L
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["332B2AB3C4031941"]
+			id: "3E3301A234B302C6"
+			rewards: [
+				{
+					id: "4DEC7D8A4EC35ED0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "22BB2AE29207E3D3"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "227331A0A4DBCE42"
+					type: "kill"
+					value: 100L
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E3301A234B302C6"]
+			id: "146EC7E56C8B065A"
+			rewards: [
+				{
+					id: "79444E8A4ED2527F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "33D080660EF5C997"
+					item: {
+						Count: 1b
+						id: "mcsa:ender_defender_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52671F415E2CF8D3"
+					item: {
+						Count: 1b
+						id: "mcsa:ender_defender_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CDAC269FF5515CB"
+					item: {
+						Count: 1b
+						id: "mcsa:ender_defender_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18E9AA57A06A3AEC"
+					item: {
+						Count: 1b
+						id: "mcsa:ender_defender_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "7308FC584246551B"
+					type: "kill"
+					value: 300L
+				}
+			]
+			x: -0.5d
+			y: 5.0d
+		}
+	]
+	title: "The End"
+}

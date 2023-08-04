@@ -1,0 +1,26 @@
+{
+	id: "5BFAB041E997DA03"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:rageblade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:lich_bane"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "RedLordSoul"
+}

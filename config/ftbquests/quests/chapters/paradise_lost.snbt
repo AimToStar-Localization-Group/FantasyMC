@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "paradise_lost"
+	group: "0BBE1365F69C4D68"
+	icon: "minecraft:glowstone"
+	id: "0130AEC033F709D0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F8B7A247CF02F78"]
+			description: [
+				"{ftbquests.chapter.paradise_lost.quests0.description0}"
+				"{ftbquests.chapter.paradise_lost.quests0.description1}"
+				"{ftbquests.chapter.paradise_lost.quests0.description2}"
+				"{ftbquests.chapter.paradise_lost.quests0.description3}"
+				"{ftbquests.chapter.paradise_lost.quests0.description4}"
+				"{ftbquests.chapter.paradise_lost.quests0.description5}"
+				"{ftbquests.chapter.paradise_lost.quests0.description6}"
+				"{ftbquests.chapter.paradise_lost.quests0.description7}"
+				"{ftbquests.chapter.paradise_lost.quests0.description8}"
+				"{ftbquests.chapter.paradise_lost.quests0.description9}"
+				""
+				"{ftbquests.chapter.paradise_lost.quests0.description11}"
+			]
+			id: "3B9C0AE49FD9A32E"
+			rewards: [
+				{
+					id: "0BD4D257BE831692"
+					item: "paradise_lost:mystery_milk"
+					type: "item"
+				}
+				{
+					id: "33929BEAB8E230F2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2D0C096B0817C464"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has found the Lost Paradise!\",\"color\":\"white\"}]"
+					id: "416474BC8BBC2648"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Paradise Lost"
+			tasks: [
+				{
+					dimension: "paradise_lost:paradise_lost"
+					id: "3F8E94E5BD0D768F"
+					title: "Visit the Aether dimension"
+					type: "dimension"
+				}
+			]
+			title: "Visit the Aether dimension"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B9C0AE49FD9A32E"]
+			description: [
+				"{ftbquests.chapter.paradise_lost.quests1.description0}"
+				"{ftbquests.chapter.paradise_lost.quests1.description1}"
+			]
+			id: "3153536171453606"
+			rewards: [
+				{
+					id: "1CD9D6E4C136FA41"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "57DF145178FBB25A"
+					item: "paradise_lost:mystery_milk"
+					type: "item"
+				}
+				{
+					id: "5B281849B04D1B03"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Paradise Lost"
+			tasks: [
+				{
+					entity: "paradise_lost:white_swet"
+					id: "6C3B19D5E109C18C"
+					title: "Slay a White Swet"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "paradise_lost:blue_swet"
+					id: "61B09AFE6EECB090"
+					title: "Slay a Blue Swet"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "paradise_lost:purple_swet"
+					id: "52124EC2443F7E15"
+					title: "Slay a Purple Swet"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "paradise_lost:golden_swet"
+					id: "0F191E5AB23E1ED3"
+					title: "Slay a Golden Swet"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Slay Them All!"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["3153536171453606"]
+			description: [""]
+			id: "212ADDA3F8BA7349"
+			invisible_until_tasks: 1
+			repeatable: "true"
+			rewards: [
+				{
+					count: 3
+					id: "23E27391907522D0"
+					item: "paradise_lost:mystery_milk"
+					type: "item"
+				}
+			]
+			subtitle: "Paradise Lost"
+			tasks: [
+				{
+					entity: "paradise_lost:white_swet"
+					id: "44F41C54D1A7B56B"
+					title: "Slay 5 White Swet"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "paradise_lost:blue_swet"
+					id: "23591859853BEAFB"
+					title: "Slay 5 Blue Swet"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "paradise_lost:purple_swet"
+					id: "122531BDD7A90D7F"
+					title: "Slay 5 Purple Swet"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "paradise_lost:golden_swet"
+					id: "6F2BE9D1AE1EB0FD"
+					title: "Slay 5 Golden Swet"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "I wonder where this milk comes from..."
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B9C0AE49FD9A32E"]
+			id: "356F5676003A347A"
+			invisible: "true"
+			rewards: [
+				{
+					id: "5AB35F4372BF213E"
+					item: {
+						Count: 1b
+						id: "paradise_lost:golden_parachute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "paradise_lost:void_paradise_lost"
+					criterion: ""
+					id: "235AC16F7CC2B22F"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["{ftbquests.chapter.paradise_lost.quests4.description}"]
+			id: "6F8B7A247CF02F78"
+			rewards: [
+				{
+					id: "2CEE20BC421A39DF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Paradise lost"
+			tasks: [
+				{
+					id: "5FC4F943C5A2ADB5"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "5920D75BE9B85B09"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			title: "A Strange Yet Beautiful Dream"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "The Aether"
+}

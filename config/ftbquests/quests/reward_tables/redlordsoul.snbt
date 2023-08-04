@@ -1,0 +1,35 @@
+{
+	id: "08661B4A05733D9C"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:comet_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:leviathan_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:nightfall"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "RoseLordSoul"
+}

@@ -1,0 +1,26 @@
+{
+	id: "31F731B77670DC6F"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:freyr_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:dragonslayer_swordspear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "PurpleLordSoul"
+}

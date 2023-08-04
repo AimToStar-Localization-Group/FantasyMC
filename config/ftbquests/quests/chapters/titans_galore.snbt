@@ -1,0 +1,687 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "titans_galore"
+	group: ""
+	id: "498A42DD23AE4FB7"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.titans_galore.quests0.description}"]
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "312A373A04711198"
+			rewards: [
+				{
+					id: "4FC9920F07941CEA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated the Night Lich!\",\"color\":\"white\"}]"
+					id: "781559862E82F003"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "58F43FF70BBB8488"
+					item: {
+						Count: 1b
+						id: "mcdw:sickle_skull_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Bosses of Mass Destruction"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "453637ED665B50F7"
+					title: "Slay the Night Lich"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Night Lich"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			description: ["{ftbquests.chapter.titans_galore.quests1.description}"]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "03BD0BB65C8C2455"
+			rewards: [
+				{
+					id: "74444D4EE178CC5D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated the Obsidilith!\",\"color\":\"white\"}]"
+					id: "58F2CAAB42777988"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "5399150622AFD616"
+					item: {
+						Count: 1b
+						id: "mcdw:sword_obsidian_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Bosses of Mass Destruction"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "007B211349419A04"
+					title: "Slay the Obsidilith"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Obsidilith"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter.titans_galore.quests2.description}"]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "56E40BFACC8B2F2D"
+			rewards: [
+				{
+					id: "78754E695038D149"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated the Nether Gauntlet!\",\"color\":\"white\"}]"
+					id: "15B205BF43EC4F05"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "59332B279C8047CA"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "3434FE2F7CC87BB0"
+					item: {
+						Count: 1b
+						id: "medievalweapons:nether_ruby_healing_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Bosses of Mass Destruction"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "42C57B7CB59B7554"
+					title: "Slay the Nether Gauntlet"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nether Gauntlet"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter.titans_galore.quests3.description}"]
+			icon: "bosses_of_mass_destruction:void_lily"
+			id: "78BBE9FF1985065D"
+			rewards: [
+				{
+					id: "33E7788C824ECB98"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated the Void Blossom!\",\"color\":\"white\"}]"
+					id: "61C55CF7C1D3371D"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "62F7808BC5FC368C"
+					item: {
+						Count: 1b
+						id: "mcdw:bow_call_of_the_void"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Bosses of Mass Destruction"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7F91EC7910936972"
+					title: "Slay the Void Blossom"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Void Blossom"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests4.description0}"
+				"{ftbquests.chapter.titans_galore.quests4.description1}"
+				"{ftbquests.chapter.titans_galore.quests4.description2}"
+				"{ftbquests.chapter.titans_galore.quests4.description3}"
+				""
+				"{image:minecraft:textures/ftbquests/ritual.png width:80 height:100 align:1 fit:true}"
+			]
+			icon: "adventurez:stone_golem_heart"
+			id: "16A5ECE16075989A"
+			rewards: [
+				{
+					id: "00BF9A5C9B13CBEF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated the Blackstone Golem!\",\"color\":\"white\"}]"
+					id: "5722592921BDF213"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "68ED5085C9068AAE"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "AdventureZ"
+			tasks: [
+				{
+					entity: "adventurez:stone_golem"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2EF061252C58CE73"
+					title: "Slay the Blackstone Golem"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Blackstone Golem"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests5.description0}"
+				""
+				"{image:minecraft:textures/ftbquests/eyeshrineTN.png width:100 height:100 align:1 fit:true}"
+			]
+			icon: "minecraft:ender_eye"
+			id: "54D2EDC944C6CD72"
+			rewards: [
+				{
+					id: "10C8EF4B8E38F27A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated The Eye!\",\"color\":\"white\"}]"
+					id: "72FC155BF66DFA91"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "4F4BC7ECA4B497B2"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "AdventureZ"
+			tasks: [
+				{
+					entity: "adventurez:the_eye"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "18C99DB19FE84473"
+					title: "Slay The Eye"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Eye"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests6.description0}"
+				""
+				"{ftbquests.chapter.titans_galore.quests6.description2}"
+			]
+			icon: "soulsweapons:withered_demon_heart"
+			id: "69C174BF132E14B2"
+			rewards: [
+				{
+					id: "68ED63957F0B3430"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "64866CCBE0394737"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated The Decaying King!\",\"color\":\"white\"}]"
+					id: "2CADF69DD48B4F69"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					entity: "soulsweapons:accursed_lord_boss"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "293D340F70077E98"
+					title: "Slay The Decaying King"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Decaying King"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests7.description0}"
+				""
+				"{ftbquests.chapter.titans_galore.quests7.description2}"
+			]
+			icon: "soulsweapons:lord_soul_dark"
+			id: "1764806D83773627"
+			rewards: [
+				{
+					id: "2A76D4A36FFFE65A"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "2E010EB965F7F997"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated The Old Champion's Remains!\",\"color\":\"white\"}]"
+					id: "2E0AB79B32E51915"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					entity: "soulsweapons:draugr_boss"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6CADBD4B1FCEC37E"
+					title: "Slay The Old Champion's Remains"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Old Champion's Remains"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1764806D83773627"]
+			description: ["{ftbquests.chapter.titans_galore.quests8.description}"]
+			icon: "soulsweapons:essence_of_eventide"
+			id: "0E0E62AD2013F86F"
+			rewards: [
+				{
+					id: "77B6BB2970FE367F"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "65E8009AF1E23A1D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated The Frenzied Shade!\",\"color\":\"white\"}]"
+					id: "4BD1850A2592E8CD"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					entity: "soulsweapons:night_shade"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0DA86B584F4BC181"
+					title: "Slay The Frenzied Shade"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Frenzied Shade"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests9.description0}"
+				""
+				"{ftbquests.chapter.titans_galore.quests9.description2}"
+			]
+			icon: "soulsweapons:moonstone"
+			id: "45218D5333EC01D6"
+			rewards: [
+				{
+					id: "6E53FB574DE703AE"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "451EB217F78D65C4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated The Returning Knight!\",\"color\":\"white\"}]"
+					id: "01EE0085852A8ED7"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					entity: "soulsweapons:returning_knight"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "62FC34B538476F18"
+					title: "Slay The Returning Knight"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Returning Knight"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter.titans_galore.quests10.description}"]
+			icon: "soulsweapons:essence_of_luminescence"
+			id: "03EEF648226A0819"
+			rewards: [
+				{
+					id: "41E68E4A6F56A3F4"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "04ECCBD152C98E41"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated The Fallen Icon!\",\"color\":\"white\"}]"
+					id: "10E3DAE441DF8880"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					entity: "soulsweapons:moonknight"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "147782850461D21D"
+					title: "Slay The Fallen Icon"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Fallen Icon"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: ["{ftbquests.chapter.titans_galore.quests11.description}"]
+			icon: {
+				Count: 1b
+				id: "soulsweapons:chaos_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0504D5488F950A5F"
+			rewards: [
+				{
+					id: "36B4BB37A2C92395"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "377E571B9ACC746F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has just defeated The Monarch of Chaos!\",\"color\":\"white\"}]"
+					id: "72F59592093FCEBD"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Marium's Soulslike Weaponry"
+			tasks: [
+				{
+					entity: "soulsweapons:chaos_monarch"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4454EB14E9286AE1"
+					title: "Slay The Monarch of Chaos"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Monarch of Chaos"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests12.description0}"
+				"{ftbquests.chapter.titans_galore.quests12.description1}"
+				"{ftbquests.chapter.titans_galore.quests12.description2}"
+				"{ftbquests.chapter.titans_galore.quests12.description3}"
+				"{ftbquests.chapter.titans_galore.quests12.description4}"
+				"{ftbquests.chapter.titans_galore.quests12.description5}"
+			]
+			id: "22DEDFF36ABC1AD2"
+			min_width: 300
+			tasks: [
+				{
+					icon: "ftbquests:book"
+					id: "33538B630713BE0D"
+					title: "Tip"
+					type: "custom"
+				}
+			]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests13.description0}"
+				"{ftbquests.chapter.titans_galore.quests13.description1}"
+				"{ftbquests.chapter.titans_galore.quests13.description2}"
+				"{ftbquests.chapter.titans_galore.quests13.description3}"
+				"{ftbquests.chapter.titans_galore.quests13.description4}"
+				"{ftbquests.chapter.titans_galore.quests13.description5}"
+			]
+			id: "652F903685BCB588"
+			min_width: 300
+			tasks: [
+				{
+					icon: "ftbquests:book"
+					id: "1CBC85B7E91F8EC3"
+					title: "Tip"
+					type: "custom"
+				}
+			]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests14.description0}"
+				"{ftbquests.chapter.titans_galore.quests14.description1}"
+				"{ftbquests.chapter.titans_galore.quests14.description2}"
+				"{ftbquests.chapter.titans_galore.quests14.description3}"
+				"{ftbquests.chapter.titans_galore.quests14.description4}"
+			]
+			id: "3562F36823B56E55"
+			min_width: 300
+			tasks: [
+				{
+					icon: "ftbquests:book"
+					id: "4295734D43342E19"
+					title: "Tip"
+					type: "custom"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.titans_galore.quests15.description0}"
+				"{ftbquests.chapter.titans_galore.quests15.description1}"
+				"{ftbquests.chapter.titans_galore.quests15.description2}"
+				"{ftbquests.chapter.titans_galore.quests15.description3}"
+				"{ftbquests.chapter.titans_galore.quests15.description4}"
+				"{ftbquests.chapter.titans_galore.quests15.description5}"
+			]
+			id: "3437AD1E9DF64F9E"
+			min_width: 300
+			tasks: [
+				{
+					icon: "ftbquests:book"
+					id: "2D571B3ABC6C8B93"
+					title: "Tip"
+					type: "custom"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+	]
+	title: "Titans Galore"
+}

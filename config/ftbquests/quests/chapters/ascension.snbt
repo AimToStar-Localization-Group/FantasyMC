@@ -1,0 +1,3097 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "ascension"
+	group: ""
+	icon: "betternether:pig_statue_respawner"
+	id: "1FB5C589F551FC54"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7B009C7AE570547E"
+			rewards: [
+				{
+					command: "/playerstats @p add points 2"
+					id: "156456F2AFBAC496"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "23D1D5017C8B3CE5"
+					nbt: {
+						StrengthLevel: 20
+					}
+					title: "StrengthMaxed"
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "Strength Ascension"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B009C7AE570547E"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "655D1DB98BEDC7A0"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add strength 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6C0DADED896ED999"
+					player_command: "false"
+					title: "Str +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "72A551800A74388C"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Training"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B009C7AE570547E"]
+			icon: "minecraft:sculk"
+			id: "14B52F1520C35F0F"
+			rewards: [
+				{
+					command: "/playerstats @p add strength 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7A31E49C536A10E5"
+					player_command: "false"
+					title: "Str +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "6C52E2FA43BF829A"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Training"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B009C7AE570547E"]
+			id: "0001B0435610213D"
+			rewards: [
+				{
+					command: "/playerstats @p add strength 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3B7440319013FBCF"
+					player_command: "false"
+					title: "Str +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					id: "730772D672C3D454"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 5000
+				}
+			]
+			title: "Training"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B009C7AE570547E"]
+			id: "16BA4D3055590589"
+			rewards: [
+				{
+					command: "/playerstats @p add strength 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "182744961A22DE8F"
+					player_command: "false"
+					title: "Str +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "57FAF31A27EC3CC0"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "010DA61EDDD9709C"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "530CA42C86640E48"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "692CB8EF58E2AD57"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "290BB11F3ACF8259"
+					type: "kill"
+					value: 200L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "105A22D6CA4D8635"
+					type: "kill"
+					value: 200L
+				}
+			]
+			title: "Training"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B009C7AE570547E"]
+			icon: "minecraft:dragon_head"
+			id: "40461550666E1F92"
+			rewards: [
+				{
+					command: "/playerstats @p add strength 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3760F46FF7202D5C"
+					player_command: "false"
+					title: "Str +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F6128EA12DC5390"
+					title: "Slay the Ender Dragon"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Training"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			icon: "artifacts:crystal_heart"
+			id: "740E1DED118FF22C"
+			rewards: [
+				{
+					command: "/playerstats @p add points 2"
+					id: "75F31C82BA096CFB"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					icon: "artifacts:crystal_heart"
+					id: "582A4DC3F5E9B490"
+					nbt: {
+						HealthLevel: 20
+					}
+					title: "HealthMaxed"
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "Health Ascension"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["740E1DED118FF22C"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "7CCE8B17CC9D3C7E"
+			rewards: [
+				{
+					command: "/playerstats @p add health 1"
+					icon: "bewitchment:demon_heart"
+					id: "17B746204FFE2BBD"
+					player_command: "false"
+					title: "Health +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "25DED8D562E985AD"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Training"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["740E1DED118FF22C"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BADA41FD4D629ED"
+			rewards: [
+				{
+					command: "/playerstats @p add health 1"
+					icon: "bewitchment:demon_heart"
+					id: "138DB1F1BCFA1F3F"
+					player_command: "false"
+					title: "Health +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "36D2D2F38CF39425"
+					stat: "minecraft:damage_taken"
+					type: "stat"
+					value: 5000
+				}
+			]
+			title: "Training"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["740E1DED118FF22C"]
+			icon: "minecraft:sculk"
+			id: "4A0D394294350B9F"
+			rewards: [
+				{
+					command: "/playerstats @p add health 1"
+					icon: "bewitchment:demon_heart"
+					id: "6590040B41DF05D2"
+					player_command: "false"
+					title: "Health +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "2B32F20CA5584F4D"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Training"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["740E1DED118FF22C"]
+			icon: "minecraft:dragon_head"
+			id: "405F72EAAE9D0A54"
+			rewards: [
+				{
+					command: "/playerstats @p add health 1"
+					icon: "bewitchment:demon_heart"
+					id: "7A2F5B126B232A99"
+					player_command: "false"
+					title: "Health +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2910E64FC2127D65"
+					title: "Slay the Ender Dragon"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Training"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["740E1DED118FF22C"]
+			id: "38630BEDD3FFD026"
+			rewards: [
+				{
+					command: "/playerstats @p add health 1"
+					icon: "bewitchment:demon_heart"
+					id: "472A97EC09F5ACB1"
+					player_command: "false"
+					title: "Health +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "5D4948AE7B740067"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "6AD37EB82AA8F4FF"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "5A73820598F1C2C0"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1F14094FE5E56932"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "25A305AB55729545"
+					type: "kill"
+					value: 200L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "629F2FC1259C68E5"
+					type: "kill"
+					value: 200L
+				}
+			]
+			title: "Training"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1ABD27FC49B043B4"
+			rewards: [
+				{
+					command: "/playerstats @p add points 2"
+					id: "6E022FCD9A2AA24F"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "45705F166E8F26E4"
+					nbt: {
+						DefenseLevel: 20
+					}
+					title: "DefenseMaxed"
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "Defense Ascension"
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			id: "5641B0FE38505865"
+			rewards: [
+				{
+					command: "/playerstats @p add points 2"
+					id: "37C00E7AE623A050"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					icon: "artifacts:running_shoes"
+					id: "7D39F4FD04E9E6EA"
+					nbt: {
+						AgilityLevel: 20
+					}
+					title: "AgilityMaxed"
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "Agility Ascension"
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			id: "2F3A1D64DE89ED85"
+			rewards: [
+				{
+					command: "/playerstats @p add points 2"
+					id: "5A4A707619FA0E70"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2B173434D5D18146"
+					nbt: {
+						ArcheryLevel: 20
+					}
+					title: "ArcheryMaxed"
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "Archery Ascension"
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1ABD27FC49B043B4"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "23230FB1787317CC"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add defense 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2F129342B4A8A66D"
+					player_command: "false"
+					title: "Def +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "352471CA79D82AFF"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Training"
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5641B0FE38505865"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "127B631C526EA67E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add agility 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					id: "00022A039C311186"
+					player_command: "false"
+					title: "Agility +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "5CA6BD9BF58893FC"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Training"
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2F3A1D64DE89ED85"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "2462ECF631D5D8B6"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add archery 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "10A41A6BE256E559"
+					player_command: "false"
+					title: "Archery +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "2B80A1EEBF1929E1"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Training"
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2F3A1D64DE89ED85"]
+			icon: "minecraft:sculk"
+			id: "1A48A18AC5F652B6"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add archery 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6F9C7220161440A1"
+					player_command: "false"
+					title: "Archery +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "63D7A7F9AB93BC57"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Training"
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1ABD27FC49B043B4"]
+			icon: "minecraft:sculk"
+			id: "167DA6D9A06B7B6A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add defense 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1D6B735527F3C035"
+					player_command: "false"
+					title: "Def +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "20510C6199CD1C14"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Training"
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5641B0FE38505865"]
+			icon: "minecraft:sculk"
+			id: "015317849DF80CF8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add agility 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					id: "02160E2B612B01D1"
+					player_command: "false"
+					title: "Agility +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "21BDA006239B12A1"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Training"
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5641B0FE38505865"]
+			icon: "minecraft:dragon_head"
+			id: "25A5D98512C2464A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add agility 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					id: "646D105C28AF08B7"
+					player_command: "false"
+					title: "Agility +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "333BF35BF5ED46C3"
+					title: "Slay the Ender Dragon"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Training"
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2F3A1D64DE89ED85"]
+			icon: "minecraft:dragon_head"
+			id: "6FEE20256CB67519"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add archery 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1034E0F6E363BDB2"
+					player_command: "false"
+					title: "Archery +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2E87C456B8BA25BA"
+					title: "Slay the Ender Dragon"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Training"
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2F3A1D64DE89ED85"]
+			id: "7BCCF8FA1394AE95"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add archery 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "171B72DA8F64F4A4"
+					player_command: "false"
+					title: "Archery +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "09B739702922A8BC"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "014559FDD4667FF7"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "66F14BC30A53B63B"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "1774EEF7950E65EB"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "0C56A6CCC74F9656"
+					type: "kill"
+					value: 200L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "2396CAB67D6D2A0D"
+					type: "kill"
+					value: 200L
+				}
+			]
+			title: "Training"
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5641B0FE38505865"]
+			id: "7FE248A396BEC73C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add agility 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					id: "7A5592D3FBB32595"
+					player_command: "false"
+					title: "Agility +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "76D59230D81834BA"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "153870330B48A5EE"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "1ECB493E519F17FD"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "084C0E5CB3FFFD6B"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "3694A2B6ED117AAF"
+					type: "kill"
+					value: 200L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "34A1D65FFA8A2AAC"
+					type: "kill"
+					value: 200L
+				}
+			]
+			title: "Training"
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1ABD27FC49B043B4"]
+			id: "677F791E5EC87F3A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add defense 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "63D6E3F64B465021"
+					player_command: "false"
+					title: "Def +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 5L
+					id: "226F2B7CEDD05CCA"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "3B07B2641A72A370"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "251E03C378F58908"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "15B781BDF000F1DE"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "217AC6BABDD9CD8E"
+					type: "kill"
+					value: 200L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "74BBC6621B63D57C"
+					type: "kill"
+					value: 200L
+				}
+			]
+			title: "Training"
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1ABD27FC49B043B4"]
+			icon: "minecraft:dragon_head"
+			id: "43C92CC07A32EC76"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add defense 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1028CE29C8F59041"
+					player_command: "false"
+					title: "Def +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1B2C5D0AB04D439D"
+					title: "Slay the Ender Dragon"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Training"
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1ABD27FC49B043B4"]
+			id: "7CFE83C2BE335A9C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add defense 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2782FEF340AFB564"
+					player_command: "false"
+					title: "Def +1"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5C6236B2AE9E69EA"
+					stat: "minecraft:damage_taken"
+					type: "stat"
+					value: 5000
+				}
+			]
+			title: "Training"
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5641B0FE38505865"]
+			id: "0A7255E933BF84D4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add agility 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					id: "280B23A1ED5600AE"
+					player_command: "false"
+					title: "Agility +1"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5BE597A69048E8CA"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 1000000
+				}
+			]
+			title: "Training"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2F3A1D64DE89ED85"]
+			icon: "minecraft:sculk"
+			id: "74DF34957EB84B41"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playerstats @p add archery 1"
+					icon: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3237FEB1560806E1"
+					player_command: "false"
+					title: "Archery +1"
+					type: "command"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					advancement: "minecraft:adventure/bullseye"
+					criterion: ""
+					id: "562C0C72690EF010"
+					type: "advancement"
+				}
+			]
+			title: "Training"
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.ascension.quests30.description0}"
+				"{ftbquests.chapter.ascension.quests30.description1}"
+			]
+			id: "789A65D78E9E25F1"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/playerstats @p add strength 2"
+					id: "319603B319CD0809"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add defense 2"
+					id: "33F0FC75B074F102"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add health 2"
+					id: "44FD9C59E1C7CDEF"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add agility 2"
+					id: "7979B22E6F9FE0B8"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add archery 2"
+					id: "345A452D9663885F"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/msg @p You triggered a hidden quest! All stats +2"
+					id: "7E52A93967C338B5"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "All main stats +2"
+			tasks: [
+				{
+					disable_toast: "true"
+					id: "63625FDE82F02188"
+					nbt: {
+						HealthLevel: 1
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "06FFD653F588EFE0"
+					nbt: {
+						StrengthLevel: 1
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "50E4E69F80CDED51"
+					nbt: {
+						DefenseLevel: 1
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "19763954C26839CE"
+					nbt: {
+						ArcheryLevel: 1
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "280E4DCEAD86B988"
+					nbt: {
+						AgilityLevel: 1
+					}
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "Hidden quest: All rounder rookie!!"
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			description: ["{ftbquests.chapter.ascension.quests31.description}"]
+			disable_toast: "true"
+			id: "799D3B32628DF479"
+			rewards: [
+				{
+					id: "21B8FCF62154CCBB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Starting out!"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:compass"
+					id: "150881768B1AC850"
+					title: "LevelZ"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			id: "44BD773606876EF3"
+			tasks: [
+				{
+					id: "48D5A34A20266EB3"
+					stat: "minecraft:traded_with_villager"
+					type: "stat"
+					value: 100
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "7EF637158FDFE2A4"
+			tasks: [
+				{
+					id: "0FB16444D51B9813"
+					stat: "goblintraders:trade_with_goblin"
+					type: "stat"
+					value: 10
+				}
+			]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			id: "7A3ACD21075EE283"
+			tasks: [
+				{
+					count: 2L
+					id: "3445F16F869DD1EE"
+					item: "mcda:gemstone_green"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7EF637158FDFE2A4"
+				"44BD773606876EF3"
+				"7A3ACD21075EE283"
+			]
+			icon: "minecraft:emerald"
+			id: "4954477FEB2232DD"
+			rewards: [
+				{
+					command: "/playerstats @p add trade 3"
+					icon: "minecraft:emerald_block"
+					id: "11954B60B733BDC3"
+					player_command: "false"
+					title: "Trade stat +3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: "true"
+					icon: "minecraft:emerald"
+					id: "37D60A523F4787AB"
+					title: "Trade stat +3"
+					type: "dimension"
+				}
+			]
+			title: "Trade up"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "163EA972640F40DA"
+			tasks: [
+				{
+					id: "4A47C447378A6266"
+					stat: "minecraft:jump"
+					type: "stat"
+					value: 10000
+				}
+			]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			id: "2A3D1B0C761BA644"
+			tasks: [
+				{
+					id: "4E750D5DD125D972"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 100000
+				}
+			]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			id: "785D4753F6385989"
+			tasks: [
+				{
+					id: "4FED1E796277EA2B"
+					stat: "minecraft:walk_one_cm"
+					type: "stat"
+					value: 300000
+				}
+			]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2A3D1B0C761BA644"
+				"785D4753F6385989"
+				"163EA972640F40DA"
+			]
+			icon: {
+				Count: 1b
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "01757E13B2337F43"
+			rewards: [
+				{
+					command: "/playerstats @p add stamina 3"
+					icon: "artifacts:running_shoes"
+					id: "24AD3BA917238475"
+					player_command: "false"
+					title: "Stamina stat +3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: "true"
+					icon: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					id: "14072B6B60781F13"
+					title: "Stamina stat +3"
+					type: "dimension"
+				}
+			]
+			title: "Stamina up"
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"054D5389AF042146"
+				"549107AF19DF3F2F"
+				"10949F96B13F01A4"
+			]
+			icon: "minecraft:anvil"
+			id: "747C45C53259336F"
+			rewards: [
+				{
+					command: "/playerstats @p add smithing 3"
+					icon: "minecraft:smithing_table"
+					id: "611490B464F452FC"
+					player_command: "false"
+					title: "Smithing stat +3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: "true"
+					icon: {
+						Count: 1b
+						id: "mcdw:hammer_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0C8D9F304D61E858"
+					title: "Smithing stat +3"
+					type: "dimension"
+				}
+			]
+			title: "Smithing"
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"35E3EF6B6E801E2E"
+				"68E30C2BA98080D0"
+				"67ED8698412E0658"
+				"7CF367EF9C1FC0AB"
+			]
+			icon: "minecraft:emerald"
+			id: "599E9594F2FEC3C7"
+			rewards: [
+				{
+					command: "/playerstats @p add mining 3"
+					icon: "artifacts:digging_claws"
+					id: "7F6F65C535588A34"
+					player_command: "false"
+					title: "Mining stat +3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: "true"
+					icon: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7CE2E57892C212D0"
+					title: "Mining stat +3"
+					type: "dimension"
+				}
+			]
+			title: "Mining up"
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4F32C70AEBE95E92"
+				"4C527EBBDEFFCB4D"
+				"5674CBC648CBC45B"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09EB16D29F7BBDE4"
+			rewards: [
+				{
+					command: "/playerstats @p add farming 3"
+					icon: "betternether:farmland"
+					id: "6887D2A0B6E7F5B4"
+					player_command: "false"
+					title: "Farming stat +3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: "true"
+					icon: "minecraft:wheat"
+					id: "395EE80B7B0EAE97"
+					title: "Farming stat +3"
+					type: "dimension"
+				}
+			]
+			title: "Farming up"
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"2E943935D66D4331"
+				"26B8E66B97B0AE8E"
+				"6C3CD6EF94CA572A"
+			]
+			icon: "minecraft:brewing_stand"
+			id: "446E8786285BC8CE"
+			rewards: [
+				{
+					command: "/playerstats @p add alchemy 3"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:awkward"
+						}
+					}
+					id: "2EA42205DE40A4EE"
+					player_command: "false"
+					title: "Alchemy stat +3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: "true"
+					icon: "minecraft:brewing_stand"
+					id: "52287CCA370ECB5A"
+					title: "Alchemy stat +3"
+					type: "dimension"
+				}
+			]
+			title: "Alchemy up"
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4B0E38F3E433C781"
+				"580B66FD8956212C"
+				"281B1269D39F1216"
+			]
+			icon: "lootr:lootr_chest"
+			id: "3082C6B2FE0D2C4D"
+			rewards: [
+				{
+					command: "/playerstats @p add luck 3"
+					icon: "artifacts:lucky_scarf"
+					id: "42CFE0E143672ED7"
+					player_command: "false"
+					title: "Luck stat +3"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: "true"
+					icon: "lootr:lootr_chest"
+					id: "05C7905E1E054027"
+					title: "Luck stat +3"
+					type: "dimension"
+				}
+			]
+			title: "Luck up"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			id: "281B1269D39F1216"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "5419F08791A49BC6"
+					item: "artifacts:lucky_scarf"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "4B0E38F3E433C781"
+			tasks: [
+				{
+					id: "0CFCF20C5AD51958"
+					stat: "lootr:looted_stat"
+					type: "stat"
+					value: 300
+				}
+			]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			id: "580B66FD8956212C"
+			tasks: [
+				{
+					id: "4130ED47E5127625"
+					item: {
+						Count: 1b
+						id: "plentyofarmors:emerald_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2719AE7E31DCD93B"
+					item: {
+						Count: 1b
+						id: "plentyofarmors:emerald_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "403E12416FE5A7CD"
+					item: {
+						Count: 1b
+						id: "plentyofarmors:emerald_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "329D17A523F3EB77"
+					item: {
+						Count: 1b
+						id: "plentyofarmors:emerald_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			id: "10949F96B13F01A4"
+			tasks: [
+				{
+					id: "344863B388B320E6"
+					item: {
+						Count: 1b
+						id: "betterend:netherite_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			id: "549107AF19DF3F2F"
+			tasks: [
+				{
+					id: "1597C5555BA49E0E"
+					stat: "minecraft:interact_with_anvil"
+					type: "stat"
+					value: 125
+				}
+			]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			id: "054D5389AF042146"
+			tasks: [
+				{
+					id: "6E5642AC89201236"
+					item: {
+						Count: 1b
+						id: "soulsweapons:mjolnir"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			id: "35E3EF6B6E801E2E"
+			tasks: [
+				{
+					id: "301F6182118D3B54"
+					item: "artifacts:digging_claws"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			id: "7CF367EF9C1FC0AB"
+			tasks: [
+				{
+					count: 10L
+					id: "3BFDFDED21760EC6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2AEA112413AC3A98"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "2E1A8BD6A3339265"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "1F43EF5FB6F74DDF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "308364E7DBD85CA9"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 8.5d
+		}
+		{
+			id: "67ED8698412E0658"
+			tasks: [
+				{
+					id: "5FED7E5F7C4E0623"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 10.5d
+		}
+		{
+			id: "68E30C2BA98080D0"
+			tasks: [
+				{
+					block: "minecraft:diamond_ore"
+					block_type: 0
+					checkItem: "false"
+					id: "35F2D548E4FC5F2A"
+					type: "questsadditions:break"
+					value: 100L
+				}
+				{
+					block: "minecraft:iron_ore"
+					block_type: 0
+					checkItem: "false"
+					id: "2B026FAE99A7AD70"
+					type: "questsadditions:break"
+					value: 100L
+				}
+				{
+					block: "minecraft:gold_ore"
+					block_type: 0
+					checkItem: "false"
+					id: "3F1157348AF0B766"
+					type: "questsadditions:break"
+					value: 50L
+				}
+				{
+					block: "minecraft:stone"
+					block_type: 0
+					checkItem: "false"
+					id: "7DE0AE5F719086C0"
+					type: "questsadditions:break"
+					value: 1000L
+				}
+			]
+			title: "Mining time"
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			id: "5674CBC648CBC45B"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 128L
+					id: "50D42F6DAA9035EF"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 11.5d
+		}
+		{
+			id: "4C527EBBDEFFCB4D"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 128L
+					id: "14943A50623A45C2"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 12.5d
+		}
+		{
+			id: "4F32C70AEBE95E92"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 128L
+					id: "3084DF93222D86F5"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 13.0d
+		}
+		{
+			id: "26B8E66B97B0AE8E"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 6L
+					id: "5D77C6F70AEDBC09"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 6L
+					id: "0FDD959F3E9EBFDA"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_weakness"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			id: "2E943935D66D4331"
+			tasks: [
+				{
+					consume_items: "true"
+					count: 6L
+					id: "396D1287C3A0B6B6"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_leaping"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 6L
+					id: "72D2C02FFC4F8723"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			id: "6C3CD6EF94CA572A"
+			tasks: [
+				{
+					block: "minecraft:brewing_stand"
+					block_type: 0
+					checkItem: "false"
+					id: "37FC4256065CE9D3"
+					isItemInteraction: "false"
+					type: "questsadditions:use"
+					value: 120L
+				}
+			]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			id: "5782E28AAEFF8180"
+			rewards: [
+				{
+					count: 5
+					id: "07C8A14F600B0C05"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "lootr:trophy"
+					id: "22631BC1C1B03456"
+					nbt: {
+						Level: 100
+					}
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "You reached level 100!"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.ascension.quests62.description0}"
+				"{ftbquests.chapter.ascension.quests62.description1}"
+			]
+			id: "5C8B17EF77C51EDB"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/playerstats @p add trade 2"
+					id: "028E9C62E908835A"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add farming 2"
+					id: "266AB2EDE9E82AF8"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add alchemy 2"
+					id: "418E96C6A84EACA0"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add mining 2"
+					id: "1EF48942389D8FE2"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add stamina 2"
+					id: "5CC10E1E1533FFCA"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add luck 2"
+					id: "451FF739F363DF37"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add smithing 2"
+					id: "41A95BEACFE317AE"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/msg @p You triggered a hidden quest! All other stats +2"
+					id: "64089A254A7D8CED"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "All other stats +2"
+			tasks: [
+				{
+					disable_toast: "true"
+					id: "21F72E17F6829885"
+					nbt: {
+						HealthLevel: 25
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "2B2DBD779D65A73E"
+					nbt: {
+						StrengthLevel: 25
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "777390B75B7F094E"
+					nbt: {
+						DefenseLevel: 25
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "1E6C05E9E84846DE"
+					nbt: {
+						ArcheryLevel: 25
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "483881A3061D8DF7"
+					nbt: {
+						AgilityLevel: 25
+					}
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "Hidden quest: Veteran!"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5782E28AAEFF8180"]
+			description: [
+				"{ftbquests.chapter.ascension.quests63.description0}"
+				"{ftbquests.chapter.ascension.quests63.description1}"
+				"{ftbquests.chapter.ascension.quests63.description2}"
+				"{ftbquests.chapter.ascension.quests63.description3}"
+				"{ftbquests.chapter.ascension.quests63.description4}"
+				"{ftbquests.chapter.ascension.quests63.description5}"
+				"{ftbquests.chapter.ascension.quests63.description6}"
+			]
+			disable_toast: "true"
+			id: "2B3F0B3A0E644C34"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/title @a title [\"\",{\"selector\":\"@p\",\"bold\":true,\"color\":\"red\"},{\"text\":\" \",\"bold\":true,\"color\":\"red\"},{\"text\":\"is attempting\",\"underlined\":true,\"color\":\"aqua\"},{\"text\":\" boss rush!\",\"bold\":true,\"color\":\"red\"}]"
+					id: "37C88BBAC46C8715"
+					player_command: "false"
+					title: "Boss rush annouce"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/title @a subtitle {\"text\":\"begins in 30 seconds\"}"
+					id: "0CCA3057466BB666"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run spawnpoint"
+					id: "4F09FA176C02C5A8"
+					player_command: "false"
+					title: "Spawnpoint"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Warning]: \",\"color\":\"aqua\"},{\"text\":\"Your spawnpoint has been set!\",\"color\":\"white\"}]"
+					id: "632D9BD5A9AB8B60"
+					player_command: "false"
+					title: "Announce spawnpoint"
+					type: "command"
+				}
+			]
+			subtitle: "Many bosses you've faced now revisted but... why do they feel stronger..?"
+			tasks: [
+				{
+					consume_items: "true"
+					id: "2E3E0EB4F7AAFDD8"
+					item: "soulsweapons:chaos_orb"
+					type: "item"
+				}
+			]
+			title: "Boss rush"
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2B3F0B3A0E644C34"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:draugr"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11A6090DA43D6B09"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon soulsweapons:draugr_boss ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					icon: "minecraft:command_block"
+					id: "36006F78A257990C"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "3FE3786A2E412404"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 1]: \",\"color\":\"aqua\"},{\"text\":\"Old Champion's Remains\",\"color\":\"white\"}]"
+					id: "544526300E99FE06"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 30L
+					id: "3E11F59F600B903B"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 1"
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["11A6090DA43D6B09"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:nightfall"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "420D61B8762BFFF9"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon soulsweapons:returning_knight ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "20B9D957C455250E"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "2C1BBAB86E159D35"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 2]: \",\"color\":\"aqua\"},{\"text\":\"The Returning Knight\",\"color\":\"white\"}]"
+					id: "3065D7FFE6AA0408"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 120L
+					id: "487045249B595F49"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 2"
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["420D61B8762BFFF9"]
+			disable_toast: "true"
+			icon: "bosses_of_mass_destruction:void_blossom"
+			id: "3D834E9CF0A8B60B"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon bosses_of_mass_destruction:void_blossom ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "41A5FC622E24BF3B"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "55F0C874AFCE00F4"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 3]: \",\"color\":\"aqua\"},{\"text\":\"Void Blossom\",\"color\":\"white\"}]"
+					id: "062B19E8C826825D"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 120L
+					id: "15398D2D447B0E18"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 3"
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D834E9CF0A8B60B"]
+			disable_toast: "true"
+			icon: "adventurez:stone_golem_heart"
+			id: "298EA79EA71DEEAA"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon adventurez:stone_golem ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "6DF99BA2FD308DAA"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "337D4BFAFF9F02D6"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 4]: \",\"color\":\"aqua\"},{\"text\":\"Blackstone golem\",\"color\":\"white\"}]"
+					id: "5DA75D249A905110"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 120L
+					id: "1A1210E0009CDEFD"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 4"
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["298EA79EA71DEEAA"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:darkin_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D6BD3E539DC6343"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon soulsweapons:accursed_lord_boss ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted King\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "453BC754F6537296"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "54BDBAACF645E581"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 4]: \",\"color\":\"aqua\"},{\"text\":\"CORRUPTED King...?\",\"color\":\"white\"}]"
+					id: "7D38407B16AE1B88"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 120L
+					id: "22A233A233790FA1"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 5"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2B3F0B3A0E644C34"]
+			disable_toast: "true"
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "4D51C552CE5CF296"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon bosses_of_mass_destruction:obsidilith ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:1,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:1,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:1,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:1,Duration:999999,ShowParticles:0b}]}"
+					id: "649522592A587C9A"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "0714D262292A0EB7"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 6]: \",\"color\":\"aqua\"},{\"text\":\"Obsidilith\",\"color\":\"white\"}]"
+					id: "6818F020E9F70DCD"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 630L
+					id: "2E7D6DCF513EFDA0"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 6"
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4D51C552CE5CF296"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:pure_moonlight_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0793B0DCCE941EA5"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon soulsweapons:moonknight ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "07B4BBB0232AF76F"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "6A925D1D5BC80CCD"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 7]: \",\"color\":\"aqua\"},{\"text\":\"The Fallen Icon\",\"color\":\"white\"}]"
+					id: "3C11899297F82AB7"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 120L
+					id: "5335188371BA96EF"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 7"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0793B0DCCE941EA5"]
+			disable_toast: "true"
+			icon: "artifacts:fire_gauntlet"
+			id: "73FE55B920E0C879"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon bosses_of_mass_destruction:gauntlet ~5 ~5 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "08AD4511B331EA86"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "6A39193783C51024"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 8]: \",\"color\":\"aqua\"},{\"text\":\"2x Nether Gauntlet\",\"color\":\"white\"}]"
+					id: "3986D700F05B4EE3"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon bosses_of_mass_destruction:gauntlet ~ ~5 ~5 {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "15C0865631418183"
+					player_command: "false"
+					title: "Summon 2"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 120L
+					id: "0FA5DF3F5AF19223"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 8"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73FE55B920E0C879"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "soulsweapons:chaos_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6425339B351C8BF1"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon soulsweapons:chaos_monarch ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "06185758807E9F84"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "4805760B92B01CD1"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 9]: \",\"color\":\"aqua\"},{\"text\":\"The Chaos Monarch\",\"color\":\"white\"}]"
+					id: "1B4D52768248D8BD"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 120L
+					id: "32ADA74D4CE257DB"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 9"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6425339B351C8BF1"]
+			disable_toast: "true"
+			icon: {
+				Count: 1b
+				id: "adventurez:prime_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37B47C2890AE8DE7"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run summon adventurez:the_eye ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"Corrupted foe\\\"\",ActiveEffects:[{Id:5,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:10,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:11,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:21,Amplifier:0,Duration:999999,ShowParticles:0b}]}"
+					id: "3C7E105553C744ED"
+					player_command: "false"
+					team_reward: "true"
+					title: "Summon"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:entity.wither.spawn player @a"
+					id: "7410044343E69F82"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Wave 10]: \",\"color\":\"aqua\"},{\"text\":\"CORRUPTED Eye...?\",\"color\":\"white\"}]"
+					id: "2F188F13BF82497C"
+					player_command: "false"
+					title: "Round"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 120L
+					id: "4358D4D0AAEBEB56"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Wave 10"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"37B47C2890AE8DE7"
+				"0D6BD3E539DC6343"
+			]
+			id: "7567611FC55E5278"
+			invisible_until_tasks: 2
+			rewards: [
+				{
+					id: "3F063349721CAC92"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:beacon"
+					id: "16072234185C4FEB"
+					title: "Congrats"
+					type: "dimension"
+				}
+			]
+			title: "Congratulations!"
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"11A6090DA43D6B09"
+				"4D51C552CE5CF296"
+			]
+			id: "72E1EFB637545BCC"
+			invisible_until_tasks: 2
+			rewards: [
+				{
+					id: "24DD8EBF06F4990E"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:beacon"
+					id: "336C6D4508AABF27"
+					title: "Congrats"
+					type: "dimension"
+				}
+			]
+			title: "Congratulations!"
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"72E1EFB637545BCC"
+				"7567611FC55E5278"
+			]
+			hide_dependency_lines: "true"
+			hide_details_until_startable: "true"
+			icon: {
+				Count: 1b
+				id: "mcdw:sword_heartstealer"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 20
+							AttributeName: "generic.attack_damage"
+							Name: "generic.attack_damage"
+							Slot: "mainhand"
+							UUID: [I;
+								-123226
+								149767
+								141710
+								-299534
+							]
+						}
+						{
+							Amount: -3
+							AttributeName: "generic.attack_speed"
+							Name: "generic.attack_speed"
+							Slot: "mainhand"
+							UUID: [I;
+								-123226
+								149867
+								141710
+								-299734
+							]
+						}
+						{
+							Amount: -0.05d
+							AttributeName: "generic.movement_speed"
+							Name: "generic.movement_speed"
+							Slot: "mainhand"
+							UUID: [I;
+								-123226
+								149967
+								141710
+								-299934
+							]
+						}
+					]
+					Damage: 0
+					Enchantments: [
+						{
+							id: "mcdw:pain_cycle"
+							lvl: 3
+						}
+						{
+							id: "mcdw:void_strike"
+							lvl: 3
+						}
+						{
+							id: "sharpness"
+							lvl: 5
+						}
+						{
+							id: "mcdw:tempo_theft"
+							lvl: 3
+						}
+						{
+							id: "mcdw:shared_pain"
+							lvl: 1
+						}
+						{
+							id: "mcdw:rampaging"
+							lvl: 3
+						}
+					]
+					HideFlags: 7
+					Tiered: {
+						Tier: "tiered:unique_melee_3"
+					}
+					Unbreakable: 1
+					display: {
+						Lore: [
+							"[{\"text\":\"Feed its hunger with souls... the blade grows stronger in constant battles.\",\"italic\":false,\"color\":\"dark_aqua\"}]"
+							"[{\"text\":\"It takes your life in exchange for more damage.\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]"
+							"[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]"
+							"[{\"text\":\" 26.5 Attack Damage\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]"
+							"[{\"text\":\" \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"0.6 Attack Speed\",\"color\":\"dark_green\"}]"
+						]
+						Name: "[{\"text\":\"Forsaken\",\"color\":\"dark_purple\",\"strikethrough\":true},{\"text\":\" \",\"strikethrough\":false},{\"text\":\"Blade\",\"strikethrough\":false,\"color\":\"dark_red\"}]"
+					}
+				}
+			}
+			id: "500D4A2A0ED58704"
+			invisible_until_tasks: 2
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has obtained the Forsaken Blade!\",\"color\":\"white\"}]"
+					id: "26F3ADB6F4D6D692"
+					player_command: "false"
+					title: "ANNOUNCE"
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					id: "14066648D1252BD4"
+					item: {
+						Count: 1b
+						id: "mcdw:sword_heartstealer"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 20
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+									Slot: "mainhand"
+									UUID: [I;
+										-123226
+										149767
+										141710
+										-299534
+									]
+								}
+								{
+									Amount: -3
+									AttributeName: "generic.attack_speed"
+									Name: "generic.attack_speed"
+									Slot: "mainhand"
+									UUID: [I;
+										-123226
+										149867
+										141710
+										-299734
+									]
+								}
+								{
+									Amount: -0.05d
+									AttributeName: "generic.movement_speed"
+									Name: "generic.movement_speed"
+									Slot: "mainhand"
+									UUID: [I;
+										-123226
+										149967
+										141710
+										-299934
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mcdw:pain_cycle"
+									lvl: 3
+								}
+								{
+									id: "mcdw:void_strike"
+									lvl: 3
+								}
+								{
+									id: "sharpness"
+									lvl: 5
+								}
+								{
+									id: "mcdw:tempo_theft"
+									lvl: 3
+								}
+								{
+									id: "mcdw:shared_pain"
+									lvl: 1
+								}
+								{
+									id: "mcdw:rampaging"
+									lvl: 3
+								}
+							]
+							HideFlags: 7
+							Tiered: {
+								Tier: "tiered:unique_melee_3"
+							}
+							Unbreakable: 1
+							display: {
+								Lore: [
+									"[{\"text\":\"Feed its hunger with souls... the blade grows stronger in constant battles.\",\"italic\":false,\"color\":\"dark_aqua\"}]"
+									"[{\"text\":\"It takes your life in exchange for more damage.\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]"
+									"[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]"
+									"[{\"text\":\" 26.5 Attack Damage\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]"
+									"[{\"text\":\" \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"0.6 Attack Speed\",\"color\":\"dark_green\"}]"
+								]
+								Name: "[{\"text\":\"Forsaken\",\"color\":\"dark_purple\",\"strikethrough\":true},{\"text\":\" \",\"strikethrough\":false},{\"text\":\"Blade\",\"strikethrough\":false,\"color\":\"dark_red\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: "true"
+					id: "0E8D983FF44B09AD"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "3CC73F00AD6700F5"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					count: 3L
+					id: "1ED7BF5A51AE5002"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			title: "Forsaken Blade"
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			id: "41AA184DD6AC6CEF"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/playerstats @p add trade 2"
+					id: "17BF27B37B5AD2F8"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "2ADCBD77AB177B73"
+					stat: "minecraft:bell_ring"
+					type: "stat"
+					value: 100
+				}
+			]
+			title: "Hidden quest: Bells rung 100x"
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.ascension.quests78.description0}"
+				"{ftbquests.chapter.ascension.quests78.description1}"
+			]
+			id: "149576809ACB3C7D"
+			invisible: "true"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/playerstats @p add strength 2"
+					id: "616F7864A10F6C64"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add defense 2"
+					id: "6A2C3D106B3B392F"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add health 2"
+					id: "0E99FFF8CBDC3286"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add agility 2"
+					id: "20EE8C69B80E4AA0"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playerstats @p add archery 2"
+					id: "57E4A26C60FAF20B"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/msg @p You triggered a hidden quest! All stats +2"
+					id: "07C1D16EF8F7D0DA"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "All main stats +2"
+			tasks: [
+				{
+					disable_toast: "true"
+					id: "472A964255D65A02"
+					nbt: {
+						HealthLevel: 10
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "0447AF5F37E78BD8"
+					nbt: {
+						StrengthLevel: 10
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "43897DB23555FCDE"
+					nbt: {
+						DefenseLevel: 10
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "191425D5CDC9D896"
+					nbt: {
+						ArcheryLevel: 10
+					}
+					type: "questsadditions:playernbt"
+				}
+				{
+					disable_toast: "true"
+					id: "72A377F425F5E674"
+					nbt: {
+						AgilityLevel: 10
+					}
+					type: "questsadditions:playernbt"
+				}
+			]
+			title: "Hidden quest: All rounder experienced rookie!!"
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["72E1EFB637545BCC"]
+			id: "13D788FA978C9020"
+			rewards: [
+				{
+					id: "2220113CAB4B9DFF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "6228F1294EE7ADF0"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 9.5d
+		}
+	]
+	title: "Ascension LevelZ"
+}

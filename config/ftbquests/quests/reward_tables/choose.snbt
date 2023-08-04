@@ -1,0 +1,38 @@
+{
+	id: "710928A4798C1F26"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 2s
+						}
+					]
+				}
+			}
+			title: "Efficiency II"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "minecraft:fortune"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			title: "Fortune I"
+		}
+	]
+	title: "CHOOSE"
+}

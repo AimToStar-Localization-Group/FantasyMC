@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "otherside"
+	group: "0BBE1365F69C4D68"
+	icon: "minecraft:sculk"
+	id: "10210D2CD3EE18BF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79BC197572608FD2"]
+			description: [
+				"{ftbquests.chapter.otherside.quests0.description0}"
+				"{ftbquests.chapter.otherside.quests0.description1}"
+				"{ftbquests.chapter.otherside.quests0.description2}"
+				"{ftbquests.chapter.otherside.quests0.description3}"
+				"{ftbquests.chapter.otherside.quests0.description4}"
+				"{ftbquests.chapter.otherside.quests0.description5}"
+				"{ftbquests.chapter.otherside.quests0.description6}"
+				"{ftbquests.chapter.otherside.quests0.description7}"
+				"{ftbquests.chapter.otherside.quests0.description8}"
+				"{ftbquests.chapter.otherside.quests0.description9}"
+				"{ftbquests.chapter.otherside.quests0.description10}"
+			]
+			id: "0EB3AE8FCE8A2D2B"
+			rewards: [
+				{
+					id: "2252A473C913AB8C"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+				{
+					id: "32B472F7B6E48F2B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6C33FD96342D0E4B"
+					item: "artifacts:night_vision_goggles"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has reached the depths of the Otherside.\",\"color\":\"white\"}]"
+					id: "5A2C5946FB277224"
+					player_command: "false"
+					type: "command"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "62E0AEC0D60AFE9D"
+					title: "Visit the Otherside dimension"
+					type: "dimension"
+				}
+			]
+			title: "The Otherside"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			dependency_requirement: "all_started"
+			description: [
+				"{ftbquests.chapter.otherside.quests1.description0}"
+				"{ftbquests.chapter.otherside.quests1.description1}"
+			]
+			id: "55A183CED9352B42"
+			rewards: [
+				{
+					id: "474F777DEF143D14"
+					item: {
+						Count: 1b
+						id: "deeperdarker:soul_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D81A44171DF8CF4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7138867C15A30C82"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					id: "31EF5B28AC7F91CB"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D5D322CFE07CD3"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3894B10C84FAC7B0"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A3C49D34DFEE9D2"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Skin Of My Enemy"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			icon: "betterend:tube_worm"
+			id: "6D0DC4A66AFBA877"
+			rewards: [
+				{
+					id: "305A2D6AFC3E5BC4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "207E579D1C2378C1"
+					item: "artifacts:shock_pendant"
+					type: "item"
+				}
+				{
+					id: "1825D72A121AD3AC"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					entity: "deeperdarker:shriek_worm"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "74FFB6846D8DD858"
+					title: "Slay a Shriek Worm"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "I Hate Worms..."
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "07CADCD6D5BAF03C"
+			rewards: [
+				{
+					id: "3DF584CFE1822C77"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "22B54EC12C65849C"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+				{
+					id: "068614CC0C29B414"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					entity: "deeperdarker:stalker"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2436E9652F2E7186"
+					title: "Slay a Stalker"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Who's there?"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			description: ["{ftbquests.chapter.otherside.quests4.description}"]
+			id: "531C5709A17BB9C2"
+			rewards: [
+				{
+					id: "29CF6667BB5F7968"
+					item: "inmis:endless_backpack"
+					type: "item"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					id: "33B5E4AD5D99D498"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05DE5526A55E1150"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D6BB1E9AD530C3E"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75A03412AB39759B"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fight Fire With Fire"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			description: ["{ftbquests.chapter.otherside.quests5.description}"]
+			id: "09A36FAEFBC21271"
+			invisible: "true"
+			rewards: [
+				{
+					count: 2
+					id: "45A6F5915BA2155F"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/execute as @e[type=villager,limit=1,sort=nearest] run tellraw @a {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=nearest]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"Do not dare to farm on these lands...\",\"color\":\"yellow\"}]}"
+					id: "5B8224F701792248"
+					player_command: "false"
+					title: "Villager say"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p disappoints me...\",\"color\":\"white\"}]"
+					id: "723BB87CBC919304"
+					player_command: "false"
+					title: "Distant"
+					type: "command"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					id: "569E72DC06E47EE6"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hidden quest: Serious Dedication"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CF0B81CF3211A71"]
+			description: ["{ftbquests.chapter.otherside.quests6.description}"]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "79BC197572608FD2"
+			rewards: [
+				{
+					count: 4
+					id: "57766E78F80ACA23"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F89CDC9BD499FFB"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft + Deeper and Darker"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "312243354DE5008F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "32D778A5DEF9968D"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+			]
+			title: "The Pulse"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:filled_map"
+			id: "1CF0B81CF3211A71"
+			rewards: [
+				{
+					id: "57308E3DDDA84044"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					advancement: "minecraft:adventure/avoid_vibration"
+					criterion: ""
+					id: "10ACD3551FF53DDA"
+					type: "advancement"
+				}
+			]
+			title: "Ancient Civilization"
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "The Otherside"
+}

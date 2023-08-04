@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "mine_cells"
+	group: "0BBE1365F69C4D68"
+	icon: "minecells:elevator_assembler"
+	id: "266455A65DA378D9"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.mine_cells.quests0.description}"]
+			id: "42F7676F3EDB5E24"
+			rewards: [
+				{
+					id: "514E3D7CD138082B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "75053151F58E22E5"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft"
+			tasks: [
+				{
+					advancement: "minecraft:story/mine_diamond"
+					criterion: ""
+					id: "2ECDE77E97DEBE67"
+					title: "Obtain a diamond"
+					type: "advancement"
+				}
+			]
+			title: "Diamonds!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42F7676F3EDB5E24"]
+			description: [
+				"{ftbquests.chapter.mine_cells.quests1.description0}"
+				"{ftbquests.chapter.mine_cells.quests1.description1}"
+			]
+			id: "08FA0629B289F482"
+			rewards: [
+				{
+					id: "301708C135333A2B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p is embarking on their Mine Cells adventure!\",\"color\":\"white\"}]"
+					id: "0B66360010AA32C7"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "4A4B97517A1CE4CD"
+					item: "artifacts:crystal_heart"
+					type: "item"
+				}
+			]
+			subtitle: "Mine Cells"
+			tasks: [
+				{
+					dimension: "minecells:prison"
+					id: "4D3E19A7E50807BB"
+					title: "Visit the Mine Cells dimension"
+					type: "dimension"
+				}
+			]
+			title: "Visit the Mine Cells dimension"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08FA0629B289F482"]
+			description: ["{ftbquests.chapter.mine_cells.quests2.description}"]
+			icon: "minecells:monsters_eye"
+			id: "1D81D4D6CD1ACB48"
+			rewards: [
+				{
+					id: "48C1C9A4F1A04AC8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has deafeated The Conjunctivius! Her spirit lingers on...\",\"color\":\"white\"}]"
+					id: "237D42B32791BC64"
+					player_command: "false"
+					type: "command"
+				}
+				{
+					id: "26B55B41FF04FF8B"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "4E5F2D4CE7ECF8EB"
+					item: {
+						Count: 1b
+						id: "mcdw:bow_call_of_the_void"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mine Cells"
+			tasks: [
+				{
+					entity: "minecells:conjunctivius"
+					icon: {
+						Count: 1b
+						id: "medievalweapons:iron_small_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5A3F4E9844109822"
+					title: "Slay the Conjunctivius"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Not Her..."
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08FA0629B289F482"]
+			description: ["{image:minecraft:textures/ftbquests/ShieldGuy.png width:100 height:100 align:1}"]
+			id: "128E37484F80240D"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "03C07ABC0A7CEE69"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Mine Cells"
+			tasks: [
+				{
+					entity: "minecells:shieldbearer"
+					id: "2572D4B88DEEEC2D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08FA0629B289F482"]
+			description: ["{image:minecraft:textures/ftbquests/Grenadier.png width:100 height:100 align:1}"]
+			id: "0E490D1D58F50312"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "0FB0EE9DCCC1431E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Mine Cells"
+			tasks: [
+				{
+					entity: "minecells:grenadier"
+					id: "73904B68184C33A1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08FA0629B289F482"]
+			description: ["{image:minecraft:textures/ftbquests/Leapingzombie.png width:100 height:100 align:1}"]
+			id: "13370C1F061D993C"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "29C6DC206A6B7605"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Mine Cells"
+			tasks: [
+				{
+					entity: "minecells:leaping_zombie"
+					id: "7D09047990E934AE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08FA0629B289F482"]
+			description: ["{image:minecraft:textures/ftbquests/Undeadarcher.png width:100 height:100 align:1}"]
+			id: "3ED6D8B89920AB93"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "342AE8A2C0954926"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Mine Cells"
+			tasks: [
+				{
+					entity: "minecells:undead_archer"
+					id: "6A5382F02D57B555"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08FA0629B289F482"]
+			id: "786875DA67A0BCED"
+			rewards: [
+				{
+					id: "7BF2C7ECBA6381A7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					entity: "minecells:inquisitor"
+					id: "14F29207747FE281"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08FA0629B289F482"]
+			id: "098707BBC2A7CE5B"
+			rewards: [
+				{
+					id: "50E82171E4B99421"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					entity: "minecells:mutated_bat"
+					id: "117E18F1F5F259C2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08FA0629B289F482"]
+			id: "383EC8EEA8A0D1A2"
+			rewards: [
+				{
+					id: "73454658E1A63934"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					entity: "minecells:runner"
+					id: "141328CF0E99A9D0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "Mine Cells"
+}

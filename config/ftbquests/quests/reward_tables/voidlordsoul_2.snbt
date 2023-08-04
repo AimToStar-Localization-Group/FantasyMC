@@ -1,0 +1,17 @@
+{
+	id: "3430D5B51A0D4234"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "soulsweapons:soul_reaper"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "VoidLordSoul"
+}
