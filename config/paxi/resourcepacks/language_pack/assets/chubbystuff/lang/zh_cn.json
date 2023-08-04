@@ -1,0 +1,15 @@
+{
+    "item.chubbystuff.quagsire_skin": "沼王皮",
+    "item.chubbystuff.quagsire_mucus": "沼王粘液",
+    "advancements.chubbystuff.tame_a_quagsire.title": "它胖乎乎的！",
+    "advancements.chubbystuff.tame_a_quagsire.description": "驯服一只沼王",
+    "block.chubbystuff.quagsire_skin_block": "沼王块",
+    "itemGroup.chubbystuff.item_group": "Chubby Stuff!",
+    "item.chubbystuff.quagsire_spawn_egg": "沼王刷怪蛋",
+    "entity.chubbystuff.quagsire": "沼王",
+    "advancements.chubbystuff.retrieve_item_from_tamed_quagsire.title": "这个我要了！",
+    "item.minecraft.potion.effect.quagsire": "沼王迅捷药水",
+    "item.minecraft.lingering_potion.effect.quagsire": "滞留型沼王迅捷药水",
+    "item.minecraft.splash_potion.effect.quagsire": "喷溅型沼王迅捷药水",
+    "item.chubbystuff.quagsire_shovel": "沼王锹"
+}
