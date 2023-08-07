@@ -44,7 +44,7 @@
 					dimension: "minecraft:overworld"
 					icon: "minecraft:compass"
 					id: "66867D4DE7D4AC65"
-					title: "Legends say..."
+					title: "传说……"
 					type: "dimension"
 				}
 			]
@@ -62,7 +62,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Marium Soulslike Weaponry"
+			subtitle: "Marium的魂类武器"
 			tasks: [
 				{
 					id: "6C9EF17520638702"
@@ -114,11 +114,11 @@
 					dimension: "minecraft:overworld"
 					icon: "minecraft:compass"
 					id: "7AF1FE8E778A9C17"
-					title: "??????"
+					title: "？？？"
 					type: "dimension"
 				}
 			]
-			title: "Deep in The Dungeons"
+			title: "深入地下城"
 			x: 0.0d
 			y: -6.5d
 		}
@@ -174,10 +174,10 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[???]: \",\"color\":\"aqua\"},{\"text\":\"The Phantom Dirk has found its host...\",\"color\":\"white\"}]"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[？？]: \",\"color\":\"aqua\"},{\"text\":\"The Phantom Dirk has found its host...\",\"color\":\"white\"}]"
 					id: "09FCD1827D1BD62A"
 					player_command: "false"
-					title: "???"
+					title: "？？？"
 					type: "command"
 				}
 				{
@@ -297,7 +297,7 @@
 					type: "item"
 				}
 			]
-			title: "Hidden quest: Phantom Dirk"
+			title: "隐藏任务：幻影短剑"
 			x: 0.0d
 			y: -5.0d
 		}
